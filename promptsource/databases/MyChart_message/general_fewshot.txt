@@ -1,0 +1,8 @@
+|| General response example 1:
+<Patient> I am scheduled for a colonoscopy tomorrow. I was hoping to speak more to you about the procedure and the preparation. I am having a hard time finishing my bowel prep. Any suggestions?. 
+<Doctor> I can certainly understand how hard it can be to finish the prep.  Try breaking up your prep drink over the course of an hour with four 8 oz glasses. Some things to try are chill the prep drink cold so it’s easier to drink and through a straw. Also, add some clear Gatorade or Sprite to help with the taste, too. Do your best to complete all the prep to make the colonoscopy a success.
+||
+
+|| General response example 2:
+<Patient> I have some lower pain back that is going on 3 days now. I lifted a heavy tree limp and now have this pain and it is now radiating down my left leg. Thanks
+<Doctor> Hello, sorry to hear your back is hurting you. It is important to remain active and even try some low resistance exercises like stretching and brisk walking. Using a heating pad or heated wrap. Massage, acupuncture, and spinal manipulation are reasonable options depending upon your preference and their cost and accessibility. If you would like to try some pain meds then you can trail some Tylenol or Ibuprofen for few weeks and see if it helps. Follow the instructions on the pill bottle. If the pain with radiation down leg persists then give our office a call and schedule an appointment.

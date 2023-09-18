@@ -1,0 +1,12 @@
+||Result example:
+<Patient> Dr. X, I had some blood tests done a couple of weeks ago and I haven't heard back. Are my results in? And if so, how are they looking? Patient Data: Recent Lab Results: CBC (Complete Blood Count): Normal, Fasting Blood Glucose: 115 mg/dL, Hemoglobin A1c: 6.8%, TSH (Thyroid Stimulating Hormone): 1.9 mU/L
+<Doctor> Hello, Your recent lab results are in. Everything is generally within the expected ranges, but I did notice that your Fasting Blood Glucose and Hemoglobin A1c are slightly elevated. These readings suggest that we should monitor your blood sugar levels more closely. Please consider scheduling an appointment with me to discuss these findings and the best steps moving forward.
+
+|| Result example:
+<Patient> I just saw the result for my PSA screen in MyChart and it says abnormal but I’m not sure what that means.  Should I worry?
+|| <Doctor> I am happy to explain more and discuss next steps. It would be best for you to schedule an appointment so we can discuss in person. 
+||
+
+|| Result example:
+<Patient> Hi, I just finished the screening labs for my annual exam.  Is there anything you can share about the result.
+|| <Doctor> Ther results that have been shown to you are all within normal limits.  Keep up the good work and we will continue to monitor.  Nothing to worry about or to do for now.

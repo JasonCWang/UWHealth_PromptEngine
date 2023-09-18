@@ -1,0 +1,1033 @@
+Gold,ChatGPT
+Coronary Artery Disease; Chronic systolic heart failure; ,"Diagnoses: RCA stenosis; Epistaxis; PVCs
+
+<Reasoning>
+The patient's history of cardiac disease, persistent shortness of breath, and cardiac catheterization findings strongly suggest a possible RCA stenosis as a direct cause of his symptoms. The significant epistaxis that occurred following the procedure may be related to the use of anticoagulation medications such as heparin and integrilin, and the subsequent PVCs seen on telemetry may be related to electrolyte imbalances or cardiac ischemia."
+Urosepsis: proteus; Afib RVR; Acute renal failure; ,"Diagnoses:
+Example 1: CNS VRE; LEUKOCYTOSIS; ALL
+- CNS VRE: The patient has a history of recurrent ALL with CNS involvement s/p Omaya removal due to VRE contamination. The presence of NGT placement and TF started suggest possible aspiration pneumonia. 
+- LEUKOCYTOSIS: The patient's WBC count is trending downwards but still remains elevated, suggesting ongoing infection or inflammation. 
+- ALL: The patient has a history of recurrent ALL with CNS involvement.
+
+Example 2: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia; Cryptogenic cirrhosis c/b variceal bleed; DM2
+- Intermittent, post-op"
+"Respiratory distress; Fever: Possible etiologies include neutropenia, pulmonary infection
+   (? viral infection on CT GGO), typhlitis, diverticulitis (both seen on
+   CT abdomen), drug fever, leukemia; Thrombocytopenia:  Secondary to recent induction chemo; Anemia: Likely secondary to leukemia and recent chemotherapy; ","Diagnoses: Febrile neutropenia; Chemotherapy-induced pneumonia; Sepsis
+
+<Reasoning> The patient has febrile neutropenia and tachypnea, which could suggest the presence of an infection. The multiple blood cultures drawn also support this possibility. Chemotherapy-induced pneumonia is a common complication in patients undergoing chemotherapy for leukemia. Additionally, with a fever of 104.0 F, sepsis should be considered as a differential diagnosis."
+"GPC Bacteremia; Abscess; HD line
+   infection; ESRD; heart failure; DM; ","Diagnoses: Fever of Unknown Origin; MRSA infection; Subclavian vein thrombosis; Hemodialysis-related infection. 
+
+<Reasoning>
+The patient has a history of ESRD on HD, which increases the risk of infections. The patient has a fever and a history of MRSA line infection, indicating the possibility of another infection. Additionally, the recent removal of the left subclavian HD catheter and placement of a new femoral line may have caused subclavian vein thrombosis, which is a known complication of catheterization. The patient also underwent bedside I&D of a shoulder abscess, which could potentially be the source of the fever. Further workup is needed to determine the cause of fever of unknown origin."
+"seizure disorder; differential includes
+   bacterial meningitis, viral meningitis, toxoplasmosis (especially given
+   history of toxo), bacterial abscess, cryptococcal infection, CNS
+   lymphoma; HIV; Hx of Seizure; ","Diagnoses: # HIV with CD4 152; Altered Mental Status; Respiratory Distress
+
+<Reasoning>
+1. For example 1, the patient's history of recurrent ALL with CNS involvement and recent Omaya removal due to VRE contamination suggest the possibility of CNS VRE, which is the direct differential diagnosis. The leukocytosis and ALL are indirect differentials that may be related to the patient's history of recurrent ALL with CNS involvement.
+2. For example 2, the patient's history of cryptogenic cirrhosis c/b variceal bleed and DM2 put them at high risk for thrombocytopenia, which is the direct differential diagnosis. The intermittent post-op hypotension and infiltrate on CXR are indirect differentials that may"
+mucous plugging from secetions; LLL pneumonia; ATN; Hypertension; Hyperlipidemia; ,"Diagnoses: # Acute hypoxia and respiratory distress; # LLL pneumonia; # CKD stage 4
+
+<Reasoning> The patient's history of CKD stage 4 and admission with LLL pneumonia make acute hypoxia and respiratory distress a likely diagnosis. Additionally, the complete opacification of the left lung suggests a worsening of the pneumonia. CKD stage 4 may also be contributing to the patient's acute respiratory distress."
+Alcohol intoxication; midline protrusion of the intervertebral disk; ,"Diagnoses: Acute alcohol intoxication; Cervical disc protrusion/cord compression; Myocardial injury (troponin rise)
+
+<Reasoning> The patient's history and presentation suggest acute alcohol intoxication as the primary diagnosis. The imaging findings of a central disc protrusion at C4-C5 with mild central canal stenosis raise concern for cord compression, which could explain any neurological symptoms and is a possible indirect differential diagnosis. Additionally, the rising troponin levels suggest myocardial injury and should be monitored closely."
+"Hypoxic Respiratory Distress:  Likely from pneumonia with  a possible
+   component of CHF; Atrial fibrilation; Coronary artery disease; OSA; ","Diagnoses: Hypoxic respiratory distress; Paroxysmal atrial fibrillation; Coronary artery disease
+
+<Reasoning>
+The patient's chief complaint of fatigue for one week coupled with the development of hypoxic respiratory distress suggests a diagnosis of hypoxic respiratory distress. The patient's history of paroxysmal atrial fibrillation and coronary artery disease indicates a potential for cardiovascular complications."
+GI Bleed; diarrhea; diffuse ulceration from the esophagus through the duodenum; Acute Renal Failure; SVC Syndrome; Rectal CA; ,"Diagnoses: GI Bleed; Diffuse GI Inflammation; SVC Syndrome
+
+<Reasoning>
+The patient has a history of metastatic rectal cancer and SVC syndrome, which puts him at risk for gastrointestinal bleeding. The presence of hematemesis and BRBPR along with diffuse erythema/ulceration seen on EGD confirms GI bleeding. The elevated heart rate, FeNa and drop in Hct suggest hypovolemia and prerenal acute kidney injury. The EGD findings indicate diffuse GI inflammation, which can also be a cause of diarrhea. The presence of SVC syndrome and history of metastatic cancer make it a concern for GI malignancy."
+"concern for infection given WBC count, fever, and elevated
+   lactate. Likely pulmonary source; NSCLC; ","Diagnoses: Pneumonia; Febrile neutropenia; Non-small cell lung cancer
+
+<Reasoning> The patient has a history of non-small cell lung cancer and is currently receiving chemotherapy. The presence of fevers, cough, and SOB suggests a likely pneumonia. Additionally, the patient may be experiencing febrile neutropenia due to their immunocompromised state. These two conditions could explain the patient's symptoms and infiltrate on imaging. The patient's history of lung cancer also makes it a likely differential diagnosis."
+STEMI; Post-obstructive PNA; Chronic renal insufficiency; ,"Example 1: 
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient has a history of ALL with CNS involvement and a previous Omaya removal due to VRE contamination. Her leukocyte count is trending downwards, which could suggest a possible leukemia remission. However, her leukocytosis could also be attributed to an infection or inflammation. Thus, CNS VRE and leukocytosis are direct differential diagnoses while ALL is an indirect one.
+
+Example 2: 
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia; Cyrptogenic cirrhosis c/b variceal bleed; DM2
+<Reasoning>: The patient"
+"Respiratory Distress:
+   Most likely multifactorial.  Patient with known obstructive sleep
+   apnea, asthma, obesity hypoventilation syndrome as well as diastolic
+   heart failure; Diastolic CHF; Bipolar disorder; ","Diagnoses: Worsening respiratory distress; Urosepsis; Diastolic CHF
+
+<Reasoning>
+The patient's worsening respiratory distress and need for intubation suggests a potential respiratory infection or worsening heart failure. Given the initial admission diagnosis of urosepsis, this could potentially be the cause of the worsening respiratory distress. The patient's history of diastolic CHF also puts them at risk for exacerbations and could be contributing to the respiratory distress."
+Respiratory failure: Likely represents worsening COPD; Cellulitis; ,"Example 1:
+Direct Differential Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+
+<Reasoning>
+The patient is a 60-year-old woman with a history of recurrent ALL with CNS involvement who underwent Omaya removal due to VRE contamination and SDH evacuation. The patient is now doing well, awake, afebrile, and her WBC count is trending downward. Given the patient's history of CNS involvement, the differential diagnosis includes CNS VRE. The patient also has leukocytosis, which may be indicative of an underlying infection. Finally, the patient has a history of recurrent ALL, which increases the likelihood of recurrence. 
+
+Indirect Differential Diagnoses: Sulfa (Sulfonamides) Rash; Penicillins Rash"
+"Altered mental status; CNS listerial infection, seizures, hepatic
+   encephalopathy; septic shock; meningitis; cirrhosis; Anemia; Thrombocytopenia; DM; ","For Example 1:
+- CNS VRE: The patient has a history of CNS involvement with VRE contamination and underwent Omaya removal. The recent NGT placement and TF started suggest ongoing care related to CNS infection. 
+- LEUKOCYTOSIS: The patient's WBC count is trending downward, which may indicate an ongoing infection or response to treatment.
+- ALL: The patient has a history of recurrent ALL with CNS involvement, which may be a contributing factor to their current medical issues.
+
+For Example 2:
+- Intermittent, post-op hypotension: The patient had hypotension post-ORIF and is now in the MICU for close observation. The BP in the 70s while asleep and need for IVF suggest ongoing hypotensive episodes."
+"HAP PNA, large effusion and
+   diastolic CHF; Anemia; Rheumatoid arthritis; ","Diagnoses: Hypoxic respiratory failure; HAP/Aspiration pneumonia with right sided effusion; Hypercarbia
+<Reasoning>
+The patient has a history of respiratory failure and hypercarbia requiring intubation. They were recently admitted for treatment of HAP/Aspiration pneumonia with right-sided effusion. The patient is now experiencing hypoxic respiratory failure, which could be due to a worsening of the pneumonia or due to other factors such as the patient's history of respiratory failure and hypercarbia."
+Shock:  Likely due to sepsis/hemorrhagic pancreatitis; Hypoxic resp failure; Aspiration pna; Gallstone pancreatitis; ,"Diagnoses: Ascending cholangitis; Bile leak; Aspiration pneumonia; Severe necrotic pancreatitis; Sepsis
+
+<Reasoning> The patient has a history of ascending cholangitis with no stone found during ERCP at OSH, which led to lap chole and resulting bile leak, necessitating ERCP and stenting at the current hospital. However, during ERCP, the patient aspirated, leading to aspiration pneumonia. The patient is now presenting with severe necrotic pancreatitis and sepsis, likely due to the bile leak. The patient is currently on vanc/zosyn/flagyl, indicating a concern for infection."
+"Sepsis. Presumed urosepsis; Hypoxia. Etiology possibly due to aspiration, Infecftious PNA, or
+   pulmonary edema; Acute renal failure; Schizophrenia and dementia; Diabetes mellitus; ","Diagnoses: #Sepsis with hypotension, hypoxia, and fever; #Lower extremity paralysis; #DM; #Schizophrenia; #T12 burst fracture
+<Reasoning>
+The patient presents with sepsis physiology which could be caused by a variety of infections such as urinary tract infection, pneumonia or soft tissue infection in a patient with risk factors like immobility and urinary catheterization. The history of T12 burst fracture and lower extremity paralysis could be contributing to the development of sepsis. The patient also has a history of DM which increases the risk of infection. The presence of schizophrenia could also put the patient at risk for developing infections due to poor self-care and hygiene."
+CHF exacerbation; CKD; DM; Anemia; ,"Diagnoses: CHF exacerbation; CAD; CKD; DM2
+
+<Reasoning>
+The patient's history of CHF, CAD, CKD, and DM2 all put him at increased risk for CHF exacerbation. His chief complaint and the administration of Lasix and coreg support this diagnosis. The patient's underlying CAD and CKD also contribute to his risk for CHF exacerbation. The presence of DM2 further increases his risk for cardiovascular complications. There are no reported symptoms or indications for alternative diagnoses."
+Acute on chronic systolic and diastolic congestive heart failure; atrial fibrillation; ,"Diagnoses: Acute exacerbation of chronic systolic congestive heart failure; Hypoxemia; Renal dysfunction.
+
+<Reasoning>
+The patient's presentation with acute exacerbation of chronic systolic congestive heart failure is supported by his history of non-ischemic cardiomyopathy and paroxysmal atrial fibrillation, as well as his current symptoms of dyspnea and hypoxemia requiring high flow oxygen. The patient also has a history of ESRD on HD, which may contribute to his renal dysfunction and electrolyte imbalances. The patient's urinary output in response to Lasix suggests that further diuresis may be necessary, but the patient's reluctance to undergo a Foley catheter may complicate treatment."
+"Respiratory distress: Likely [**3-5**] multifocal pneumonia; MDS; Anemia: has history of sideroblastic anemia and MDS; Neutropenic Fever.
+   -PNA; ","Diagnoses: Pneumonia; Anemia; Neutropenia; Respiratory distress; Pulmonary hypertension; Mitral regurgitation; Myelodysplastic syndrome (RARS)
+ 
+<Reasoning> The patient has a history of myelodysplastic syndrome (RARS), which puts them at increased risk for infections and anemia. The presenting symptoms of fever, neutropenia, anemia, and PNA are consistent with this diagnosis. The worsening PNA on CXR indicates that the patient's condition is deteriorating. Additionally, the patient is in respiratory distress and has moderate pulmonary hypertension and mitral regurgitation on echo, which can contribute to their respiratory symptoms. Overall, the patient's clinical picture is consistent with worsening pneumonia, anemia"
+"Altered mental status: Likely [**3-6**] hyponatermia, hepatorenal
+   derangement, and hepatic encephalopathy; hypervolemic hyponatremia; Acute renal failure; COPD; ","Diagnoses: Acute hepatic decompensation; Hyponatremia; Hyperkalemia.
+
+<Reasoning>: Based on the patient's presentation and history, the top differential diagnoses include acute hepatic decompensation resulting in hyponatremia and hyperkalemia. This is further supported by the nodular liver on CT, transaminitis / synthetic dysfunction, and low output ARF. These findings are consistent with possible HRS."
+Placenta Accreta/Percreta s/p C-section/Hysterectomy; volume depletion; ,"Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient has a history of recurrent ALL with CNS involvement and has undergone Omaya removal due to VRE contamination and SDH evacuation. The patient is now afebrile and the WBC count is trending downwards. The leukocytosis could be due to ALL and CNS VRE, which are direct differential diagnoses. ALL is also an indirect differential diagnosis, as it can lead to leukocytosis.
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia; Cryptogenic cirrhosis c/b variceal bleed; DM2
+<Reasoning"
+Pericardial Effusion; SVT; ,"Diagnoses: Pericardial effusion; Hypotension; Chest pain. 
+
+<Reasoning> The patient has a history of SVT and underwent attempted ablation, which could lead to the development of pericardial effusion. The patient also experienced transient hypotension with a drop in hematocrit, indicating potential fluid loss or bleeding, which could be related to the effusion. The chest pain worsened with inspiration and was responsive to percocet, suggesting potential pericardial involvement."
+CORONARY ARTERY DISEASE: Pt with CAD s/p CABG x 3; Anemia; ,"Diagnoses: # Inflammatory vs Infectious vs Ischemic Colitis; Post-operative fever; Severe CAD s/p CABG x 3.
+
+<Reasoning>
+The patient's CT scan revealed nonspecific wall thickening along the cecum and ascending colon c/w inflammatory vs infectious vs ischemic colitis, which can lead to abdominal pain, fever, and diarrhea. Additionally, the patient has a post-operative fever, which can be due to various causes such as infection or inflammation. Finally, the patient has a history of severe CAD s/p CABG x 3, which puts them at risk for developing complications such as myocardial infarction or arrhythmias."
+Toxic ingestion; SI; Bipolar disorder; ,"Diagnoses: # Benzodiazepine and anticholinergic overdose; Suicide attempt; Bipolar disorder 
+
+<Reasoning> Based on the patient's history of suicide attempt and ingestion of 50+ pills of ambien and benztropine, the top differential diagnosis would be a benzodiazepine and anticholinergic overdose. This is further supported by the administration of haloperidol and ativan for agitation and anxiety. The patient also has a history of bipolar disorder, which increases the risk of suicide attempts. Therefore, suicide attempt and bipolar disorder are also included as differential diagnoses."
+Afib; metastatic cancer; Small Cell Lung Cancer; ,"Diagnoses: Atrial fibrillation with rapid ventricular response; Small cell lung cancer; AAA
+<Reasoning> The patient's history and physical examination reveal a history of atrial fibrillation with rapid ventricular response, small cell lung cancer, and AAA. The bronchoscopy was concerning for metastatic small cell lung cancer, which could potentially contribute to the patient's arrhythmia. Additionally, the patient's known history of AAA increases the risk of cardiovascular complications, such as arrhythmia. Further evaluation and monitoring of the patient's cardiovascular status is necessary."
+Acute subarachnoid hemorrhage; Septic shock likely [**1-20**] endocarditis; ARF: likely due to sepsis; Thrombocytopenia; Afib; ,"Diagnoses: Endocarditis with bacteremia; SAH; Cardiogenic Shock
+  
+<Reasoning>
+Endocarditis with bacteremia is a primary concern, as the patient has a history of rheumatic heart disease and recent MVR, making them susceptible to bacterial infection of the heart valve. The patient's fevers and cutaneous stigmata of endocarditis support this diagnosis, and the patient was placed on broad spectrum antibiotics. SAH is a direct and severe complication the patient experienced and requires immediate attention. Additionally, the patient presents with cardiogenic shock, evident from the acute episode of unresponsiveness, hypotension, and the use of multiple pressors. The previous history of rheumatic heart disease, MVR, and atrial fibrillation/flutter make cardiogenic shock"
+decompensated liver disease; Altered Mental Status; Acute on chronic renal failure; Anemia; ETOH cirrhosis; ,"Diagnoses: Hepatic encephalopathy; Hyponatremia; Seizures
+
+<Reasoning>
+In Example 1, the patient has a history of ALL with CNS involvement and is currently recovering from Omaya removal due to VRE contamination and SDH evacuation. The decreasing WBC count indicates a positive response to treatment. The patient also has a history of drug allergies, which could be related to the rash and other symptoms present. The direct differential diagnoses would be CNS VRE, leukocytosis, and ALL.
+
+In Example 2, the patient has a complicated medical history, including dCHF, CAD, ESRD on HD, and DM2. The patient is post-op for a femoral fracture and is experiencing intermittent hypotension. The patient"
+DELIRIUM; POST-ABDOMINAL SURGERY; HTN; AFIB; ,"Diagnoses: Hypotension; Delirium; Post-op bleeding. 
+
+<Reasoning>
+1. Hypotension: The patient experienced hypotension, which could be due to various causes, such as blood loss, sepsis, medication side effects, or heart-related issues.
+2. Delirium: The patient exhibited worsening delirium overnight, which could be due to numerous factors such as electrolyte imbalances, medication side effects, or infection.
+3. Post-op bleeding: The patient's Hct dropped to 24 and is experiencing BRBPR, indicating the possibility of post-operative bleeding. Further monitoring and evaluation are necessary to determine the cause and severity."
+Crohns flare; Hypotension: multiple possibilities including infection (sepsis); afib; Fever: likely GI source; Crohns; Acute Renal Failure; ,"Diagnoses: Crohn's disease flare-up with acute renal failure; Atrial fibrillation with rapid ventricular response; Sepsis 
+
+<Reasoning> The patient's history of Crohn's disease, fevers, diarrhea, and acute renal failure suggest a flare-up of the disease. The presence of afib with RVR is concerning and may be contributing to the hypotension. Sepsis is also a concern given the fevers and hypotension."
+sepsis; Ileus vs partial SBO; Renal failure; Resp failure; PERIPHERAL VASCULAR DISEASE (PVD); ,"Diagnoses: Klebsiella/Acinetobacter infection; Non-functioning G tube/intermittent SBO; Recurrent sepsis. 
+
+<Reasoning> The patient has a history of multiple comorbidities including COPD, ETOH abuse, CAD, and PVD which puts him at an increased risk of developing infections. The presence of klebsiella/acinetobacter in sputum and urine as well as multiple areas of skin breakdown are suggestive of an infection. The non-functioning G-tube and intermittent SBO/illeus may also be contributing to the recurrent sepsis."
+"Hypoxemia: Likely secondary to aspiration pneumonia versus
+   pneumonitis; EtOH; hypotension; Dyspnea on exertion; ","Example 1:
+Direct: CNS VRE; LEUKOCYTOSIS; ALL
+Indirect: Medication allergies
+
+Reasoning: The patient has a history of ALL with CNS involvement, which is a direct diagnosis. The patient also has leukocytosis which could indicate an infection such as CNS VRE. The medication allergies indicate a possible adverse drug reaction or allergic reaction. 
+
+Example 2:
+Direct: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cyrptogenic cirrhosis c/b variceal bleed:; DM2
+Indirect: None
+
+Reasoning: The patient has a history of CHF, CAD, ESRD, cirrhosis, and DM2,"
+"Septic Shock
+   Presumably urinary source; Hypoxic Respiratory Failure; AVR/CHB pacer dependent; ","Diagnoses: Septic shock; Pneumonia; Respiratory failure
+<Reasoning> The patient's chief complaint of pneumonia, along with the acute onset chills and vomiting, suggests that the patient may have developed septic shock. The patient's respiratory failure is likely a result of this underlying septic process. The patient's history of AVR on coumadin, CHB pacer dependence, Afib, and prostate CA on hydrocortisone po could be potential risk factors that led to the development of the septic shock. The presence of invasive ventilation and arterial line suggests that the patient is critically ill and needs close monitoring and aggressive management."
+Respiratory Failure; Multifocal PNA; Anemia; ,"Diagnoses: Multifocal pneumonia; Respiratory failure; Hypoxemia
+
+<Reasoning> Based on the patient's presentation and history of failing outpatient treatment for pneumonia, the primary diagnosis is multifocal pneumonia. This diagnosis is further supported by the patient's persistent and severe hypoxemia, which has led to respiratory failure and subsequent intubation."
+"Hypoxic respiratory failure; PNA
+   and ARDS; septic or distributive shock; Acute renal failure: Likely ATN; Transaminitis: likely secondary to shock liver; ","Diagnoses: Sepsis of unclear etiology; Empyema; Renal Failure
+
+<Reasoning> The patient has a history of cancer and is presenting with back pain and hypoxia which could be suggestive of a pulmonary embolism. However, the patient is also in septic shock with fever, high insulin requirements, and cultures pending which could suggest a septic process. The right-sided pleural effusion drainage with thick fluid output suspicious for empyema and the increased levophed usage may be indicators of sepsis. The renal failure could also be attributed to sepsis or other potential causes related to the patient's medical history. Further evaluation is needed to determine the etiology of the patient's sepsis and renal failure."
+"Septic shock
+Presumed secondary to duodenal perforation; Hemicolectomy and duodenal perforation; AML/Leukemia cutis; Atrial fibrillation with RVR; ","Diagnoses: Perforated bowel; Sepsis; Thrombocytopenia; MRSA cellulitis
+
+<Reasoning>
+The patient's presentation is consistent with a perforated bowel, which is supported by the CT scan showing free air in the abdomen. This is a life-threatening condition that can lead to sepsis, which the patient also presents with. Thrombocytopenia is also present, which may be related to the patient's leukemia and can contribute to bleeding complications. Additionally, the patient has a history of MRSA cellulitis, which may also be contributing to the sepsis."
+CAD; anterior wall STEMI; ,"Diagnoses:
+#1. CNS VRE; LEUKOCYTOSIS; ALL
+- CNS VRE infection may cause fever and leukocytosis, and the patient's recent history of CNS involvement with VRE contamination and SDH evacuation raises suspicion for ongoing infection.
+- Leukocytosis could also be indicative of an underlying infection, particularly with the patient's history of ALL.
+- Recurrent ALL may also be a contributing factor to the patient's presentation.
+
+#2. Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cyrptogenic cirrhosis c/b variceal bleed:; DM2
+- The patient's history of dCHF, CAD, and recent intertro"
+COPD exacerbation; Diastolic Heart Failure; Atrial Fibrillation; ,"Diagnoses: COPD exacerbation; Diastolic CHF; Hypoxia 
+
+<Reasoning> The patient's presentation of sob and hypoxia, as well as her history of COPD and needing home O2, suggest a COPD exacerbation as a primary diagnosis. Additionally, her history of diastolic CHF may contribute to her symptoms of respiratory failure. The decreased responsiveness after morphine and ativan administration may be due to medication side effects or respiratory depression. Overall, the patient's presentation and history point towards respiratory and cardiac issues as the primary causes of her symptoms."
+Pericardial effusion with tamponade; Pleural effusions; Afib; h/o breast CA; ,"Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient's history of recurrent ALL with CNS involvement and recent surgery for SDH evacuation make CNS VRE and LEUKOCYTOSIS top differential diagnoses. Additionally, ALL could be a potential cause for the elevated WBC count.
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cyrptogenic cirrhosis c/b variceal bleed:; DM2
+<Reasoning>: The patient's history of cryptogenic cirrhosis and recent variceal bleeding make these conditions top differential diagnoses. Additionally, intermittent, post-op hypotension"
+"Hematemesis; ETOH
+   cirrhosis, Hepatitis C,; Cirrhosis; Alcohol abuse; ","Diagnoses: Variceal UGIB; ETOH/Hep C cirrhosis; Gastritis/ulcer
+
+<Reasoning>
+The patient presents with a history of ETOH/Hep C cirrhosis and upper GI bleeding, with concern for variceal origin. Gastritis and ulcer are also potential sources. The presence of old blood in the stomach and hemodynamic stability are suggestive of variceal bleeding, but further investigation is necessary to confirm the diagnosis. The patient's use of valium instead of ativan and restlessness at times could be due to alcohol withdrawal, which should also be considered in the differential diagnosis. Lastly, the patient has no known drug allergies, which is important to note for treatment options."
+Acute Respiratory Failure; Metabolic Acidosis; NSCLC; breast CA; ,"Diagnoses: Respiratory failure of unclear etiology; Sepsis; Metastatic breast cancer with likely bone mets and colitis.
+
+<Reasoning> The patient's respiratory failure and tachycardia are concerning for possible sepsis. Additionally, the CT findings of likely bone metastases and colitis suggest a possible infectious etiology. The history of breast cancer and NSCLC also make metastatic disease a consideration. Allergies to codeine and resistance to zosyn should be taken into account in antibiotic selection."
+Hypotension; Right heart failure; ARF; GIB; CAD; anemia; thrombocytopenia; ,"Example 1:
+Direct Differential Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+1. CNS VRE: The patient has a history of recurrent ALL with CNS involvement and underwent Omaya removal due to VRE contamination. She is now doing well with afebrile status, and her WBC count is trending downward. However, her symptoms may indicate CNS VRE infection.
+2. LEUKOCYTOSIS: The patient has a decreasing trend in her WBC count, indicating she previously had leukocytosis. A further workup can identify the cause of leukocytosis.
+3. ALL: The patient has a history of recurrent ALL and underwent Omaya removal due to VRE contamination. A further workup can identify the progression of her"
+Hypoxic respiratory failure; ,"Diagnoses: # Severe mixed obstructive and restrictive disease; Hypoxic respiratory failure; Hemoptysis. 
+
+<Reasoning>: The patient's history of severe mixed obstructive and restrictive disease increases the likelihood of respiratory failure and hemoptysis. The patient's hypoxic respiratory failure is a result of the underlying lung disease, which is further supported by the need for HD and the use of fentanyl to manage pain and oxygenation. Hemoptysis may indicate further lung pathology, and requires further investigation to determine the underlying cause."
+Sepsis; End -stage Cirrhosis of transplanted liver; ESRD; ,"Diagnoses: MSSA sepsis with respiratory failure; Parapneumonic effusion; Cirrhosis with decompensation. 
+
+<Reasoning>
+The patient's history of biliary atresia and liver transplant make him more susceptible to infections and complications such as cirrhosis. The presence of MSSA sepsis with respiratory failure and parapneumonic effusion suggest a significant lung infection. The patient's cirrhosis has also decompensated, likely due to the infection."
+Sepsis - most likely [**2-26**] thumb abscess/septic arthritis; L knee septic arthritis s/p L knee replacement; Thumb abscess; severe persistent asthma; Heroin abuse; ,"Diagnoses: Septic arthritis; IV drug use; Asthma exacerbation
+
+<Reasoning>
+The patient's PMH of IV drug use and bilateral knee replacement suggests a high likelihood of septic arthritis and thumb abscess. The presence of asthma exacerbation is also concerning and may have contributed to the patient's overall clinical deterioration."
+sepsis; Liver mass; Hypotension; Acute Renal Failure; CAD; ,"Diagnoses: Fever of Unknown Origin; Liver Mass with Possible IVC Invasion; Hypotension; Tachycardia 
+
+<Reasoning>
+The patient has a history of malignancy, with recent findings concerning for liver mass with possible IVC invasion. He presents with fever, hypotension, and tachycardia, indicating a possible systemic infection. The recent administration of multiple medications, including Ativan, Lopressor, Diltiazem, and Lasix, may have contributed to the hypotensive episode. Further imaging and surgical consultation will be necessary to determine the next steps in management."
+deconditioned; chronic sCHF; LEUKOCYTOSIS; Anemia; SEVERE MR; AF; ,"Diagnoses: Septic Shock; Afib with RVR; CHF exacerbation.
+
+<Reasoning> The patient's history of sCHF and recent onset of weakness and shortness of breath suggests a likely exacerbation of her underlying condition. The new onset afib with RVR and leukocytosis are concerning for septic shock. The patient's improving respiratory status after intubation and pressor support further support this diagnosis. The coumadin and increased lasix gtt are likely part of the treatment plan for the patient's CHF exacerbation."
+"SIRS/sepsis; likely source GU; Proteus and
+   enterococcus; HTN; ARF; Hypernatremia; Hypothyroid; ","Diagnoses: SIRS/sepsis of pulmonary or urinary source; Acute renal failure; Hematuria
+<Reasoning> The patient presents with SIRS/sepsis of likely pulmonary or urinary source, which could be due to a variety of infections. Acute renal failure and hematuria could be related to the sepsis, or could indicate a separate underlying condition. Further workup is needed to determine the source of infection and address the patient's renal dysfunction and hematuria. </Reasoning>"
+"Hypertensive urgency; Abdominal pain, nausea, vomiting, and diarrhea
+   DDx
+ infectious vs ischemic; Anemia; ","For Example 1:
+Direct Differential Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+Indirect Differential Diagnoses: Sepsis; Intracranial Hemorrhage; Drug Reaction
+
+<Reasoning>: The patient has a history of recurrent acute lymphocytic leukemia (ALL) with CNS involvement and recent surgery for removal of Omaya due to VRE contamination and SDH evacuation. The patient is currently afebrile and WBC count is trending downward, but there is a possibility of CNS VRE and ALL recurrence. Additionally, there is leukocytosis, which could indicate sepsis. Finally, the patient has a history of drug reactions, which may be related to the recent administration of gentamicin or other medications.
+
+For Example"
+"respiratory
+   alkalosis; Rhabdomyolysis/Acute Renal Failure; Hypertension; PEA Arrest: His arrest was felt to likely be a combination of
+   hyperkalemia, hypoxia, hypercarbia, and/or acidemia.; ","Diagnoses: #Acute drug overdose; Rhabdomyolysis; Acute renal failure
+
+<Reasoning>
+The patient presented with a positive toxicology screen for opiates, benzos, and cocaine resulting in respiratory depression, PEA arrest, and acidemia. This suggests an acute drug overdose. The presence of rhabdomyolysis with a CK level of 260,000 and acute renal failure is likely secondary to the drug toxicity."
+Uvula swelling; AVNRT; ,"Diagnoses: Post-procedural swelling of uvula; AVNRT (resolved); No Known Drug Allergies.
+
+<Reasoning> Based on the input note, the patient's chief complaint and history suggest post-procedural swelling of uvula. The patient has a history of AVNRT, which has been resolved by nodal ablation. The note also indicates that the patient has no known drug allergies. Therefore, these are the most likely direct and indirect differential diagnoses."
+Aspiration Pneumonitis vs HAP; Severe tracheobronchial malacia; ,"Diagnoses: # Hypotension; Elevated Sodium; VAP; Cough; Agitation
+<Reasoning> The patient has a history of tracheobronchial malacia and was found unresponsive at home with subsequent intubation. She is now presenting with hypotension, increased sputum, elevated sodium, and frequent stooling. These symptoms could be indicative of a ventilator-associated pneumonia (VAP). The patient is also experiencing cough, which could be causing or contributing to her emesis, and agitation, for which she was started on increased seroquel. These symptoms could be related to her tracheobronchial malacia. Therefore, the differential diagnoses for this patient include VAP, cough, and agitation related to tracheobronch"
+"S/p tumor rsxn; Acute Hypoxemic Resp Failure; Anemia; Thrombocytopenia; Crohns, Short-Gut; ","Diagnoses: Acute respiratory failure; Mucinous adenoca; Postoperative complications
+
+<Reasoning> The patient is presenting with acute respiratory failure, which is likely due to the recent diagnosis of mucinous adenoca. The patient also has a history of Crohn's disease, multiple abdominal surgeries, and small bowel resection, which could contribute to the postoperative complications. The stool culture and Lasix diuresis with K, Mg repletion suggests that the patient is also experiencing electrolyte abnormalities, which could further contribute to the respiratory failure. Allergies to Valium, mercaptopurine, and Remicade suggest that the patient may have a complicated medical history, which could complicate the management of their respiratory failure."
+BRBPR: Likely lower GI bleed; Choledocholithiasis; Afib; ,"Diagnoses: Choledocholithiasis; Jaundice; GI Bleed
+
+<Reasoning> The patient's chief complaint of chest pain, along with the presence of afib and HTN, indicate the possibility of underlying cardiac issues. However, the presence of jaundice and choledocholithiasis suggests a potential biliary source of the patient's pain. Additionally, the episode of bright red blood per rectum indicates the presence of a gastrointestinal bleed, which could be related to the patient's liver or biliary disease. These three differential diagnoses should be further investigated and managed appropriately."
+Ileus; PNA; sepsis - ATN; uremic; SAH/SDH.; ,"Diagnoses: SAH/SDH; Pneumonia; Ileus; HTN; Acute renal failure
+
+<Reasoning> Based on the patient's history of fall and head trauma, SAH and SDH are potential diagnoses. The patient also has active issues of pneumonia, ileus, HTN, and acute renal failure, which could be contributing to the patient's current symptoms and overall condition. The fever and positive blood and stool cultures could indicate a possible infection contributing to the pneumonia diagnosis. The patient's rising creatinine levels indicate worsening renal failure. The medication allergy to penicillins should be taken into consideration when prescribing treatment."
+"MRSA/Group C strep
+   pneumonia; UTI; sepsis; ANEMIA; S/p traumatic spine injury; ","Diagnoses: Sepsis; UTI c/b Citrobacter freundii; PNA c/b MRSA
+
+<Reasoning>
+The patient presents with symptoms of respiratory failure, hypotension, and suspected sepsis, making sepsis the first diagnosis. The UTI caused by Citrobacter freundii and PNA caused by MRSA are both direct differential diagnoses based on the positive culture results."
+PEA arrest: Etiology is likely aspiration PNA; Sinus tachycardia; Aspiration PNA; ALS; ,"Diagnoses: Cardiac Arrest (PEA); Aspiration Pneumonia; Hypertension 
+
+<Reasoning> The patient suffered from PEA cardiac arrest and was successfully resuscitated, which puts her at high risk for neurological sequelae. As such, she is being monitored with a 24-hour EEG to assess for brain activity and prognosis. She also has aspiration pneumonia, which is a common complication in patients who have undergone CPR. The patient was found to be hypertensive and was given lopressor with a good effect, indicating hypertension as a diagnosis."
+"Hepatomegaly/Anasarca/Abdominal pain; Respiratory distress; Afib; hepatic
+   encephalopathy, uremia; Cirrhosis; ","Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning> The patient has a history of ALL with CNS involvement, and has undergone treatment with Omaya removal due to VRE contamination & SDH evacuation. The patient is now doing well and trending towards a decreased WBC count, indicating potential improvement in their leukemia. However, the patient's history of VRE and current presence of CNS involvement warrants concern for CNS VRE. Leukocytosis is also present, which may suggest an ongoing infection or inflammation. 
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia; Cyrptogenic cirrhosis c/b var"
+Hypotension/shock.  Most likely septic shock; ESRD; Cirrhosis; ,"Diagnoses: Septic shock; Hemorrhagic shock; Hepatitis C cirrhosis
+<Reasoning> The patient presents with hypotension, elevated lactate, and drop in hematocrit which is suggestive of both septic and hemorrhagic shock. Additionally, the patient has a history of Hepatitis C cirrhosis which could also contribute to the hypotension and shock. Further investigation and management is required to determine the underlying cause and appropriate treatment."
+"Hypoxic/hypercarbic Respiratory Failure: likely related to
+   bronchoscopy; pneumonia; Hypotension; anemia; CAD; Chronic Systoic heart failure; prostate cancer; ","Diagnoses: Diffuse patchy peripheral opacities; Hypoxia and respiratory distress; Hypotension
+<Reasoning>: The patient's presentation with diffuse patchy peripheral opacities on CXR and subsequent hypoxia and respiratory distress suggests a possible pulmonary infection or inflammation. The hypotension may be related to the sepsis and fluid shifts associated with the respiratory distress, or may be a result of the patient's underlying medical history. Further evaluation and treatment is needed to identify the underlying cause of the patient's symptoms and stabilize their condition."
+Hypoglycemia; DM; Bipolar disorder and PTSD; Non-epileptic psychogenic events; ,"Diagnoses: Hypoglycemia; Seizure Disorder vs Pseudoseizures; Abdominal/Back Pain
+
+<Reasoning>
+Hypoglycemia is a likely direct diagnosis due to the persistent hypoglycemia and multiple syncopal episodes in a patient with type I DM. Seizure disorder versus pseudoseizures is a potential indirect diagnosis given the patient's history of bipolar disorder and possible seizure disorder. Abdominal and back pain are also likely indirect diagnoses as the patient complained of these symptoms on admission and was given pain medications. Further workup may be needed to determine the cause of these symptoms."
+"Respiratory failure/COPD; RVH and severe pulmonary
+   HTN; Hypertension; ","Diagnoses: Respiratory Failure; Systolic Heart Failure; Pulmonary Arterial Hypertension 
+
+<Reasoning> The patient has a history of systolic heart failure and respiratory failure. The TTE shows mild regional left ventricular systolic dysfunction with distal apical hypokinesis. Overall left ventricular systolic function is normal (LVEF>55%). The right ventricular free wall is hypertrophied with mild dilation. There is severe pulmonary artery systolic hypertension detected in the TTE, and the patient is presenting with respiratory failure. Therefore, the top diagnoses are respiratory failure, systolic heart failure, and pulmonary arterial hypertension."
+"Respiratory failure; PNA; COPD
+   exacerbation; ","Sorry, there seems to be a mistake in the input note for Example 5. It does not match the patient's information described in the prompt. Could you please provide the correct input note?"
+"Atr Flutter; pericardial effusion; necrotic
+   esophageal fistula; Multifocal chronic glomerulonephritis; mediastinitis from necrotic esophagus; Adenoca of the esophagus; ","Diagnoses: Esophageal Adenocarcinoma; Acute on Chronic Renal Failure; HIT; Atrial Flutter 
+
+<Reasoning>: 
+For the first case, the direct diagnoses would be CNS VRE, Leukocytosis, and ALL. The patient's history of having recurrent ALL with CNS involvement and s/p Omaya removal due to VRE contamination and SDH evacuation points towards the first two diagnoses. The patient's current condition of having a trending downward WBC count is also consistent with leukocytosis. The indirect diagnosis of ALL is also possible given the patient's history and current condition. 
+In the second case, the direct diagnoses would be Intermittent, post-op hypotension; infiltrate on CXR; thrombocyt"
+"VT; HYPOXIA: Multifactorial
+ Pulmonary edema, ARDS, PNA; Possible aspiration pneumonitis; ANEMIA; AMS; ","Diagnoses: Ventricular tachycardia; Sepsis; Delirium
+
+<Reasoning> The patient's presentation of wide complex tachycardia is suggestive of ventricular tachycardia, which may have led to hypotension and respiratory distress requiring intubation. The increasing WBC, persistent fever, and need for multiple pressors suggests sepsis, which is a common complication in critically ill patients. Delirium is also a common occurrence in critically ill patients and may be due to the patient's underlying medical conditions, medication use, or sepsis."
+Seizures; Gastaut; urinary tract infection; Anemia; ,"Diagnoses: Seizure disorder; Urinary tract infection; Fever.
+<Reasoning> The patient's history of presumed Gastaut Syndrome and epilepsy along with the presenting symptoms of a seizure episode for greater than 10 minutes points to a diagnosis of seizure disorder. The patient also has a history of urinary tract infection and is febrile, which suggests a possibility of a current UTI and fever. These factors should be addressed and treated accordingly."
+Sepsis; Anemia; Thrombocytopenia; Acute renal failure; Cecal mass; low grade B cell lymphoma; AML; ,"Diagnoses: Sepsis (secondary to anastomotic leak and intra-abdominal abscesses); Delirium; Metabolic acidosis with bicarbonate wasting; Elevated ferritin suggestive of hemochromatosis. 
+
+<Reasoning> 
+The patient's history of AML, recent chemo, and hemicolectomy increase the risk of infection and sepsis. The patient's low bicarbonate levels, metabolic acidosis and ostomy lytes indicating bicarbonate wasting suggest a potential electrolyte disturbance. The elevated ferritin could potentially indicate hemochromatosis and will require further evaluation by the liver team. Additionally, the patient's delirium could be related to sepsis, electrolyte imbalances, or other factors and requires further evaluation."
+"INFLUENZA A; ANEMIA; THROMBOCYTOPENIA; HYPOPHOSPHATEMIA; dizziness/syncope includes orthostatic hypotension, vasovagal
+   syncope, cardiogenic syncope, and psychogenic syncope; ","Diagnoses: Influenza A; Sepsis; Pneumothorax
+
+<Reasoning>
+The patient has a positive test for influenza A, which could explain the fever and CXR findings. Sepsis is also a concern given the patient's history of hypotension and response to fluid resuscitation. The patient's history of pneumothorax could be a contributing factor to the presentation."
+Respiratory failure; Hypotension; Atrial fibrillation; Lung cancer; PVD: s/p RLE bypass graft and wound infection; DM2; ,"Diagnoses: Respiratory Failure; Afib with RVR; Hypotension
+<Reasoning> The patient has a history of respiratory failure and is currently experiencing tachypnea, which could be indicative of respiratory distress. The patient is also experiencing afib with RVR and hypotension, which could be due to poor cardiac function or complications from the patient's comorbidities, such as PVD and lung cancer."
+SOB/Hypoxemia; Likely PNA vs reactive airway disease; ,"Diagnoses: Severe OSA; RV failure; COPD exacerbation.
+
+<Reasoning> Based on the input note, the patient has a history of COPD, OSA, and morbid obesity. The subjective complaint of shortness of breath and increasing oxygen requirement suggests a COPD exacerbation, which is supported by the review of systems. The presence of RV failure is likely due to the chronic pulmonary hypertension caused by the COPD. The patient is on autoset Bipap overnight, indicating the severity of OSA. Allergic reactions are not mentioned in the note."
+"Respiratory distress--most likely due to flash pulmonary edema due
+   to severe AS; Myocardial ischemia; GI bleeding; Pulmonary embolus; ","Diagnoses: GI bleeding; Severe AS; Recent pulmonary embolus
+
+<Reasoning> The patient's chief complaint of GI bleeding and respiratory distress indicates that they may have an underlying condition such as severe AS or recent pulmonary embolus that could be causing these symptoms. The cardiology consult recommended aspirin and a statin, which supports the possibility of underlying cardiac disease. The recent pulmonary embolus puts the patient at risk for bleeding and respiratory distress. Overall, the patient's history and symptoms suggest that they have multiple potential diagnoses, including GI bleeding, severe AS, and recent pulmonary embolus. Further evaluation and management are necessary to determine the underlying cause of the patient's symptoms."
+"acute change in baseline renal function associated with
+   significant uremia; Diarrhea; Hypertension; ","Diagnoses: Seizure/PRES; Dialysis disequilibrium syndrome; ARF.
+
+<Reasoning> The patient is a 56-year-old male with a history of hypertension, EtoH abuse, and possible prior TIAs who presented with a seizing episode in dialysis. He was found to have ARF with high creatinine and BUN levels. His workup revealed nothing beyond chronic kidney disease and HCV. The patient is stable in the MICU without further seizing episodes, and he was incidentally found to have HCV. Head CT without acute findings, EEG preliminarily normal, and his electrolytes were normal largely normal (phos 1.2 and Na 146, otherwise nothing markedly abnormal.) The likely diagnoses are PRES versus dialysis disequilibrium"
+Idiopathic Pulmonary Fibrosis; HTN; ,"Example 1:
+Diagnoses: CNS VRE; Leukocytosis; ALL
+- CNS VRE: The patient has a history of recurrent ALL with CNS involvement and had Omaya removal due to VRE contamination. Given the patient is doing well and afebrile, CNS VRE could be considered as a possible diagnosis.
+- Leukocytosis: The patient has a trend of decreasing WBC count, but still has leukocytosis. This could be due to the patient's history of ALL.
+- ALL: The patient has a history of recurrent ALL, which could be causing the leukocytosis.
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thromboc"
+Respiratory failure: Multilobar Pneumonia & COPD; Shock: Septic from PNA; ,"Diagnoses: Severe COPD exacerbation with ARDS; Right-sided pneumonia; Respiratory failure
+
+<Reasoning> The patient's history of severe COPD and being on home oxygen make her more susceptible to respiratory infections. Her presentation with pneumonia and respiratory failure are likely related to her underlying COPD. The presence of ARDS suggests a more severe presentation of her disease."
+ARDS; influenza; pulmonary HTN; septic shock; Thrombocytopenia; ESRD; Afib with RVR; ,"Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient's history of recurrent ALL with CNS involvement s/p Omaya removal due to VRE contamination & SDH evacuation makes CNS VRE and ALL the top direct differential diagnoses. The leukocytosis could be an indirect result of ALL, or a sign of an underlying infection or inflammation.
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia; Cyrptogenic cirrhosis c/b variceal bleed; DM2
+<Reasoning>: The patient's history of hypotension post-ORIF and infiltrate on CXR indicate a possible pulmonary"
+"severe pancreatitis c/b ARDS & requiring
+   splenectomy and distal pancreatectomy; ETOH Withdrawal; ","Diagnoses: Severe acute pancreatitis c/b ETOH withdrawal; Respiratory distress; Sepsis; Thrombocytopenia; Elevated lactate and anion gap.
+
+<Reasoning> The patient has a history of chronic pancreatitis and recently had a binge-drinking episode leading to severe acute pancreatitis and ETOH withdrawal, which can cause significant medical complications such as hypotension and respiratory distress. Additionally, the patient has an elevated lactate and anion gap, which may indicate sepsis, and thrombocytopenia, which could be related to his liver cirrhosis."
+"Shock - Wide differential includes septic, cardiogenic; Hypoxic respiratory failure; shock liver; cardiogenic shock; Diabetes; ","Diagnoses: Respiratory Failure; Shock; Coagulopathy; Pleural Effusion; Thrombocytopenia
+
+<Reasoning> The patient has a history of DM and has not received medical care in the past two years, presenting with shortness of breath and found to have a large right-sided pleural effusion with sanguinous lung tissue via BAL. The patient is now pressor and vent dependent with thrombocytopenia, stable transaminitis, and coagulopathic. The combination of sepsis, cardiogenic shock, and vasculitis must be considered in the differential diagnosis. Further workup and treatment are necessary to confirm and manage these potential diagnoses."
+Altered Mental status:  [**Month (only) 11**] have been related to DKA; Tachycardia:  Likely related to his pulmonary thrombus; Thrombocytopenia; NSLC; Diabetic ketoacidosis; ,"Diagnoses: DKA; Respiratory distress; Metastatic NSCLC 
+
+<Reasoning> 
+From the input note, the patient has a recent history of DKA, which has resolved. However, the patient is currently presenting with respiratory distress, which could be indicative of underlying lung pathology. Additionally, the patient has a diagnosis of metastatic NSCLC, which increases the likelihood of respiratory complications. Therefore, respiratory distress and metastatic NSCLC are direct differential diagnoses. DKA can also lead to respiratory distress, and the patient's recent history of DKA makes it an indirect differential diagnosis."
+Hypotension; Leukocytosis; ESLD; metastatic HCC; ARF; ,"Diagnoses: Sepsis; Metastatic HCC; Cirrhosis; Hypotension; Leukocytosis; Hematoma after fall.
+
+<Reasoning>
+The patient presents with sepsis, which is a severe life-threatening complication of infection. The patient also has a history of metastatic HCC and cirrhosis, which makes him more susceptible to infections and sepsis due to a weakened immune system. The hypotension and leukocytosis can be associated with sepsis and a complication of cirrhosis. The hematoma after a fall and confusion may indicate traumatic brain injury, which could lead to intracranial hemorrhage and hypotension."
+Delirium; TIA; hypoxemia- resolved; Hypertension; ,"Diagnoses: Recurrent TIA; Transient hypoxemia; Delirium
+
+<Reasoning> Based on the patient's history of multiple TIAs and the current presentation of likely recurrent TIA and transient hypoxemia, these diagnoses are highly probable. Additionally, the hospitalization has been marked by delirium, which is a common complication of hospitalization in older adults. Further evaluation and management are necessary to confirm and address these conditions."
+Altered Mental Status; ETOH withdrawal; ,"Diagnoses: ETOH withdrawal; Agitation/Behavioral Issues; Difficulty obtaining contact information/Family history
+
+<Reasoning> The patient presents with altered mental status and a history of alcohol abuse, which suggests a potential diagnosis of ETOH withdrawal. The patient has been receiving diazepam and ativan for agitation, which supports this diagnosis. The difficulty obtaining contact information for the patient's family and PCP is a concern for potential social determinants of health and lack of support. The normal EKG and TSH tests help rule out other potential differential diagnoses such as cardiac or thyroid issues, respectively."
+DKA; HTN; Acute renal failure; Cocaine abuse; PVD; ,"Example 5:
+Diagnoses: Hypertensive emergency; Hypotension; DM Type I
+<Reasoning>
+The patient's chief complaint and history suggest the primary diagnosis of hypertensive emergency. The use of labetolol drip and hydralazine bolus also support this diagnosis. The report of low BP and dizziness in the middle of the night suggests a secondary diagnosis of hypotension. Finally, the patient's PMH of type I diabetes suggests the possibility of an underlying hyperglycemic crisis contributing to the hypertensive emergency, making it important to monitor for this as a potential indirect diagnosis.
+ 
+Example 6:
+Diagnoses: DKA; ARF; Leukocytosis; PVD
+<Reasoning>
+The patient's chief complaint and"
+Hematemesis; bleeding varix; Cryptogenic cirrhosis; Coagulopathy; ,"Diagnoses: Cryptogenic cirrhosis c/b variceal bleeding; TIPS revision; Portal hypertension. 
+
+<Reasoning>: 
+The patient has a history of cryptogenic cirrhosis with variceal bleeding and has undergone a TIPS revision procedure by IR due to portal hypertension. The recent procedure involved a new stent placed to improve the flow which should be evaluated for new flow gradient. The patient's history and recent procedure suggest the top differential diagnoses of cryptogenic cirrhosis c/b variceal bleeding, TIPS revision, and portal hypertension."
+Acute refractory UGIB; AMS: Likely related with hepatic encephalopathy; EtOH withdrawal; Respiratory failure; cirrhosis: Likely secondary to alcohol and hepatitis C; ,"Diagnoses: UGIB; Alcohol withdrawal; Soft tissue injury; Hypertension; Complication of invasive ventilation
+
+<Reasoning> The patient has a history of variceal bleed, alcohol withdrawal, and recurrent refractory UGIB which are contributing factors to the current presentation. The presence of a large soft tissue injury on the right supraorbital ridge may indicate a fall or trauma, which could have led to the need for invasive ventilation. Hypertension is also present and was managed with metoprolol IV 5 mg MR1. The complications of invasive ventilation are also a concern and should be monitored closely."
+"Diarrhea- Etiology likely  [**2-6**] to recurrence/relapse of C.diff
+   colitis; Pleural Effusion; Acute on Chronic Renal insufficiency; CAD; DM; HTN; ","Diagnoses: #Dehydration; C.diff Colitis; Atelectasis/Consolidation; Hemorrhagic Renal Cysts
+
+<Reasoning> 
+The patient has ongoing diarrhea and dehydration, and a history of C.diff colitis, suggesting a possible recurrence or persistent infection. The imaging findings of atelectasis and/or consolidation in the lungs could be related to the patient's dehydration and/or respiratory infection. The presence of hemorrhagic renal cysts on CT scan warrants further evaluation for possible renal pathology."
+"Sinus tachycardia; acute
+   intraabdominal process; Acute renal failure; Anemia; sigmoid colectomy; ","Diagnoses: Intraabdominal infection; Respiratory distress; Sinus tachycardia 
+
+<Reasoning> Intraabdominal infection is a likely diagnosis due to the patient's history of recurrent diverticulitis and recent sigmoid colectomy, as well as the placement of a percutaneous drain to address intraabdominal collection. Respiratory distress could be a direct result of the infection, and the persistent sinus tachycardia may be indicative of sepsis. Further workup and treatment is necessary to confirm and manage these diagnoses."
+Anemia; CAD; afib; Diabetes; CCY/Umbilical hernia repair; ,"Diagnoses: Postoperative Atrial Fibrillation with RVR; CAD; PAF
+
+<Reasoning>
+The patient has a history of CAD and was recently post-operative for an open CCY and hernia repair, during which he had an episode of aflutter. He is currently in sinus rhythm, but has had fevers and a drop in Hct, which have been addressed. His history and recent episode suggest a diagnosis of postoperative atrial fibrillation with RVR, which is a common complication in patients with CAD. Additionally, his previous history of PAF further supports this diagnosis."
+pancytopenia; marrow hypo-production from med effect vs consumptive process; renal failure; hepatic encephalopathy; cirrhosis; ,"As there is no input note provided for Examples 4 and 5, I am unable to generate the differential diagnoses. Can you please provide the input note for these examples?"
+Multifocal pneumonia/Respiratory failure; ARF; Atrial fibrillation / atrial flutter; Anemia; ,"Diagnoses for Example 1:
+1. CNS VRE infection due to recurrent ALL with CNS involvement
+2. Leukocytosis due to underlying ALL
+3. ALL with CNS involvement as a direct result of the patient's medical history and symptoms
+
+<Reasoning>
+The patient's medical history of recurrent ALL with CNS involvement and recent Omaya removal due to VRE contamination suggests that her current symptoms could be related to CNS VRE infection. Her leukocytosis is likely related to her underlying ALL. The patient's medical history and symptoms also suggest that her ALL has extended to the CNS.
+
+Diagnoses for Example 2:
+1. Intermittent, post-op hypotension due to recent ORIF for femoral fracture
+2. Infiltrate on CX"
+severe COPD; Anemia; Mitral Valve Endocarditis; Critical AS; ARF; Leukocytosis; Thrombocytopenia; ,"Diagnoses: Mitral valve endocarditis; Critical aortic stenosis; Severe COPD
+<Reasoning>
+The patient has a history of severe aortic stenosis and was admitted with pneumonia complicated by hypoxic respiratory failure requiring intubation. The patient was transferred for difficulty weaning and valvuloplasty for critical AS, which makes it a direct and important differential diagnosis. Additionally, the patient was found to have mitral valve endocarditis, which could be a complication of the patient's underlying aortic stenosis and requires urgent management. Finally, the patient also has a history of severe COPD, which can cause respiratory failure and increase the risk of complications during valvuloplasty and management of endocarditis."
+"Shock NOS:  Likely [**2-28**] to RV failure (chronic) and sub-optimally
+   treated pulmonary hypertension; R TKR with chronic infection; ","Diagnoses: Shock; Acute Renal Failure; Pulmonary Embolism; COPD; Afib/Flutter; Hypothyroidism 
+
+<Reasoning>: The patient presents with shock and acute renal failure, which could be due to a variety of underlying conditions. Given the history of PEs, pulmonary hypertension, and COPD, it is possible that a pulmonary embolism or exacerbation of COPD could be contributing factors. Additionally, the patient's history of afib/flutter and hypothyroidism could also play a role in the development of shock and acute renal failure."
+Hypoxia Resp Failure; Anemia; Diarrhea; COPD; ILD; Afib; CAD; ,"Diagnoses: Hypoxia; Autodiuresis; Possible colitis
+
+<Reasoning> From the input note, the patient was admitted to MICU for hypoxia and is still requiring intubation. Additionally, there was a mention of autodiuresis with a negative balance for the day. This suggests a possible fluid overload or heart failure exacerbation. The patient also had multiple abdominal surgeries and is on TPN, which puts them at risk for colitis, hence the possibility of colitis as a differential diagnosis."
+Cellulitis; Thrombocytopenia; ,"Diagnoses: Facial cellulitis; Asymptomatic hypotension due to Nafcillin desensitization; Abdominal pain and increased flatulence 
+<Reasoning>:
+The patient's chief complaint and reason for admission is facial cellulitis. However, the input note describes two important events that occurred during her stay in the hospital - asymptomatic hypotension after Nafcillin desensitization and abdominal pain with increased flatulence. These events could be direct consequences of the treatment or underlying conditions and need to be evaluated further."
+"acute diastolic CHF
+   vs COPD exacerbation; Coronary Artery Disease; Moderate Aortic Stenosis; COPD; ","Diagnoses: Acute onset dyspnea; COPD exacerbation; CAD
+
+<Reasoning>
+The patient's PMH of COPD and acute onset dyspnea suggest that a COPD exacerbation is a likely direct diagnosis. Additionally, the patient's PMH of CAD and the fact that they were admitted with dyspnea also suggest that CAD may be a contributing factor."
+"PNA, influenza or
+   possibly PCP given his HI; mild
+   pancreatitis; Anemia; ","Diagnoses: Pneumonia; Influenza A; Hypoxia
+
+<Reasoning> The patient presents with hypoxia, radiographic evidence of pneumonia, and influenza A, which are suggestive of possible bacterial or viral pneumonia. The ABG results show respiratory alkalosis, indicating hyperventilation and hypoxia. The fever and leukocytosis also support the diagnosis of pneumonia. Therefore, pneumonia and influenza A are among the top differential diagnoses.
+
+The patient is also intubated and on mechanical ventilation, with hypotension at times, suggesting possible respiratory distress syndrome, which can lead to hypoxia. Hence, hypoxia is also a possible diagnosis.
+
+Overall, prompt treatment with antibiotics, respiratory support, and monitoring of vital signs is crucial in managing"
+"Respiratory failure; hypercarbia; severe
+   restrictive lung disease from polio; ","Diagnoses: Hypercapnic respiratory failure; Restrictive chest wall disease; Polio history 
+
+<Reasoning> The patient's history of polio, combined with her presenting symptoms of hypercapnic respiratory failure and restrictive chest wall disease, suggest a possible cause of her confusion. The patient's response to proper ventilation also supports this diagnosis."
+Seizure; GI inf.; ,"For Example 1:
+# CNS VRE infection: The patient has a history of CNS VRE infection, and was treated with Ommaya removal and SDH evacuation. The fever has resolved and the WBC count is trending downwards.
+# LEUKOCYTOSIS: The patient has a decreasing WBC count, which may suggest that their leukocytosis is resolving.
+# ALL: The patient has a history of recurrent ALL with CNS involvement, indicating a possible relapse.
+
+<Reasoning>: The patient's history of CNS VRE infection, coupled with the current trend in WBC count and fever resolution, points towards a possible CNS VRE infection. The decreasing WBC count may also indicate that the patient's leukocytosis is resolving. Lastly, the patient's history of"
+"status epilepticus in the
+   setting of a fever.  Differential included meningitis; R hemiparesis; positive troponin/NSTEMI; hypokalemia; ","Diagnoses: Meningitis; R hemiparesis; Troponinemia
+<Reasoning>: The presence of fever and seizures along with a history of mental retardation suggests possible meningitis. The new onset of right-sided weakness also raises concern for a neurological event such as stroke. The positive troponin indicates cardiac involvement, and significant hypokalemia could be contributing to the patient's symptoms."
+Sepsis; DM; ,"Diagnoses: STEMI; Sepsis; Hypotension
+
+<Reasoning>
+The patient has a history of STEMI and is presenting with epigastric pain along with a fever. The EKG shows STE and was brought to cath lab where no significant disease was found. This may suggest a previous myocardial infarction, which could have contributed to the current hypotension. The fever and elevated bands along with the need for antibiotics suggest sepsis as a possible diagnosis. Finally, the low blood pressures and need for fluid resuscitation also point towards hypotension as a potential diagnosis."
+GI bleed; Atrial Fibrillation; MDS; Pulmonary Fibrosis; Hypertension; ,"Diagnoses: GI Bleed; Anemia; Pulmonary Fibrosis
+
+<Reasoning>
+The patient's history of bleeding gastric ulcers and presenting symptoms of anemia and GI bleed suggest a likely direct diagnosis of GI bleed. The patient also has a history of pulmonary fibrosis, which could be indirectly contributing to their respiratory function and predisposing them to hypoxia and respiratory complications. However, further workup is needed to confirm this as a diagnosis."
+Alcohol Withdrawl; delerium; ,"Diagnoses: Alcohol withdrawal; Past history of Delirium Tremens (DTs); Chronic alcohol abuse
+
+<Reasoning> The patient has a history of severe and chronic alcohol abuse and is admitted with signs of alcohol withdrawal, including past history of DTs, which puts the patient at high risk for severe withdrawal symptoms. The patient's presentation is consistent with alcohol withdrawal, and past history of DTs increases the likelihood of severe symptoms."
+Hypoxia/ Mucus Plugging; Elevated INR; Metastastic Renal CA; Anemia; Right hip metastasis; ,"Diagnoses: #Mucus plugging with respiratory distress; Apical PTX; Elevated INR
+<Reasoning> The patient is a 57-year-old female with metastatic renal cell carcinoma and recent radical left nephrectomy who presents with tachycardia and new diffuse opacity over the entire left lung field due to mucus plugging, which improved with bronchoscopy and mucolytics. A small apical PTX is also noted. INR is elevated, and the patient was given 5mg vitamin K."
+Cocaine Overdose; RLL infiltrate concerning for aspiration; Transaminitis; ,"Diagnoses: Cocaine toxicity; Aspiration pneumonia; Fever. 
+
+<Reasoning>
+The patient presents with massive cocaine overdose and is now experiencing cocaine toxicity. The patient also has a fever, which could be due to infection or other complications of cocaine use, such as rhabdomyolysis. Aspiration pneumonia is also listed as a chief complaint, which could be due to aspiration of vomit while under the influence of cocaine."
+"Hypoxic respiratory failure; multifocal
+   pneumonia; ","Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient's history of recurrent ALL with CNS involvement and recent surgery for VRE contamination and SDH evacuation, coupled with a trending downward WBC count, suggest the possibility of CNS VRE. Additionally, the patient's leukocytosis could be due to underlying ALL. 
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia; Cyrptogenic cirrhosis c/b variceal bleed; DM2
+<Reasoning>: The patient's history of dCHF, CAD, HTN, DM2, and cryptogenic cirrhosis c/b"
+Hypercarbic repiratory failure; Gallstone Pancreatitis; Acute on chronic renal failure; ,"Diagnoses: Hypercarbic respiratory failure; Pancreatitis; Renal failure
+
+<Reasoning>
+The patient is presenting with hypercarbic respiratory failure, which can be due to underlying lung disease or airway obstruction. The patient's history of pancreatitis and renal failure can also contribute to respiratory compromise. The patient may need further management of his respiratory status through mechanical ventilation or bronchodilators. Additionally, pancreatitis and renal failure may require further workup and treatment, such as fluid management and possible dialysis."
+"ARDS/hypercarbic respiratory failure; aspiration
+   pneumonitis, viral or atypical pneumonia, or inhalation in the
+   environment; Sepsis; Acute renal failure; ","Diagnoses: Respiratory distress; Fever of unknown origin; Worsening renal function.
+
+<Reasoning> Based on the patient's history and presentation, respiratory distress is the most concerning symptom, and suggests a potential pulmonary infection or exacerbation of underlying asthma. The fever and sore throat further support an infectious etiology. The patient's history of hypertension and worsening renal function suggests the possibility of sepsis or another systemic infection. Further workup is needed to identify the underlying cause of the patient's symptoms."
+Hypercarbic Respiratory Failure; Altered Mental Status:; Acute on Chronic Diastolic Congestive Heart Failure; Coronary Artery Disease; DM; ,"Diagnoses: Hypercarbic respiratory failure; Moderate pulmonary hypertension; Likely UTI
+<Reasoning>
+The patient presents with a chief complaint of respiratory distress and a history of COPD, suggesting hypercarbic respiratory failure as the primary diagnosis. The TTE shows an LVEF of 40-45% with possible moderate pulmonary hypertension. A UTI is suspected based on positive UA results and treated with levofloxacin. The patient is also started on Dulcolax for constipation and has medication changes including a decrease in prednisone and metoprolol, and an increase in sertraline to home dose. The patient's fluid balance is also monitored, with a goal of even I/O but -2L by 9 pm, leading to a fluid bolus"
+Hypotension; Diff incl sepsis; and most likely dehydration; ARF; CHF; HTN; HL; CVA; Parkinsons; ,"Diagnoses: Hypotension; Acute renal failure; Hyperkalemia.
+
+<Reasoning>
+The patient is admitted to the ICU for hypotension and acute renal failure. He has a history of hypertension, heart block, and CHF, which makes hypotension a likely differential diagnosis. Acute renal failure and hyperkalemia are also present, which could be due to dehydration or medication-induced kidney damage. The patient's prior CVA and Parkinson's disease could also be contributing factors to his current condition. Further workup is necessary to determine the underlying cause of the hypotension and acute renal failure."
+"Respiratory Failure; HAP/Aspiration PNA/sepsis; Urosepsis: E.coli bacteremia, and e.coli/providencia UTI.; Hypertension; ","Unfortunately, there is no input note provided for example 5. Could you please provide more information so that I can generate the top three direct and indirect, differential diagnoses? Thank you!"
+Acute on Chronic Diastolic Heart failure; Anemia; Thrombocytopenia; Chronic atrial fibrillation; Chronic renal failure; ,"Diagnoses: Acute Kidney Injury; Stage IV CKD; Anemia; Hypotension.
+<Reasoning> The patient's history of HTN, CHF, AFib, mild AS, and Stage IV CKD put him at high risk for complications related to kidney function. The drop in HCT and elevated creatinine suggest acute kidney injury, which could be contributing to the patient's lethargy and hypotension. The persistently hypotensive state despite fluid boluses and the need for a PICC line for pressors suggests that the patient is at high risk for hypotension-related complications. Additionally, the patient's anemia could be contributing to his lethargy and requires further investigation."
+Severe Sepsis; most likely sources are urine and C. diff; Acute Myocardial Infarction; Acute Renal Failure; Anemia; ,"Diagnoses: Acute MI; Clostridium difficile colitis; Sepsis
+
+<Reasoning> The patient is presenting with hypotension and acute MI, and is suspected to have infection leading to sepsis. The possible identified sources of infection are urine and Clostridium difficile. Therefore, the top three direct differential diagnoses include acute MI, Clostridium difficile colitis, and sepsis."
+DIABETIC KETOACIDOSIS (DKA); Tachycardia; ,"Diagnoses: DKA; Tachycardia; Nausea/vomiting
+<Reasoning> The patient was admitted with DKA, which is a direct diagnosis based on the initial presentation. The persistent tachycardia can be explained by the stress of hospitalization, as well as the initial metabolic derangements that led to DKA. The recurrent nausea and vomiting can be attributed to the residual effects of DKA or side effects of the treatment regimen."
+Hypertensive urgency; Chronic renal failure; Flank pain; ,"For Example 1:
+
+Direct Differential Diagnoses:
+1. CNS VRE
+2. LEUKOCYTOSIS
+3. ALL
+
+Reasoning: The patient has a history of CNS involvement with VRE contamination and SDH evacuation. The patient is currently afebrile and WBC count is trending downwards, which could suggest an improvement in CNS VRE. Leukocytosis is also present, which may be indicative of an underlying infection. The patient has a history of ALL, which may be contributing to the leukocytosis.
+
+Indirect Differential Diagnoses:
+1. Drug rash - the patient has a history of drug allergies with sulfa, penicillin, and Darvon, which may suggest a possible drug rash.
+2. Latex allergy - the"
+VAP; bronchiolitis obliterans; anemia; ARF; NHL s/p allo BMT c/b GVHD; ,"Diagnoses:
+Example 1: CNS VRE; LEUKOCYTOSIS; ALL
+- Direct: CNS VRE (previous Omaya removal), Leukocytosis (trending downward WBC count), ALL (subjective history).
+- Indirect: Sulfa, Penicillins, Latex, Red Dye, Darvon, Percodan, Aspirin, Aspartame, Fentanyl (medication allergies).
+
+<Reasoning> The patient has a history of recurrent ALL with CNS involvement and has undergone Omaya removal due to VRE contamination. The trending downward WBC count may indicate improving leukemia. The medication allergies may suggest possible adverse reactions to future medications. 
+
+Example 2: Intermittent, post-op hypotension; In"
+Hypoxic Respiratory failure; ARDS; VAP; VAP; Shock; ,"Example 1: 
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: Based on the patient's past medical history and current presentation, the most likely direct diagnosis is CNS VRE. The patient had a history of recurrent ALL with CNS involvement and had a previous Omaya removal due to VRE contamination. The presence of leukocytosis also supports this diagnosis. The next likely direct diagnosis is leukocytosis, which is likely related to the patient's underlying infection. The third likely direct diagnosis is ALL, which is the patient's underlying medical condition and is likely contributing to the patient's current presentation.
+ 
+Example 2: 
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR"
+Bacterial Endocarditis; ESRD on HD; HIV; Anemia; Thrombocytopenia; ,"Diagnoses: Bacterial endocarditis; Febrile illness; HIV/AIDS. 
+
+<Reasoning> The patient's history of endocarditis, fevers, and positive blood cultures strongly suggest a diagnosis of bacterial endocarditis. The patient's HIV/AIDS status increases their risk for this infection. The diarrhea and nausea/vomiting may be related to the underlying infection or the patient's ESRD and require further evaluation."
+Hypoxic Respiratory Failure; CHF/HTN; CAD; CKD; ,"Diagnoses: Acute hypoxemic respiratory failure; Flash pulmonary edema secondary to worsening CHF; CKD 
+
+<Reasoning> 
+The patient has a history of CAD, systolic/diastolic CHF with EF 40%, and CKD. The presenting complaint is acute-onset hypoxemic respiratory failure secondary to flash pulmonary edema, which could be related to the worsening CHF. The patient received 200mg IV lasix over 24 hours with net -700cc and UOP 1.6L. The upright CXR revealed decreased interstitial edema and decreased pleural effusions with no infiltrate, which supports the diagnosis of flash pulmonary edema. The patient remained stable overnight, but the PSV trial yielded a RSBI of 118"
+aspiration PNA; Anemia; Acute on Chronic Systolic CHF; Mechical AVR; ischemic bowel; HTN; DM2; ,"Diagnoses:
+1. Hypotension with Sepsis; 
+2. Ischemic Bowel; 
+3. Cardiogenic Shock
+
+<Reasoning>
+The patient has a significant medical history of CAD, systolic CHF, mechanical AVR, DM2, HTN, h/o UTI and CoNS bacteremia. The patient recently underwent small bowel resection and primary anastomosis. The patient is now admitted to the MICU with hypotension and low-grade temps. Given the history and current presentation, the top differential diagnosis would be hypotension with sepsis. The recent small bowel resection can lead to a postoperative ileus, which can cause fever and a slow recovery. The ischemic bowel can also contribute to the development of seps"
+Pneumonia; Hypotension; Diabetes; Leukocytosis; ESRD; Coronary artery disease; ,"Diagnoses: Hypotension; Pneumonia; Pulmonary Embolism; ESRD on PD; DM2 
+
+<Reasoning> Hypotension and pneumonia are direct diagnoses based on the initial presentation and admission diagnosis. Pulmonary embolism is an indirect diagnosis because it was found incidentally while evaluating the patient for hypotension. ESRD on PD and DM2 are indirect diagnoses based on the patient's medical history."
+ARF; Sepsis; pna; Peritonitis; CHF; Anemia; Hepatitis C Cirrhosis; Thrombocytopenia; ,"Diagnoses: Peritonitis; Cholecystitis; Hepatic Encephalopathy; Cirrhosis; Hyperkalemia
+
+<Reasoning>
+The patient's history of cirrhosis and esophageal varices, combined with diffuse abdominal pain and peritonitis, suggests that there is a hepatic cause for the patient's current condition. The CT scan also reveals extensive ascites and a massively distended gallbladder, which could suggest cholecystitis. Additionally, the patient's history of ESRD on hemodialysis and use of lactulose and midodrine suggest hepatic encephalopathy as a possibility. The patient's hyperkalemia and need for CVVH further support the possibility of hepatic dysfunction."
+"DOE/hypoxia: Likely multifactorial with CHF, COPD, possible LLL
+   infiltrate; AS; Afib; Hypotension; ","Diagnoses: Critical aortic stenosis; CHF exacerbation; COPD exacerbation
+
+<Reasoning>
+The patient's presentation with DOE/SOB, hypoxia, and LLL infiltrate strongly suggests exacerbation of COPD and CHF. However, the critical aortic stenosis and transient hypotension are also concerning and could be contributing factors to the patient's symptoms. These three differential diagnoses should be considered and further evaluated in the CCU."
+Hypoxic respiratory failure; ARDS; pneumonia; sepsis; DM; HTN; Asthma; ,"Diagnoses: Hypoxemic respiratory failure; Post-operative wound infection; Hypertensive emergency.
+
+<Reasoning> In the first example, the patient has CNS VRE, leukocytosis, and recurrent ALL. The leukocytosis may be related to ALL, but other possibilities such as CNS infection should be considered. In the second example, the patient has a history of intermittent post-op hypotension, infiltrate on CXR, thrombocytopenia, and cryptogenic cirrhosis c/b variceal bleed, which may be the underlying cause of hypotension. In the third example, the patient has atrial and ventricular ectopy, a L hilar mass/brain mass, hypoxic respiratory failure, weakness over right UE/LE, and sch"
+"afib; Respiratory Failure; flash pulmonary edema; Acute dCHF; severe pulmonary
+   hypertension; severe sarcoid; NSTEMI; Diabetes type 2; Anemia; Dyslipidemia; ","Diagnoses: Acute diastolic heart failure; Flash pulmonary edema; Afib with RVR.
+
+<Reasoning> The patient has a history of Afib with RVR, and is currently in Afib with fast rate despite several attempts to control the rate with medications. The patient also has acute diastolic heart failure and flash pulmonary edema, which may be contributing to the hypotension and fluid overload seen in the patient."
+Hypoxia:  Pt with evidence of volume overload; mucus plugging; Delirium; C. diff colitis; ,"Diagnoses: Altered mental status; Tachycardia with episodes of bradycardia; C. diff colitis
+
+<Reasoning>
+The patient's altered mental status and tachycardia with episodes of bradycardia could be due to a variety of reasons, such as infection, medication side effects, or underlying medical conditions. Given the patient's history of C. diff colitis, this could be a contributing factor. Additionally, the patient's chronic pain and poor nutritional status on TPN may also be playing a role. Further evaluation and testing would be needed to confirm or rule out these potential causes.
+
+In summary, the top three direct and indirect differential diagnoses for each example are:
+Example 1:
+Direct: CNS VRE; LEUKOC"
+"Fever, sinus tachycardia:  Most likely infectious in etiology; Hypoxia: most likely due to volume overload; AIDS; myopericarditis; ","Diagnoses: Pericardial tamponade; Febrile illness with tachycardia; Advanced AIDS
+
+<Reasoning>
+The patient's history of advanced AIDS with a severely low CD4 count puts him at risk for opportunistic infections and associated complications. The worsening sternal chest pain and fevers with shaking chills suggest a febrile illness. The rapidly advancing pericardial effusion with tamponade physiology is a medical emergency that requires immediate intervention. The patient's sinus tachycardia and hypoxia also indicate significant cardiopulmonary compromise. The AFB (-) x 3 and negative cultures suggest that the patient's condition may not be due to an infectious etiology, but rather to his underlying immunocompromised state."
+"Multifactorial shock
+ now off pressors; attributed to sepsis (with
+   likely sources being nonhealing skin wounds and pneumonia; Acute on chronic renal failure; Thrombocytopenia; Anemia; PVD with bilateral LE cellulitis/ulcers; DM; Afib; DVT; ","Diagnoses: Beta streptococcal bacteremia; Septic shock; Acute kidney injury (ATN)
+
+<Reasoning> The patient presents with beta streptococcal bacteremia, which is a serious bacterial infection that can lead to sepsis and septic shock. This is supported by the patient's chief complaint of respiratory failure and shock. The patient's underlying conditions, including DM, PVD, and chronic nonhealing LE ulcers, also put him at high risk for sepsis. Septic shock can lead to acute kidney injury, which is evident from the patient's history of ATN requiring hemodialysis."
+Airway compromise/Anterior Neck Collection: H/o subglottic stenosis; PNA; CAD; CHF/Cardiomyopathy; Afib/CVA; DM; ,"Diagnoses: Subglottic stenosis; CHF exacerbation; Multi-focal pneumonia. 
+
+<Reasoning>
+Subglottic stenosis is a known complication of multiple intubations and can cause respiratory distress, which is consistent with the patient's presentation of shortness of breath and stridor. CHF exacerbation is supported by the patient's low EF and presence of fluid collection in the anterior neck, which is likely due to pulmonary edema. Multi-focal pneumonia is a common complication in patients with CHF and can cause respiratory symptoms as well."
+Hypotension; Anemia: Pt with drop in hct s/p debulking of necrotic mets; Ovarian Cancer; ,"Diagnoses: Postoperative respiratory failure; Bowel obstruction; Ovarian cancer
+<Reasoning> The patient's chief complaint of respiratory failure suggests a primary diagnosis of postoperative respiratory failure. Additionally, the patient's recent surgery for bowel obstruction and newly diagnosed ovarian cancer are potential contributing factors. The patient's history of intubation and use of sedation also support this diagnosis. Bowel obstruction and ovarian cancer are indirect differential diagnoses, as they could contribute to the patient's respiratory failure."
+"Pericardial effusion: Possible etiologies include malignant (given
+   history of pancreatic CA), infectious (viral vs. TB), or idiopathic; Anemia; Pancreatic cancer; ","Diagnoses: Pericardial effusion with tamponade; Acute renal failure; Hemolysis
+
+<Reasoning> 
+Pericardial effusion with tamponade: The patient is presenting with symptoms of pericardial effusion with early tamponade which was confirmed on pericardiocentesis. The patient also has >100 cc pericardial fluid over the past 24 hours. 
+Acute renal failure: The patient's renal function is deteriorating as evidenced by the presence of hyaline and granular casts in the urine and recommendation for glomerulonephritis serologies. 
+Hemolysis: The patient's blood smear is showing some schistocytes and hemoglobin levels have decreased from 25.8 to "
+Sepsis; Pneumonia; Atrial fibrillation with RVR; Hypernatremia; Hypokalemia; ,"Diagnoses: LLL pneumonia; Sepsis; Respiratory failure
+
+<Reasoning>
+For example 1, the direct diagnoses include CNS VRE, LEUKOCYTOSIS, and ALL. The patient's recent surgery for SDH evacuation and Omaya removal due to VRE contamination suggests the presence of CNS VRE. The decreasing trend of WBC count indicates leukocytosis which may be due to the underlying condition of ALL. 
+
+For example 2, the direct diagnoses include intermittent, post-op hypotension, infiltrate on CXR, thrombocytopenia, cryptogenic cirrhosis c/b variceal bleed, and DM2. The patient's previous medical history suggests the presence of these conditions. The hypotension could be due to"
+"VT; Transaminitis: Elevated transaminases, LDH concerning for medication
+   toxicity (amiodarone) versus viral etiology versus shock liver; acute renal failure; hypernatremia; ","Diagnoses: VT storm; Chronic ischemic dilated cardiomyopathy; Ventricular bigeminy 
+
+<Reasoning> The patient presents with a history of ischemic dilated cardiomyopathy with an EF of 20%, and an ICD placement, which puts him at high risk of developing VT storms. The presence of VT storm is supported by the documentation in the note. The ventricular bigeminy observed on telemetry is also concerning and may indicate further arrhythmia issues. These conditions need to be monitored closely and managed to prevent further adverse events."
+Hypoxic respiratory failure: Etiology ARDS [**1-13**] flu.; R ankle fracture s/p ORIF; ,"For Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient has a history of ALL with CNS involvement, and is currently recovering after undergoing Omaya removal due to VRE contamination and SDH evacuation. The patient is afebrile and trending downwards on WBC count, which suggests a resolving CNS VRE infection. However, the patient also has leukocytosis, which could indicate a systemic infection or a relapse of ALL. Therefore, CNS VRE, leukocytosis, and ALL are the most likely differential diagnoses. The list of drug allergies and adverse reactions provided can help guide appropriate treatment and avoid adverse reactions.
+
+For Example 2:
+Diagnoses: Intermittent, post-op hyp"
+Febrile neutropenia; Altered mental status; NSCLC; ,"Diagnoses: Febrile neutropenia; Altered mental status; History of NSCLC
+
+<Reasoning> The patient's recent history of NSCLC treatment with chemotherapy and current febrile neutropenia suggests an underlying infection and compromised immune system. The altered mental status could be a sign of sepsis or CNS involvement. These are the primary concerns for this patient, and further evaluation and treatment are necessary to determine the specific cause and course of action. Allergies noted may impact future treatment decisions."
+Atrial Fibrillation; bradycardia from likely BB or CCB toxicity; Anemia; ,"Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient has a history of recurrent acute lymphocytic leukemia (ALL) with CNS involvement, as well as a VRE-contaminated Omaya reservoir that was removed. The patient's WBC count is trending downward, suggesting an underlying leukocytosis. 
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cyrptogenic cirrhosis c/b variceal bleed:; DM2
+<Reasoning>: The patient has a history of dCHF, CAD, a-fib, HTN, DM2, ESRD"
+respiratory failure; Septic shock; ,"Diagnoses: Cholangitis; Respiratory failure; Septic shock
+
+<Reasoning>
+Cholangitis is a likely direct differential diagnosis given the patient's history of choledocholithiasis and recent ERCP with stenting. Respiratory failure is another direct diagnosis as the patient is presenting with dyspnea and vomiting, and their course is complicated by respiratory distress. Septic shock is also a direct diagnosis based on the patient's presentation and septic workup. Other potential indirect diagnoses could include dementia and renal cancer, both of which could have contributed to the patient's presentation and medical history."
+"GIB-likely secondary to recurrence of CA; Soft tissue mass causing renal
+   obstruction and hydronephrosis; Metastatic cancer- History of colon and breast ca; Renal failure; Hypothyroid; ","Diagnoses: # Renal cell carcinoma; Hematuria; Hypothyroidism. 
+
+<Reasoning> The patient has a history of breast and colon cancer, which puts her at increased risk for developing renal cell carcinoma. The L.flank pain and hematuria suggest a possible kidney tumor. The reported hematuria and brbpr intermittently for 1 month support the diagnosis of hematuria. The patient's history of hypothyroidism may also be contributing to her symptoms. The drop in HCT indicates possible bleeding, which may be related to the reported hematuria or potentially to a complication of the patient's past history of PE. The transfusion of 1 unit of pRBCs and INR of 2 indicate potential bleeding that may be related"
+DKA and newly diagnosed diabetes; Lactic acidosis; ARF; Leukocytosis; Asthma; ,"Diagnoses: Diabetic ketoacidosis; Hypovolemia; Asthma
+<Reasoning> The patient presents with hyperglycemia and significant lactic acidosis, indicating diabetic ketoacidosis. Additionally, there is laboratory and clinical evidence of hypovolemia, which could be due to multiple factors such as dehydration or third spacing of fluids. The patient also has a history of asthma, which may contribute to their respiratory status and potential complications during treatment."
+VAP; Acute respiratory failure; s/p ORIF; ,"Diagnoses: Recurrent aspiration; Acute respiratory failure; VAP/ARDS 
+
+<Reasoning> The patient has a post-op course notable for recurrent aspiration and acute respiratory failure, and was transferred to the current hospital for consideration of trach/G tube. The patient then had VAP/ARDS. These indicate a potential for recurrent aspiration, leading to acute respiratory failure and VAP/ARDS."
+Acute on chronic systolic CHF: Secondary to ischemic cardiomyopathy; CAD; Acute on Chronic Renal Failure:; Atrial Flutter; ,Diagnoses: Acute on chronic renal failure; Cardiomyopathy with low EF; Atrial flutter with rapid ventricular response
+Sepsis; Bacteremia; DKA; HTN; ,"Diagnoses: DKA; GPC bacteremia; HTN; Gastroparesis; DMI
+  
+<Reasoning> The patient presents with diabetic ketoacidosis (DKA) which is a common complication in patients with type 1 diabetes. Additionally, the patient has GPC bacteremia which is likely secondary to the patient's history of gastroparesis, a known risk factor for bacterial overgrowth. The patient also has a history of hypertension (HTN) and multiple admissions for DKA, further supporting the diagnosis of uncontrolled diabetes."
+"Hypotension
+   concerning for sepsis without a clear source; Transaminitis:  Acute viral hepatitis is a possibility; ","Diagnoses: Fever of unknown origin; Headache; Dry cough 
+
+<Reasoning> The patient presents with a fever, headache, and dry cough which are all nonspecific symptoms, making it difficult to pinpoint an exact diagnosis. Given the duration of symptoms, it's likely that the patient has an infectious etiology. Differential diagnoses could include viral respiratory infection, bacterial pneumonia, or atypical pneumonia such as Legionella or Mycoplasma. Additional workup, including chest x-ray and blood cultures, would be necessary to narrow down the potential diagnoses."
+"Anemia; pancytopenia; Possible
+   high output right heart failure from prolonged anemia; volume overload; ","Diagnoses: Pancytopenia with hemolysis; Autoimmune thyroiditis; Anasarca
+
+<Reasoning>
+The patient's presentation with six weeks of progressive anasarca, elevated bilirubin, and pancytopenia with hemolysis could indicate underlying conditions such as autoimmune disorders, viral infections, and drug reactions. The finding of B12 deficiency and the need for folate and vit K suggests a possible nutritional deficiency. The elevated bilirubin may be indicative of liver dysfunction or gallbladder disease. The endocrine recommendation for autoimmune thyroiditis and thyroid Abs suggests a possible autoimmune component. The use of lasix for goal (-) one liter suggests the patient may have fluid overload or edema. The transfusion of PRBCs for low H"
+MRSA PNA; VAP; sinusisitis v mastoiditis; Atrial Fibrillation; ,"Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient has a history of ALL with CNS involvement, which is the most direct diagnosis. She also has a history of VRE contamination and SDH evacuation. The leukocytosis may be related to her underlying malignancy and the recent surgery. 
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cyrptogenic cirrhosis c/b variceal bleed:; DM2
+<Reasoning>: The patient has a history of multiple comorbidities, including dCHF, CAD, atrial fibrillation, HTN, DM"
+Afib; anemia; Metastatic breast cancer s/p craniotomy; ,"Diagnoses: Metastatic breast cancer to head; Persistent headache; Peripheral neuropathy
+<Reasoning> The patient's history of metastatic breast cancer to the head and the persistent headache indicate the possibility of metastasis in the brain. The patient's peripheral neuropathy could be a side effect of chemotherapy."
+"Rhythm - Paient with Afib/flutter with RVR; Respiratory Failure - Patient with acute pulmonary edema; subclinical thyrotoxicosis or TSH
+   artifact; DM2; Hypertension; ","Diagnoses: Atrial fib/flutter with RVR and respiratory distress; Mitral regurgitation with pulmonary hypertension; Subclinical thyrotoxicosis/TSH artifact 
+
+<Reasoning> 
+The patient presents with atrial fib/flutter with RVR and respiratory distress, indicating a potential underlying heart condition. The ECHO shows LVEF > 55% with 2+ MR, mild PA hypertension (TA gradient 27 mm Hg), suggesting mitral regurgitation with pulmonary hypertension. Additionally, the patient has a differential diagnosis of subclinical thyrotoxicosis or TSH artifact due to nonthyroidal illness, which can contribute to the patient's atrial fib/flutter."
+PNA; ARF; Transaminitis; DM; ,"Diagnoses: Respiratory failure; Asthma secondary to H1N1; Encephalopathy
+<Reasoning>: The patient's presenting symptoms of respiratory distress and H1N1 indicate respiratory failure and asthma as potential diagnoses. Additionally, the patient's history of encephalopathy may also contribute to respiratory failure and necessitate further investigation."
+Embolism; Atrial Fibrillation; COPD; CAD/CHF; ,"For Example 1:
+Direct diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+Indirect diagnoses: VRE infection, SDH
+<Reasoning> The patient has a history of recurrent ALL with CNS involvement and has undergone Omaya removal due to VRE contamination and SDH evacuation. The patient is currently improving with a downward trend of WBC count, indicating that leukocytosis is resolving. The recent femoral line change and negative c diff tests suggest that CNS VRE is still a possibility. The patient's medication history shows a history of drug allergies and reactions, which may contribute to the differential diagnosis of ALL.
+
+For Example 2:
+Direct diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thromb"
+Pneumonia; Sepsis; Atrial fibrillation; Anemia; Alzheimer's Disease; Hypothyroidism; ,"Diagnoses: Sepsis; Hypothyroidism; History of PNA 
+
+<Reasoning> The patient presents with sepsis, which is a life-threatening condition caused by an overwhelming immune response to an infection. This is supported by the patient's recent hospitalization for pneumonia. The patient also has a history of hypothyroidism, which can increase the risk of infections. Additionally, the patient's Alzheimer's disease may further complicate her ability to fight off infections. These factors make sepsis a likely diagnosis. The patient's history of PNA also increases the suspicion for infection."
+"Respiratory Failure; hypotensive: ddx sepsis versus hypovolemia versus
+   cardiogenic shock; GI bleed/elevated INR; CAD; Afib s/p CVA; ","Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient's history of recurrent ALL with CNS involvement and recent surgical intervention to remove Omaya due to VRE contamination suggests that there may be a CNS VRE infection present. Additionally, the patient's leukocytosis indicates a possible infection or inflammation. The history of ALL also warrants consideration as a possible cause of the patient's symptoms.
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cyrptogenic cirrhosis c/b variceal bleed:; DM2
+<Reasoning>: The patient's history of dCHF, CAD,"
+Neurologic deterioration:; Respiratory failure: [**1-4**] neuromuscular weakness and overlying PNA; HAP; ,"Diagnoses: #Progressive neurological deterioration; #Aspiration pneumonia; #White matter changes on MRI. 
+
+<Reasoning> The patient presents with a history of progressive neurological deterioration over the past 6 months and has been admitted to ICU with aspiration pneumonia requiring intubation. The MRI shows ill-defined white matter changes of unclear cause, and further testing (14-3-3 urine test and CSF analysis) is pending. The patient is agitated with tachycardia requiring the restart of fentanyl and versed gtt, and the family meeting is scheduled to discuss the patient's condition. Overall, the patient's neurological deterioration and white matter changes on MRI raise concerns for a potential neurological disorder or pathology that needs further workup and management."
+ALTERED MENTAL STATUS; SYSTEMIC LUPUS ERYTHEMATOSUS (SLE); HEART FAILURE (CHF); CORONARY ARTERY DISEASE; Acute Systolic Congestive Heart Failure; SLE; ,"Diagnoses: Altered mental status; BiV Hypokinesis with EF of 20%; Fever 
+
+<Reasoning> 
+The patient has presented with altered mental status, which can be attributed to multiple underlying conditions. The patient has a history of SLE with cryoglobulinemia vasculitis, CAD s/p MI and stenting, and a low EF of 20%, which increases the risk of cerebrovascular accidents. The echo shows BiV hypokinesis with a low EF of 20%, which indicates cardiomyopathy and heart failure, that can lead to cerebral hypoxia and altered mental status. Additionally, the patient has a fever of 102.9 F, which could be due to a possible infection. A thorough workup for sepsis should be considered"
+Hypertensive Urgency; ESRD; SLE; ,"Example 1:
+Diagnoses: CNS VRE; Leukocytosis; ALL
+<Reasoning>: The patient has a history of recurrent ALL with CNS involvement and has undergone a procedure to remove Omaya due to VRE contamination and SDH evacuation. She is now doing well and afebrile, with her WBC count trending downward. Her medication history includes Sulfa, Penicillin, Latex, Red Dye, Fentanyl, and other drugs. The leukocytosis could be related to the underlying ALL, and the CNS VRE may still be a concern. The patient may also need monitoring for possible drug reactions due to her extensive medication history.
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltr"
+Hypotension; colostomy; Oligura; ATN secondary to hypotension; Atrial fibrillation; Chronic diastolic heart failure; ,"Diagnoses: Hypotension; Diastolic heart failure; Renal insufficiency.
+
+<Reasoning> The patient's history of diastolic heart failure and ESRD on hemodialysis are potential causes for hypotension and low UOP postoperatively. The use of hydrocortisone and acetaminophen for pain control may exacerbate hypotension. The use of methadone may also have a significant effect on blood pressure. The patient's oliguria indicates the possibility of renal insufficiency, which could exacerbate the hypotension."
+"Ventricular Tachycardia: Likely result of scarring from ebstein
+   anomaly/repairs; Possible drug fever given
+   persistent fever with no pos. cx data; Hypernatremia; Congestive Heart Failure; Transaminitis: Multifactorial from shock liver, CHF and amiodarone; ","Diagnoses: Ebstein's anomaly with tricuspid valve reconstruction; Ventricular tachycardia; Hypoxic and hypercarbic respiratory failure; Sinusitis
+
+<Reasoning>
+The patient's history of Ebstein's anomaly with tricuspid valve reconstruction and systolic congestive heart failure puts him at risk for ventricular tachycardia, which is the likely cause of his presentation. The patient is intubated with hypoxic and hypercarbic respiratory failure, indicating possible respiratory compromise or infection. The presence of persistent fever and new sinusitis on CT scan suggests a possible bacterial or fungal infection, and the need to rule out other systemic causes of fever with additional tests."
+Respiratory failure; Shock; Renal failure; ,"Diagnoses:
+ Example 1: CNS VRE; Leukocytosis; ALL
+ - CNS VRE: the patient has a history of recurrent ALL with CNS involvement and recent treatment with an Omaya, which was removed due to VRE contamination. It is possible that the VRE may have spread to the CNS causing a CNS infection.
+ - Leukocytosis: the patient is experiencing a trending down in WBC count, but leukocytosis may still be a concern due to the patient's history of ALL.
+ - ALL: the patient has a history of ALL, which may be a contributing factor to their current presentation.
+
+ Example 2: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia"
+Febrile neutropenia; labial cellulitis/abscess; Hypotension; Mantle cell lymphoma; ,"Diagnoses: Febrile neutropenia; Cellulitis with skin breakdown; Thrombocytopenia 
+
+<Reasoning> The patient is a 60-year-old woman with a history of mantle cell lymphoma who presents with febrile neutropenia and hypotension, likely due to her recent chemotherapy treatment. The patient has a documented fever and has had blood cultures drawn. She also has worsening labial cellulitis with skin breakdown, indicating a bacterial infection. Additionally, her platelet count is low, which could contribute to her bleeding risk. Therefore, the top three differential diagnoses would be febrile neutropenia, cellulitis with skin breakdown, and thrombocytopenia. Further workup and treatment will depend on the results of blood cultures and"
+"Dens Fx, nondisplaced C1/C2/C6 fx, left C3 trans process fx; Facial laceration/right lower eye lid laceration; ","Diagnoses: Acute traumatic C-spine injury; Hypovolemic shock; Diabetes Mellitus
+ <Reasoning> The patient had a traumatic fall with multiple fractures including a type 2 dens fracture and nondisplaced C1/C2/C6 fracture, left C3 trans process fracture and a facial laceration. Based on the patient's low urine output and history of ESRD, the patient is likely in hypovolemic shock. Additionally, the patient has a history of type I DM and is on a hypoglycemia protocol, suggesting that the patient may be experiencing uncontrolled hyperglycemia. Finally, the patient will need further evaluation for possible cervical spinal cord injury given the mechanism of injury and the finding of multiple fractures."
+Respiratory Failure; idiopathic pneumonitis; LYMPHOMA; SEPSIS; ,"Diagnoses: Febrile neutropenia; Respiratory failure with diffuse ground glass opacities; Organizing pneumonitis.
+
+<Reasoning>
+Febrile neutropenia is a common complication in patients receiving chemotherapy for cancer. It can be caused by various infections, including bacterial, fungal, and viral infections. Respiratory failure with diffuse ground glass opacities can be caused by various conditions, including pneumonia, alveolar hemorrhage, or organizing pneumonitis. In this case, since definitive culture results have not yet been obtained, we cannot rule out the possibility of non-infectious causes such as organizing pneumonitis. Therefore, this should be considered as a differential diagnosis."
+ARDS; Hypotension; Renal Failure; Liver Failure:  alcoholic hepatitis and cirrhosis; Anemia; ,"Diagnoses: Alcoholic hepatitis; Septic Shock; ARDS/ARF
+
+<Reasoning>: The patient presents with a history of alcohol abuse and current alcoholic hepatitis. They also have a history of shock, ARDS/ARF, and are on CVVH. The CT scan was done due to persistent fevers and some clots were noted in their stool. Based on these findings, the top differential diagnoses are septic shock, ARDS/ARF, and alcoholic hepatitis."
+Respiratory failure:  Known HAP; AMS; History of DVT; History of lung cancer (NSCLC); ,"For example 1: 
+
+Direct diagnoses: CNS VRE; Leukocytosis; ALL
+- CNS VRE due to the patient's prior history of CNS involvement with VRE contamination.
+- Leukocytosis due to the high WBC count trending downward.
+- ALL due to the patient's history of recurrent ALL.
+
+Indirect diagnoses: Drug allergy 
+- Possible drug allergies to Sulfa, Penicillins, Latex, Red Dye, Aspartame, and Fentanyl based on reported reactions. 
+
+<Reasoning> The patient's history of CNS involvement with VRE contamination, high WBC count trending downward, and history of recurrent ALL suggest a possible CNS VRE infection and uncontrolled ALL. The reported drug allergies also need to be considered when prescribing medications"
+Dyspnea: Differential includes COPD exacerbation; Leukocytosis; ,"Diagnoses: Persistent dyspnea c/b COPD; Respiratory acidosis c/b COPD exacerbation; BiPAP intolerance
+
+<Reasoning> For example 5, the top three direct and indirect differential diagnoses would be hypertensive emergency as the direct diagnosis, while chest pain, ESRD on hemodialysis, and type I DM can be considered as indirect differential diagnoses. For example 4, the direct diagnosis would be hypoxic respiratory failure due to pulmonary embolus, while recent right thalamic hemorrhagic CVA would be an indirect differential diagnosis. For example 3, the direct diagnosis would be atrial and ventricular ectopy, while L hilar mass/brain mass and schizoaffective disorder would be indirect differential diagnoses. For example 2,"
+Hypercapnic Hypoxemic respiratory failure; MSSA pneumonia; Hypertension; renal failure; PVD; PVD; Diabetes; Hyperlipidemia; ,"Diagnoses: Hypercapnic respiratory failure; Chronic renal failure; PVD
+<Reasoning> This patient's presentation is consistent with hypercapnic respiratory failure, which could be due to her chronic renal failure and history of recent pneumonia. Her history of PVD could also contribute to her respiratory compromise."
+Sigmoid abscess; Multi-Organism Bacteremia:; Pauci-Immune Pulmonary Vasculitis; Anemia; ,"Diagnoses: Refractory sigmoid abscess; Pauci-immune pulmonary vasculitis; Hypoxemic respiratory failure
+
+<Reasoning> 
+For example 1, the patient's recurrent acute lymphoblastic leukemia with central nervous system involvement and recent surgery to remove Omaya due to VRE contamination and subdural hematoma evacuation are potential direct differential diagnoses. The patient's leukocytosis and previous history of ALL suggest recurrence as a possibility. The patient's sulfa allergy and previous rash to penicillin and latex make those potential indirect differential diagnoses.
+
+For example 2, the patient's post-op hypotension, infiltrate on CXR, and history of thrombocytopenia are potential direct differential diagnoses. The patient's cryptogenic cirrhosis with var"
+PNA vs. pulmonary edema; atelectasis with small bilateral pulmonary effusions; S/P STEMI; Appears to be in failure; AF; Anemia; Post op ileus; ,"Diagnoses: STEMI; CHF; Atrial fibrillation; ARF; Ileus.
+
+<Reasoning> The patient has a past medical history significant for CAD and MI, and is now presenting with STEMI following spinal surgery. The course has been complicated with pulmonary edema c/w CHF, atrial fibrillation, ARF, and ileus. The patient also had a fever and chest CT was performed showing no focal consolidation concerning for PNA, small bilateral effusions, atelectasis, and mild congestion. Thus, the direct differentials would be STEMI, CHF, atrial fibrillation, ARF, and ileus."
+"Shock: with components of Sepsis and hypovolmia. Has known lingular
+   PNA; Hypernatremia; ARF; Leukocytosis; Anemia; dementia; ","Example 1:
+
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+
+<Reasoning> The patient has a history of recurrent ALL with CNS involvement and has undergone Omaya removal due to VRE contamination and SDH evacuation. The patient is now doing well and trending downward in WBC count. The leukocytosis could be attributed to the patient's history of ALL. CNS VRE is also a direct differential diagnosis given the patient's history of VRE contamination.  
+
+Example 2:
+
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cyrptogenic cirrhosis c/b variceal bleed:; DM2
+
+<Reasoning> The patient"
+Sepsis; GNR bactermia; CLL; ,"Diagnoses: Gram-negative bacteremia; Febrile neutropenia with sepsis; Hypotension
+<Reasoning> The patient's history of CLL and neutropenia predisposes her to sepsis and bacteremia. The presence of hypotension suggests a vasodilatory state, which is likely secondary to the GNR bacteremia. The source of the infection is unknown at this point, but the urine and/or GI tract are likely candidates. The patient's bloody diarrhea may suggest a possible entero-invasive bacterial infection, which could also be the source of the bacteremia."
+Neutropenic Fever/Sepsis; GIB; Aplastic anemia; Lymphoplastmocytic lymphoma; ,"Example 1: 
+Direct: CNS VRE; LEUKOCYTOSIS; ALL
+Indirect: Medication allergy/Drug reaction
+
+Reasoning: The patient has a history of ALL with CNS involvement and has undergone Omaya removal. She is recovering and afebrile, but her WBC count is trending downwards, indicating leukocytosis. The patient has a sulfonamide allergy, which is relevant to her current treatment. Additionally, she has a history of medication allergies and drug reactions. 
+
+Example 2: 
+Direct: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cryptogenic cirrhosis c/b variceal bleed:; DM2
+Indirect: 
+
+Reason"
+"Cardiac arrest (PEA or ?bradycardic); Altered mental status/unresponsiveness
+ most likely hypoxic brain
+   injury; Respiratory failure; ","Diagnoses: PEA arrest with unknown etiology; Intraventricular hemorrhage; Cardiomyopathy; CHF; Afib
+
+<Reasoning> The patient presented with a PEA arrest with unknown etiology which could be due to various reasons like electrolyte disturbances, arrhythmias, MI, pulmonary embolism, or sepsis. The patient also has a history of intraventricular hemorrhage which could have caused neurologic deficits leading to unresponsiveness. The patient's PMH of cardiomyopathy, CHF, and Afib could have also contributed to the patient's cardiac arrest."
+Respiratory distress: Secondary to COPD exacerbation; ,"Diagnoses: COPD exacerbation; Respiratory distress; Arterial line stop 
+
+<Reasoning>
+Direct differential diagnoses for this patient include COPD exacerbation and respiratory distress, as the patient has a history of COPD and is admitted with respiratory distress. The presence of an arterial line stop also needs to be addressed. 
+
+The indirect differential diagnosis could be sepsis or infection as respiratory distress and COPD exacerbation can be caused by infections such as pneumonia. Additionally, a potential blood clot or pulmonary embolism should be ruled out as a cause of respiratory distress. Further workup may be needed to determine the underlying cause of respiratory distress and arterial line stop."
+"RLL opacity possible effusion, collapse, pna; sepsis; Thrombocytopenia; MDS; Acute Renal Failure; HIV; C. Difficile Colitis; Adrenal Insufficiency; ","Diagnoses: Sepsis; Adrenal insufficiency; Hepatic infarct
+
+<Reasoning>
+1. Sepsis: The patient has been started on broad-spectrum antibiotics for unknown source of sepsis. The high WBC count and need for pressor support also suggest sepsis as a possible diagnosis.
+2. Adrenal insufficiency: The patient has a recent diagnosis of adrenal insufficiency and is at increased risk for adrenal crisis in the setting of stress such as sepsis and hypotension.
+3. Hepatic infarct: The abdominal CT scan shows a hyperdensity/wedge-shaped area in the liver which could be consistent with a hepatic infarct. This is a possible cause for the patient's hypotension and renal"
+Cryptococcal Meningitis; HIV; ,"Diagnoses: Cryptococcal meningitis with increased lumbar pressures; CSF infection; Fever of unknown origin
+
+<Reasoning>
+The patient has a history of recurrent cryptococcal meningitis and increasing lumbar pressures, which is consistent with the diagnosis of cryptococcal meningitis with increased lumbar pressures. The patient has a fever and pan cultures have been ordered, indicating the possibility of a systemic infection. The plan to extubate in the morning and the involvement of dermatology and gastroenterology suggests the possibility of a more complex medical issue."
+HEART FAILURE (CHF); HYPERTENSION; cardiogenic shock; Anemia; SEIZURE; Hypothyroidism; ,"Diagnoses: Acute myocardial infarction; Seizure; Tachypnea/hypoxemia; Gastroparesis 
+
+# Reasoning:
+- Acute myocardial infarction: The patient presented with chest discomfort, N/V, and subsequently coded in the setting of an AMI. The SVT episode also supports this diagnosis.
+- Seizure: The patient coded in the setting of a seizure, suggesting a possible underlying seizure disorder or acute event.
+- Tachypnea/hypoxemia: The patient was initially tachypneic and required invasive ventilation but was able to wean off heliox onto 02 NC. Additionally, the patient was hypoxic during the episode of SVT, indicating potential respiratory distress.
+- Gastroparesis:"
+Hypoxia. Meets criteria for ARDS; PNA; ARF; Leukocytosis; ,"Diagnoses: Hypoxia; Sepsis; Urinary Tract Infection
+
+<Reasoning>
+Hypoxia is the primary concern based on the chief complaint and admission diagnosis of PNA. Sepsis is a common complication of pneumonia and is also supported by the positive urine culture. Urinary Tract Infection is a common source of sepsis in patients with indwelling catheters such as those with ESRD on HD, and can also contribute to hypoxia. Allergies are noted for future medication management."
+Respiratory distress; DM; ,"Diagnoses: Respiratory distress; Tracheobronchomalacia; Recent Y-stent removal.
+ 
+<Reasoning>: The patient has a recent history of tracheobronchomalacia from multiple intubations and removal of Y-stent two days ago. This can cause narrowing of the airways and lead to respiratory distress. The recent removal of Y-stent could have further worsened the condition."
+"heart failure secondary to ischemic event or
+   pulmonary infection; bradycardia/heart block: new Weinkeboch; Diabetes Mellitis; ","Diagnoses: Pulmonary embolism; Right heart strain; Dilated cardiomyopathy
+
+<Reasoning> The patient presents with shortness of breath, which could be a result of pulmonary embolism. The CTA scan detected a PE in the right lung, which could be responsible for the symptoms. Additionally, there is evidence of right heart strain on CT, indicating the presence of a significant pulmonary embolus. The patient's history of dilated cardiomyopathy may have predisposed her to this complication. Furthermore, the low T4 level suggests a possible thyroid disorder that could contribute to the presentation. Finally, the elevated PTT, although not conclusive, raises suspicion for a clotting disorder, which could be contributing to the patient's symptoms. Overall, these findings support the"
+"Hypercarbic respiratory failure - Likely multifactorial [**1-26**] to GVHD,
+   bronchiolitis obliterans; Non-Hodgkin's lymphoma s/p allo BMT, GVHD; ","Diagnoses: Hypercarbic respiratory failure; Worsening leukocytosis; GVHD/BO with severe baseline lung disease and CO2 retention.
+
+<Reasoning> The patient's chief complaint and current hospitalization are related to hypercarbic respiratory failure, likely due to his underlying severe lung disease and history of GVHD/BO. Worsening leukocytosis may suggest an infection or worsening of his baseline condition. The patient's medical history, including type I DM and ESRD on hemodialysis, may contribute to his hypertension and require close monitoring and management."
+Unresponsive episode:; Chronic systolic heart failure; ESRD; DM2; HTN; ,"Example 5:
+ Diagnoses: Hypertensive emergency; Hypoglycemia; CKD5; CHF
+ 
+<Reasoning> The patient's presenting complaint of hypertensive emergency and past medical history of ESRD, DM2, and CHF indicate the possibility of worsening renal function leading to hypertensive crisis. The hypoglycemia could be contributing to the elevated blood pressure as well. CKD5 is a major risk factor for hypertension, and can also exacerbate other conditions like CHF. 
+ 
+Example 6:
+ Diagnoses: PEA arrest; Intraperitoneal fluid with right lower pole mass; Phthisis bulbi; Left UE edema
+ 
+<Reasoning> The patient's PEA arrest is a significant acute event that could have a"
+"hypoxia
+   multifactorial: combination of post-op atelectasis, emphysema, and PNA; Bowel ileus; scrotal hematoma; acetabular fx; post-op afib; Hematuria:; ","Diagnoses: Acute post-operative hypoxia; Atelectasis; Pneumonia; Scrotal and suprapubic hematoma. 
+
+<Reasoning> The patient is an elderly male with a history of significant tobacco use, and recent surgery for an acetabular fracture. The note mentions that the patient is experiencing post-operative hypoxia, which could be due to atelectasis or pneumonia. Additionally, the patient has a large scrotal and suprapubic hematoma, which could indicate a bleeding disorder or trauma."
+Sepsis; aspiration pneumonia; Hypoxia: Likely secondary to pneumonia; ARF; stroke; ,Diagnoses: Fever of unknown origin; Leukocytosis; Hypoxia
+"Respiratory Failure: Etiology likely multifactorial [**12-27**] ARDS s/p
+   induction chemotherapy, volume overload; ARF; Afib; AML; ","Example 5:
+Diagnoses: Hypertensive emergency; Volume overload; ESRD on HD
+
+<Reasoning>
+The patient's presentation with hypertensive emergency and the use of labetolol drip and hydralazine suggests a diagnosis of hypertensive emergency. The patient's history of ESRD on HD and recent treatment with IV lasix for dark brown casts in urine indicates volume overload as a possible differential diagnosis."
+Altered mental status; CNS lymphoma; Hypertension; ,"Diagnoses: CNS lymphoma progression; Acute mental status decline; Cerebral edema
+<Reasoning> The patient has a history of CNS lymphoma with associated edema and mass effect. The acute mental status decline and increased intracranial pressures suggest progression of the lymphoma with worsening cerebral edema. The plan for radiation therapy and use of mannitol supports this diagnosis."
+vascular dementia; cholangitis; ,"Diagnoses: Cholecystitis vs. cholangitis; HTN; DM2; PVD.
+
+<Reasoning>
+For Example 1, the top differential diagnoses are directly related to the patient's medical history and current conditions, including CNS VRE infection, leukocytosis, and recurrent acute lymphoblastic leukemia (ALL). CNS VRE infection is directly related to the recent procedure (Omaya removal) and the patient's overall immunocompromised state. The leukocytosis is likely a result of the ALL, while the recurrent ALL is a direct result of the patient's history. The indirect differential diagnoses can be inferred from the list of known allergies, such as sulfa, penicillins, latex, red dye, aspartame, and opioids like"
+pneumonia; sepsis; GIB; Seizure disorder; Cerebral pasy; ,"Diagnoses: Septic Shock; Hypoxemia; Pancreatic Cyst; Seizure disorder; Gastrointestinal Bleed
+
+<Reasoning> The patient has a complicated medical history with multiple comorbidities. His presenting symptoms of fever, tachypnea, and hypoxia suggest a possible diagnosis of septic shock. His history of pancreatic cyst drainage may be relevant to his current condition. Additionally, his seizure disorder and history of gastrointestinal bleed should be taken into consideration. Further workup and treatment is necessary to confirm and manage these potential diagnoses."
+Acute renal failure; Hyperkalemia; Bandemia: Suggestive of infection in setting of lactic acidosis; Thrombocytopenia; ,"Diagnoses: Metastatic renal cell carcinoma; ARF; N/V; Lactic acidosis; Hyperkalemia
+
+<Reasoning> The patient's history of metastatic renal cell carcinoma and recent administration of Sutent suggests possible drug-induced acute renal failure. The patient's symptoms of nausea/vomiting, hyperkalemia, and lactic acidosis also support a diagnosis of acute renal failure. The increased lactate production may be due to global decreased perfusion. It is possible that IV contrast administration may have worsened the patient's renal function and electrolyte imbalances."
+"Septic shock; right hip wound growing strep arginosus and secondary
+   bacteremia; Decubitous ulcer; Anemia; Paraplegia; ","Diagnoses: Paraplegia w/ decubitus ulcers & Vac drains; Sepsis; Hypotension.
+ 
+<Reasoning> 
+The patient has a history of being paraplegic with decubitus ulcers and vac drains, making him susceptible to infections and sepsis. The fever, tachycardia, and hypotension suggest sepsis as a possible diagnosis. The low Hct also suggests anemia and may require blood transfusion."
+hypertensive urgency; SBO; ESRD; anemia; SLE; SVC thrombosis; ,"Diagnoses: # Hypertensive urgency; SLE with ESRD on HD; Malignant HTN; SVC syndrome
+
+<Reasoning> The patient has a significant history of SLE, ESRD on HD, malignant HTN, and SVC syndrome, all of which can contribute to hypertensive emergency. The recent SBO and prior ICH also put the patient at increased risk for complications related to hypertension. The patient's recent SBP down to 100s overnight while on nitro and labetalol gtt suggests a hypertensive urgency. The presence of nausea and vomiting further suggests a potential hypertensive crisis. Allergies to penicillins, percocet, and morphine need to be considered in the management plan."
+Asystolic/PEA arrest; OSA; anoxic brain injury; Hypertension; ,"Diagnoses: Diffuse ischemic brain injury after asystolic cardiac arrest; Multi-organ system failure; Septic shock 
+
+<Reasoning> 
+The patient's history of hypertension, hyperlipidemia, and obstructive sleep apnea are important in the context of his asystolic cardiac arrest and subsequent multi-organ system failure. The patient's diffuse ischemic brain injury is consistent with the period of unresponsiveness during the arrest. The presence of fever and positive blood, sputum, and urine cultures suggest septic shock as a contributing factor to the patient's worsening condition. The absence of brain stem reflexes except for overbreathing ventilation, along with diffuse brain edema and suggestion of downward tonsilar herniation, further confirm a grave prognosis."
+Insulin OD; ,"Diagnoses: Intentional insulin overdose; Ongoing insulin abuse; Back pain
+
+<Reasoning> Given the patient's history of intentional insulin overdose and ongoing insulin abuse, it is likely that his current presentation is related to this. The back pain may be a result of the overdose or a separate issue. A psych consult is recommended to address the underlying psychiatric issues contributing to the insulin abuse."
+altered mental status. Primarily due to lyme encephalitis; Respiratory failure; ,"Diagnoses: Lyme Encephalitis with Altered Mental Status; Respiratory Acidosis and Metabolic Alkalosis; Fever of Unknown Origin. 
+
+<Reasoning> The patient was previously treated for Lyme encephalitis, but is now presenting with continued altered mental status and fevers, indicating possible treatment failure or relapse. The patient also has respiratory acidosis and metabolic alkalosis, which may be related to his ESRD or other underlying conditions. The fever of unknown origin further suggests an underlying infectious process that may need further investigation."
+Hypotension: Etiology hypovolemia [**1-17**] over ultrfiltration vs Sepsis; Chronic Respiratory Failure; ESRD; CAD; DM; Plasma Cell Dyscrasia; ,"Diagnoses: Hypotension; Chronic Pain; Plasma Cell Dyscrasia 
+
+<Reasoning> The patient presents with a history of chronic tracheostomy, multiple admissions, ESRD, CAD, and DM2, which puts him at high risk for various complications including hypotension, chronic pain, and plasma cell dyscrasia. The patient's a-line BP is not accurate, so it was decided to wean off levophed and monitor his mentation. The chronic pain consult service recommended liberalizing his pain medication, and the patient's fentanyl patch was increased to 75 mcg. The patient's unknown allergies add complexity to the management of his conditions."
+hypoxia:  most likely COPD flare; dCHF.; ,"Diagnoses: Acute exacerbation of COPD; Respiratory Failure; Cellulitis of RLE
+<Reasoning>: The patient's chief complaint and 24-hour events indicate acute exacerbation of COPD leading to respiratory distress. The presence of large, black, cauliflower-like lesions on the right calf and left thigh suggests cellulitis, which was confirmed by the restart of vancomycin."
+Pancreatitis; Acute Hepatitis; alcoholic hepatitis; Hematemesis; Hyponatremia; Alcoholism; ,"Diagnoses:
+Example 1: CNS VRE; LEUKOCYTOSIS; ALL 
+<Reasoning>: The patient has a history of recurrent ALL with CNS involvement, and was admitted for SDH evacuation and VRE contamination. Her WBC count is trending downward, suggesting a possible leukocytosis. The presence of sulfonamide, penicillin and red dye allergies further support a diagnosis of ALL. 
+Example 2: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cyrptogenic cirrhosis c/b variceal bleed:; DM2 
+<Reasoning>: The patient has a complex medical history, including dCHF, CAD, a-fib, HTN"
+sinus node dysfunction; NSTEMI; Acute on chronic systolic and diastolic HF; COPD; HTN; ,"Diagnoses: NSTEMI; CHF exacerbation; Hypercarbic respiratory failure
+
+<Reasoning>:
+The patient is a 75-year-old with a complicated medical history including COPD, htn, bilateral hip replacement, and now presenting with NSTEMI and CHF exacerbation with hypercarbic respiratory failure which has since resolved. The direct diagnosis of NSTEMI is based on the subjective and objective findings of hypotension, diaphoresis, and the CXR showing a new PPM. CHF exacerbation and hypercarbic respiratory failure are indirect diagnoses based on the patient's medical history and presentation with labile blood pressure and previous respiratory failure. The discontinuation of losartan and decreased carvedilol are also relevant to the CHF exacerbation."
+hip fracture; NSTEMI; CAD; Hyperthyroid; CHF; ,"Diagnoses: NSTEMI; Hip Fracture; Postoperative Anemia
+
+<Reasoning>: The patient's history of hip fracture and subsequent NSTEMI suggest a potential diagnosis of hip fracture-related cardiac events. Additionally, the patient's post-operative anemia is a common complication after hip surgery and may need further investigation."
+GI Bleed; fungating mass; Hypertension; Dyslipidemia; ,"Diagnoses: #GI bleeding, chronic; Colon Polyps; Malignancy suspicion
+<Reasoning>: The patient has a past medical history of hypertension, dyslipidemia, and chronic BRBPR, with recent colonoscopy revealing multiple polyps and a large fungating bleeding mass. The patient is now presenting with hematochezia and a suspicion of malignancy. Urgent scope and serial HCT are needed to manage LGIB in the setting of recent polypectomies. Surgical evaluation may be needed if path confirms malignancy."
+neutropenic fever; meningits/CNS source; anemia/thrombocytopenia/neutropenia: likely from recent chemotherapy; Lymphoma; HIV; ,"Diagnoses: Neutropenic fever; Headache; CNS infection
+<Reasoning>
+The patient presents with neutropenic fevers, a common complication in patients undergoing chemotherapy for cancer. The headache may be a symptom of the CNS infection or a side effect of the fever. The need for meropenem desensitization suggests an active infection, and the positive blood and urine cultures support this. The patient's history of Burkitt's lymphoma also puts them at risk for CNS involvement. Therefore, the top differential diagnoses are neutropenic fever, CNS infection, and Burkitt's lymphoma with CNS involvement."
+"crohn
+s disease; ","Diagnoses: Perforated Bowel/Crohn's Disease; Anastomotic Leak; Immune Suppression
+
+<Reasoning> In Example 1, the direct differential diagnoses are CNS VRE infection, leukocytosis, and ALL. The patient's past medical history of recurrent ALL with CNS involvement, as well as the presence of leukocytosis, support the possibility of recurrence of ALL and CNS VRE infection. The patient's past medical history of recurrent ALL with CNS involvement supports the third diagnosis of ALL.
+
+In Example 2, the direct differential diagnoses are intermittent, post-op hypotension, infiltrate on CXR, and thrombocytopenia. The patient's medical history of intertrochanteric femoral fracture, cryptogenic cirrhosis"
+Anoxic Brain Injury/Seizures; PEA arrest; Pancreatitis; pseudocyst; UTI; SMV thrombus; ,"Diagnoses: Seizures; Pancreatic pseudocysts; SMV thrombus; UTI; PEA arrest. 
+
+<Reasoning>: The patient has a complicated hospital course with multiple comorbidities. The recent admission for seizures, SMV thrombus, and UTI may have contributed to the PEA arrest. The CT scan of the abdomen and pelvis shows multiple pancreatic pseudocysts and an unchanging SMV. The ongoing seizures warrant the use of fosphenytoin for control. The patient has been started on fentanyl for pain control and tube feeds placed to suction. The lactate level is within normal limits, bicarb is trending up, Na is trending down, and there is ongoing tachycardia with minimal response to pain management or"
+Hypoxia; AFIB; Anemia; Orthostatic hypotension; ,"Diagnoses: Acute respiratory distress syndrome (ARDS); Amiodarone toxicity; Pulmonary embolism (PE)
+
+<Reasoning> 
+For Example 1, the direct differential diagnoses include CNS VRE, leukocytosis, and ALL based on the patient's medical history and current symptoms. The patient's leukocytosis is likely related to ALL and the VRE infection, which is a serious condition that can cause sepsis and meningitis. ALL is a type of blood cancer that can lead to leukocytosis and central nervous system involvement. The indirect differential diagnoses include potential drug allergies or sensitivities, such as those to sulfa, penicillin, and red dye. 
+
+For Example 2, the direct differential diagnoses include intermittent post-op hypot"
+Acute respiratory distress; HAP; PNA; COPD; Afib; ,Diagnoses: Hypoxemia; Respiratory Failure; Recent PNA
+Syncope and hypotension; Coronary Artery Disease; EF 20% with severe LV dilation and severe MR; ,"For Example 1:
+ 
+Direct differential diagnoses: CNS VRE infection; leukocytosis secondary to infection; acute lymphoblastic leukemia (ALL)
+ 
+Indirect differential diagnoses: Drug rash; arrhythmia/palpitations from fentanyl
+ 
+<Reasoning>: The patient has a history of CNS involvement of VRE infection and leukocytosis, which suggests the possibility of ongoing infection or recurrence. The ALL also increases the risk of infection and leukocytosis. The patient is also taking various medications, some of which may cause a rash or arrhythmia/palpitations.
+ 
+For Example 2:
+ 
+Direct differential diagnoses: Intermittent post-op hypotension; infiltrate on CXR suggestive of pneumonia; thrombocytopenia secondary to he"
+"Respiratory Failure; Hypotension; Leukocytosis:; toxic/metabolic encephalopathy
+   from liver failure and/or uremia; Hepatic Failure:; SAH; Oliguric ARF:; Follicular Lymphoma; ","Diagnoses: Fulminant hepatic failure; Respiratory failure requiring ventilator support; Acute renal failure 
+<Reasoning> The patient has a history of fulminant hepatic failure which explains the respiratory and renal failure. The patient's respiratory failure led to ventilator support which is a direct consequence of his hepatic failure. The leukocytosis can be a result of the hepatic failure which may lead to sepsis or infection. The central line resite, holding off levoflox and negative LENIS suggests that the patient may have an active infection or is at risk of developing one."
+sepsis-   Source most likely to be from urinary tract; Hep B (chronic); ,"Diagnoses: UTI with sepsis; Hypotension; Postoperative complication of cervical laminectomy
+
+<Reasoning> Given the patient's history of chronic Hep B, frequent UTIs, and recent surgery, the most likely cause of his fever and mental status changes is a UTI that has progressed to sepsis. The hypotension further supports the diagnosis of sepsis. Additionally, the patient's recent cervical laminectomy increases the risk of postoperative complications such as infection or bleeding, which could also be contributing to his current presentation."
+"NSTEMI; Shortness of breath, hypoxia; AS; Acute on chronic kidney disease; Diabetes; Hypertension; ","Diagnoses: NSTEMI; DM; Hyperlipidemia; Hypertension
+
+<Reasoning> The patient's chief complaint of chest discomfort and ST depression on EKG is consistent with a diagnosis of NSTEMI. The patient's medical history of diabetes, hyperlipidemia, and hypertension are all risk factors for cardiovascular disease and increase the likelihood of an NSTEMI. The increase in insulin dosage suggests that the patient's blood sugar was elevated, which can also contribute to cardiovascular disease. Therefore, NSTEMI, DM, hyperlipidemia, and hypertension are the top diagnoses to consider."
+AMS; myoclonic jerks may be manifestation of hypercarbia; DM; subtotal colectomy; AF; HTN; ,"Diagnoses: Altered Mental Status; Myoclonic Movements; Hypercarbic respiratory failure. 
+
+<Reasoning>
+1. Altered Mental Status: The patient's chief complaint is AMS, which could be due to a variety of underlying factors including electrolyte disturbances, infections, metabolic derangements, or medication side effects. The patient's history of HTN, diabetes, recent PE, recent CVA, and recent surgery could all contribute to this presentation.
+2. Myoclonic Movements: The presence of myoclonic movements in a patient with altered mental status could be suggestive of an underlying seizure disorder, metabolic derangement, or medication side effect. Further diagnostic testing such as EEG could be helpful in evaluating this symptom.
+3. Hypercarbic respiratory failure:"
+Respiratory Distress; COPD exacerbation; HIV; COPD; ,"Diagnoses: Worsening respiratory distress; COPD exacerbation; Hypotension
+
+<Reasoning> 
+The patient's chief complaint and subjective report suggest worsening respiratory distress, which is likely due to the patient's end-stage COPD. The patient's history of labile blood pressure and recent hydralazine administration suggest hypotension, which may be due to fluid shifts or other factors. Further evaluation and management of the patient's blood pressure and respiratory distress are necessary."
+"Altered mental status; EtOH
+   hepatitis; hepatic encephalopathy; Wernicke-Korsakoff; Chronic Liver Disease; ","Diagnoses: Alcoholic encephalopathy; Hepatic encephalopathy; Ethanol withdrawal
+<Reasoning> The patient's history of heavy alcohol use, recent cessation, and symptoms of altered mental status strongly suggest a diagnosis of alcoholic encephalopathy and ethanol withdrawal. The patient's elevated liver enzymes and need for a low protein diet indicate possible hepatic encephalopathy. Further evaluation and management with a formal hepatology consult is necessary."
+"Fevers; Possible etiologies include pneumonia, transudated GI flora, foot
+   source; GI bleed; Vasculopathy; ESRD; ","Diagnoses: ESRD with vasculopathy; Gastrointestinal Bleeding; Febrile illness with new RLL infiltrate.
+
+<Reasoning>
+For example 1, the patient has a history of ALL with CNS involvement and is currently doing well with WBC counts trending downwards. However, there is a possibility of CNS VRE infection, leukocytosis, and recurrence of ALL. Hence, these are the possible direct and indirect differential diagnoses.
+
+In example 2, the patient has a history of post-op hypotension, infiltrate on CXR, thrombocytopenia, cryptogenic cirrhosis c/b variceal bleed, and DM2. Hence, these are the possible direct and indirect differential diagnoses.
+
+For example 3, the patient has"
+ARDS; MSSA bacteremia:; Altered mental status; Breast CA; ,"Diagnoses: Metastatic Breast Cancer with Respiratory Failure; Septic Shock; Bacteremia.
+
+<Reasoning> The patient's chief complaint, past medical history and current presentation suggest that the patient is suffering from metastatic breast cancer with respiratory failure. Additionally, the presence of septic shock and bacteremia may indicate that there is a systemic infection that is contributing to the patient's respiratory failure."
+Leukocytosis; C.diff; A Fib with RVR; ,"Diagnoses: Refractory C. diff colitis; Sepsis; Central line site bleeding. 
+
+<Reasoning> The patient's history of refractory C. diff colitis, along with the recent presentation with septic C. diff colitis, makes it the top differential diagnosis. Additionally, the patient is improving, indicating that the treatment for the C. diff is working. The central line site bleeding is a possible complication of the recent placement of a right IJ central line. Septicemia could also be a contributing factor in the development of the central line site bleeding."
+Non-ischemic cardiomyopathy: Acutely decompensated; Acute renal failure; E. Coli UTI; pulmonary hypertension; CHF; Mitral/tricuspid regurgitation; Anemia; ,"Diagnoses: Acute CHF exacerbation with acute renal failure; Non-ischemic cardiomyopathy with severe tricuspid and mitral regurgitation and severe pulmonary hypertension; Vancomycin-associated nephrotoxicity.
+
+<Reasoning>
+The patient's history of non-ischemic cardiomyopathy with severe tricuspid and mitral regurgitation and severe pulmonary hypertension suggests acute CHF exacerbation and acute renal failure as the primary diagnosis. The patient's failed diuresis on the medicine and [**Hospital Unit Name 3031**] floors with lasix boluses, gtt, and metolazone, and the need for milrinone in the CCU further supports this diagnosis. The addition of vancomycin and subsequent nephrotoxicity"
+SBO; HIV/AIDS; diarrhea; Cryptosporidium; Anemia; HIV/AIDS; ,"Diagnoses: High grade small bowel obstruction; Incompletely treated Cryptosporidium; HIV/AIDS with low CD4 count. 
+
+<Reasoning>: The patient has a known history of HIV/AIDS with a low CD4 count, making him immunocompromised and susceptible to opportunistic infections. The presence of a high-grade small bowel obstruction and profuse diarrhea could be attributed to the incomplete treatment of cryptosporidium. These factors make the patient vulnerable to dehydration, electrolyte imbalance, and sepsis. These conditions require immediate treatment to stabilize the patient's condition."
+Hypoxemic respiratory failure; Etoh withdrawl; COPD; ,"Diagnoses: Hypoxemic respiratory failure; COPD exacerbation; Atrial fibrillation with rapid ventricular response
+
+<Reasoning>
+The patient's history of COPD and difficulty weaning from mechanical ventilation suggest an exacerbation of COPD as a contributing factor to the hypoxemic respiratory failure. The presence of atrial fibrillation with rapid ventricular response may also be contributing to the respiratory distress. The patient's recent colectomy and fluid overload may also be a contributing factor."
+hypercarbic respiratory distress; COPD exacerbation and multilobar PNA; SCHIZOPHRENIA; ,"Diagnoses: Hypercarbic respiratory failure due to COPD flare and PNA; Schizophrenia; Agitation post-extubation. 
+
+<Reasoning> The primary reason for the patient's admission was hypercarbic respiratory failure due to COPD flare and multilobar pneumonia. The patient also has a history of schizophrenia which may complicate his medical care. The patient experienced agitation post-extubation and required re-intubation, for which haldol was given. The patient also received a 500cc NS bolus for sodium avidity."
+"Hypotension:  Cardiogenic v. hypovolemic v. distributive; A-fib with RVR; Likely shock liver with transaminitis; Likely upper GI source in setting of
+   supra-therapeutic INR; Acute Renal Failure: Likely ATN due to hypotension; ","Diagnoses: Gastrointestinal Bleed; Aspiration Pneumonia; Acute Renal Failure; Shock Liver; Multivessel CAD with MR; PAH; Coagulopathy
+
+<Reasoning> The patient's presentation with abdominal pain, hypotension and UGI bleed suggests a gastrointestinal bleed as the primary differential diagnosis. The CXR showing retrocardiac opacity with decreased O2 saturations further suggests aspiration pneumonia as a secondary differential diagnosis. The rise in CK and trop levels suggest a possible acute renal failure and the rising LFTs suggest a possibility of shock liver. TTE suboptimal EF still 25% c/w multivessel CAD, 2+ MR, and rising PA systolic HTN suggest a diagnosis of multivessel CAD with MR and"
+"Hypoxic Respiratory Failure:
+   Likely multifactorial, from post-obstructive PNA, PTX, and underlying
+   lung disease (COPD); Afib; Hypotension; sepsis; Pneumothorax; Small Cell Lung CA; ","Diagnoses: Hypotension requiring pressors; Post-obstructive pneumonia; CAD. 
+
+<Reasoning> The patient has a history of CAD and COPD, which makes them susceptible to developing post-obstructive pneumonia. They are now hypotensive and require pressors, suggesting sepsis as a possible cause of their hypotension. Additionally, the patient has a history of radiation therapy, which can cause damage to the heart leading to CAD."
+Sepsis; C. diff; Adrenal insufficiency; Hypothyroidsm; ,"Diagnoses: # Necrotic colon s/p colectomy with ileostomy and GJ tube placement; C. diff colitis; Hypotension
+
+<Reasoning> 
+The patient's recent surgical history, including necrotic colon and GJ tube placement, increases the likelihood of infection or inflammation as a cause of her symptoms, with C. diff colitis being a potential culprit. The patient's hypotension is also a concerning finding and may be due to sepsis or fluid/electrolyte imbalances related to her hyponatremia."
+Hypotension; Metastatic Prostate cancer; Anemia; thromboyctopenia; liver metastases; ,"Example 1:
+Direct Differential Diagnoses: CNS VRE infection; Leukocytosis; ALL
+Indirect Differential Diagnoses: Sepsis; Complications from VRE and SDH removal; Drug Reaction
+
+<Reasoning>
+The patient has a history of recurrent ALL with CNS involvement and has undergone Omaya removal due to VRE contamination. The leukocytosis is likely related to their underlying malignancy. CNS VRE infection is a potential complication of the procedure and could be responsible for the continued fever. The rash and nausea/vomiting may be a drug reaction, possibly related to antibiotics.
+
+Example 2:
+Direct Differential Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopen"
+aspiration pneumonia; CHF and new MR; R hip bleed.; CAD; hip surgery; ,"Diagnoses: STEMI with new MR; VAP; R hip bleed
+
+<Reasoning>
+This patient has a complex medical history, and multiple complications from recent hip surgery and STEMI with new MR. Given his history of VAP and R hip bleed, these are likely ongoing concerns that require monitoring and management. The subjective note indicates that the patient is medically stable but has no complaints. The events from the last 24 hours suggest that there have been adjustments made to his nutrition and fluid balance, with the use of IV lasix."
+"Most likely etiology is acute pulmonary edema although
+   exacerbation of her underlying COPD may also be worsening; Acute Renal Failure; Coronary Artery Disease s/p CABG; Acute on Chronic Systolic Heart Failure; Atrial Fibrillation; ","Diagnoses: Respiratory distress; Lower extremity weakness/falls; COPD exacerbation. 
+
+<Reasoning>: The patient's chief complaint of respiratory distress suggests a primary diagnosis of a respiratory issue. Given her history of COPD, this is likely an exacerbation. The history of lower extremity weakness and falls suggest a potential neurological issue contributing to her respiratory distress. The history of congestive heart failure and EKG should also be considered in the differential diagnosis."
+Sepsis; source to be tunnelled catheter line; MSSA; Back Pain; ESRD; Non-Ichemic CMY; Seizure d.o.; ,"Diagnoses: GPC sepsis; Hypotension; HD dependent ESRD
+
+<Reasoning> The patient presents with a history of HD dependent ESRD, CAD, and non-ischemic CMY (EF 35-40%) with a recent history of malaise. The patient was transferred from the floor with suspicion of GPC sepsis from HD line and hypotension responsive to IVF. The patient has no known drug allergies. Therefore, the top three direct and indirect differential diagnoses could be GPC sepsis, hypotension, and HD dependent ESRD."
+Pericardial effusion; Breast Cancer; ,"For Example 1:
+Direct differential diagnoses:
+1. CNS VRE
+2. Leukocytosis
+3. ALL
+
+Indirect differential diagnoses:
+1. Drug reaction - rash, hives, wheezing
+2. Darvon induced nausea and vomiting
+3. Percodan induced nausea and vomiting
+
+<Reasoning>: The patient's medical history suggests a diagnosis of recurrent ALL with CNS involvement. The presence of leukocytosis is also consistent with this diagnosis. Additionally, the patient has a history of VRE infection, which could have caused CNS involvement. The patient has also experienced drug reactions to various medications such as sulfa, penicillin, and red dye. The patient's symptoms of nausea and vomiting can be attributed to Darvon and Percodan use.
+
+"
+Respiratory Failure; OSA/tracheobroncial malacia; cellulitis; Neck swelling s/p fistula takedown; subcutaneous emphysema; CAD/CHF; COPD; OSA; ,"Diagnoses: Respiratory Failure; Subcutaneous Emphysema; Tracheal Stenosis
+
+<Reasoning>
+Direct diagnoses for this patient include respiratory failure and subcutaneous emphysema, which were identified in the input note. The patient's persistent tracheocutaneous air leak likely led to subcutaneous emphysema, which can cause respiratory distress. Additionally, the patient's recent tracheostomy closure could have contributed to the respiratory failure. Tracheal stenosis is a possible indirect differential diagnosis, as it can occur as a complication of tracheostomy closure."
+Resp distress; recurrent asp pna/pneumonitis; sepsis; Leukocytosis; ,"Diagnoses: Hypotension; Respiratory distress; Leukocytosis; C4-5 paraplegia with TF dependence; Recent pneumonia; Broad spectrum antibiotics
+
+<Reasoning>
+1. Hypotension: The patient has a history of HOTN and is on broad spectrum antibiotics for recent pneumonia. The patient also required IVF to respond to the hypotension. There may be underlying sepsis or a medication-induced cause.
+2. Respiratory distress: The patient was transferred from OSH with respiratory distress and leukocytosis. The patient's history of C4-5 paraplegia with TF dependence suggests potential respiratory muscle weakness or dysfunction that could contribute to respiratory distress.
+3. Leukocytosis: The patient was transferred with leukocyt"
+"Hypoxia; Fever: Most likely infectious with either pulmonary or urinary
+   infection; CAD; diastolic dysfunction; afib; Hypertension; ","Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning> The patient's medical history and current symptoms suggest that the main direct differential diagnosis is CNS VRE infection, as the patient has a history of recurrent ALL with CNS involvement, s/p Omaya removal due to VRE contamination & SDH evacuation. The patient's leukocytosis could be explained by an infectious etiology, such as VRE, and/or from her underlying leukemia. Additionally, ALL is a significant indirect differential diagnosis, as the patient has a history of recurrent disease and is presenting with leukocytosis.
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thromboc"
+Critical Aortic Stenosis; Transaminitis; Hyponatremia; CAD; decompensated heart failure/cardiogenic shock; HIV; ,"Diagnoses: Cardiogenic shock; Critical aortic stenosis; CAD 
+
+<Reasoning>
+The patient presents with progressive dyspnea and two syncopal events, which are indicative of cardiogenic shock. The critical aortic stenosis with valve area of 0.3 is also concerning and can contribute to cardiogenic shock. The patient also has a history of CAD which increases the likelihood of developing cardiogenic shock. The patient's symptoms indicate the need for urgent aortic valve replacement."
+"Respiratory failure; mucous plugging
+   and GNR pneumonia; MRSA Septic Prosthetic joint; Atrial fibrillation; Hypotension; cirrhosis; ESRD; Anemia; ","Diagnoses:
+#Septic knee; #Pleural effusion with loculations; #Cirrhosis; #Suspected pulmonary embolism
+
+<Reasoning>
+Septic knee: The patient is on ceftazidime and tobramycin per ID for pseudomonas+ sputum and daptomycin with rifampin for septic joint. This indicates the possibility of a septic knee that needs to be treated.
+
+Pleural effusion with loculations: The patient had a whiteout of L lung on CXR, now resolved (likely mucus plug?), but f/u CXR and CT scan show persistent L pleural effusion with loculations. This indicates a pleural effusion that may need further intervention.
+
+Cirrhosis"
+"Hyponatremia: Likely acute on chronic hyponatremia attributed to
+   SIADH; chronic bronchitis; HTN; CHF: Likely contribution of known AS; anemia; ","Example 1:
+Diagnoses: CNS VRE; LEUKOCYTOSIS; ALL
+<Reasoning>: The patient's history of ALL with CNS involvement, recent Ommaya removal due to VRE contamination, and decreasing trend in WBC count suggest CNS VRE and leukocytosis as direct diagnoses. ALL is an indirect diagnosis based on the patient's history.
+
+Example 2:
+Diagnoses: Intermittent, post-op hypotension; Infiltrate on CXR; Thrombocytopenia:; Cyrptogenic cirrhosis c/b variceal bleed:; DM2
+<Reasoning>: The patient's history of post-op hypotension, infiltrate on CXR, and thrombocytopenia suggest these"

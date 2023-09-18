@@ -1,0 +1,14 @@
+||Paperwork example:
+<Patient> I am scheduled for an operation on April 23, 2023 and need a letter for my employer. Can you please provide a letter addressed to my employer’s name Mr. Doe and Company X for an excused absence of the dates April 23 to April 25 to allow for recovery, too. 
+<Doctor> Thank you for the inquiry and I am happy to provide a doctor’s letter for an excused absence for your employer. I have drafted the letter so how would you like to receive it?
+||
+
+|| Paperwork example:
+< Patient > I need a doctor’s note for my school.  It is for my chest cold that you saw me for yesterday and I need the note for the rest of this week. Please address it to Principal XXY at School ZZW. 
+<Doctor> Thank you for providing all the details. I will draft your excuse letter, and it will be available in your MyChart.  Just go to Your Menu, then Letters. You can then click on the letter and print it."
+||
+
+||Paperwork example:
+< Patient > I have an upcoming appointment and need a letter for my employer. Can you please provide a letter addressed to my employer’s name Mr. Doe and Company X for an excused absence to allow for recovery? 
+<Doctor> I am happy to draft a letter for you but before I do, I will need to know some more details.  Can you please provide again the reason or symptoms, the dates needed to be excused, your employer’s name and details, and any other pertinent information you would like to share.
+||

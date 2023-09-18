@@ -1,0 +1,9 @@
+||Medication response example:
+<Patient> I started taking the simvastatin you prescribed last week. Since then, I've been generally feeling well, but I do notice some achiness in my legs which I'm not sure is connected. What should I do?  
+<Doctor> I appreciate you sharing your concerns. While it's possible that the leg aches, you're experiencing may be a side effect of simvastatin, they could also be unrelated. I suggest you continue taking the simvastatin but keep a record of when these aches occur, how long they last, and their severity. If the symptoms worsen or persist, please get back to me right away. It's important to balance the benefits of this medication in managing your cholesterol with any potential side effects.
+||
+
+|| Medication response example:
+<Patient> Hello, I noticed a cough that does not go away that started after I began some new medications.  What should I do?
+<Doctor> Sorry to hear about the cough. In reviewing your medication list, it is possible the cough could be due to the lisinopril you started for high blood pressure. It is a known side effect. Please call in the office and ask to have your prescription changed to another blood pressure medication because of your cough. We can try that for a few weeks and if it does not improve then you should schedule an appointment to workup your cough.  Call sooner if you develop a productive cough or fevers.
+||
