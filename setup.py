@@ -15,6 +15,7 @@ requirements = [
     "plotly",
     "requests",
     "pandas",
+    "betterprompt",
     ##############################################################
     # Dependencies in this section are added for specific datasets
     ##############################################################
