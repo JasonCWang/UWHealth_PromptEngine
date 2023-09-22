@@ -10,28 +10,20 @@ requirements = [
     "isort==5.8.0",
     "pytest",
     "pyyaml>=5",
-    "streamlit==0.82",
+    "streamlit==1.26.0",
     "jinja2",
     "plotly",
     "requests",
     "pandas",
     "betterprompt",
-    ##############################################################
-    # Dependencies in this section are added for specific datasets
-    ##############################################################
-    "py7zr",
-    ##############################################################
-    # End of dataset-specific dependencies
-    ##############################################################
 ]
 
 setup(
-    name='promptsource',
-    version='0.2.3',
-    url='https://github.com/bigscience-workshop/promptsource.git',
-    author='BigScience - Prompt Engineering Working Group',
+    name='uwhealthpromptengine',
+    version='0.0.0',
+    url='https://github.com/JasonCWang/UWHealth_PromptEngine',
+    author='BigScience, UW-Madison',
     author_email='sbach@cs.brown.edu,victor@huggingface.co',
-    python_requires='>=3.7,<3.10',
     install_requires=requirements,
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
