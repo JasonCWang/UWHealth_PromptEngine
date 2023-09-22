@@ -5,10 +5,6 @@
 # This code is taken from
 # https://gist.github.com/okld/0aba4869ba6fdc8d49132e6974e2e662
 #
-from streamlit.hashing import _CodeHasher
-from streamlit.report_thread import get_report_ctx
-from streamlit.server.server import Server
-
 
 class _SessionState:
     def __init__(self, session, hash_funcs):
@@ -16,7 +12,6 @@ class _SessionState:
         self.__dict__["_state"] = {
             "data": {},
             "hash": None,
-            "hasher": _CodeHasher(hash_funcs),
             "is_rerun": False,
             "session": session,
         }
@@ -68,17 +63,6 @@ class _SessionState:
                 self._state["session"].request_rerun(None)
 
         self._state["hash"] = data_to_bytes
-
-
-def _get_session():
-    session_id = get_report_ctx().session_id
-    session_info = Server.get_current()._get_session_info(session_id)
-
-    if session_info is None:
-        raise RuntimeError("Couldn't get your Streamlit Session object.")
-
-    return session_info.session
-
 
 def _get_state(hash_funcs=None):
     session = _get_session()

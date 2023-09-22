@@ -72,6 +72,6 @@ except FileNotFoundError:
 st.subheader("Summary of Prompt Engine")
 counts = template_collection.get_templates_count()
 nb_prompted_datasets = len(counts)
-st.write(f"#### Total Number of *prompted datasets*: `{nb_prompted_datasets}`")
+st.write(f"#### Total Number of *prompted usecases*: `{nb_prompted_datasets}`")
 nb_prompts = sum(counts.values())
 st.write(f"#### Number of *prompts*: `{nb_prompts}`")

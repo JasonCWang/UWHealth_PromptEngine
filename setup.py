@@ -16,6 +16,7 @@ requirements = [
     "requests",
     "pandas",
     "betterprompt",
+    "openai"
 ]
 
 setup(
