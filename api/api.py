@@ -1,4 +1,4 @@
-import torch, json, betterprompt, openai
+import json, openai
 import os
 from flask import Flask, request
 from transformers import AutoTokenizer, AutoModel
@@ -60,9 +60,8 @@ def measure_self_consistency_auto_bert():
         prompt_encoding = model(**tokenizer(doctor_response,return_tensors='pt', max_length=256, padding=True, truncation=True))
         prompt_encoding = model(**tokenizer(doctor_response,return_tensors='pt', max_length=256, padding=True, truncation=True))
         # Get the model's output
-        with torch.no_grad():
-            embeddings1= prompt_encoding.pooler_output.detach().numpy()
-            embeddings2= ground_truth_embedding.pooler_output.detach().numpy()
+        embeddings1= prompt_encoding.pooler_output.detach().numpy()
+        embeddings2= ground_truth_embedding.pooler_output.detach().numpy()
         
         # Calculate cosine similarity
         cosine_sim = cosine_similarity(embeddings1, embeddings2)

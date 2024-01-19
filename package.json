@@ -1,7 +1,7 @@
 {
   "name": "cliniprompt",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@mantine/carousel": "^7.2.1",
     "@mantine/code-highlight": "^7.2.1",
@@ -61,7 +61,10 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000",
+  "options": {
+    "allowedHosts": ["localhost", ".localhost"],
+    "proxy": "http://localhost:5000"
+  },
   "devDependencies": {
     "postcss": "^8.4.31",
     "postcss-preset-mantine": "^1.9.1",
