@@ -1,48 +1,3 @@
-// import { ref, push } from "firebase/database";
-// import { auth, db } from "../firebase";
-// import { v4 as uuid } from 'uuid';
-// import { collection, doc, serverTimestamp, setDoc } from "firebase/firestore";
-// import { useAuth } from "../components/AuthProvider";
-// import { Flex, Text } from "@mantine/core";
-// import NavbarInfo from "../components/NavbarInfo";
-
-// const Home = () => {
-
-//   const { user } = useAuth();
-
-//   const handlePush = async () => {
-//     const docCode = uuid();
-//     const data = {
-//       message: "Hello, World!",
-//       uid: auth.currentUser.uid,
-//     };
-
-//     const docRef = doc(collection(db, "lmfao"), docCode);
-//     await setDoc(docRef, data);
-//   };
-
-//   return (
-//     <Flex align={"center"} justify={"center"} w={"100%"} h={"100vh"} mt={-55}>
-//       {user ?
-//         <>
-//           <NavbarInfo />
-//         </>
-//         :
-//         <Text
-//           fw={600}
-//           size="lg"
-//           variant="gradient"
-//           gradient={{ from: 'indigo', to: 'red', deg: 155 }}
-//         >
-//           Welcome to CliniPrompt! Please sign in to continue.
-//         </Text>
-//       }
-//     </Flex>
-//   );
-// };
-
-// export default Home;
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Card, SimpleGrid, Title, Text, Button, Container, Image } from '@mantine/core';
@@ -134,7 +89,6 @@ const data = [
     title: "Various LLMs",
     description:
       "Our product provides flexibility in providing customers a wide range of diverse LLMs to choose from.",
-
     variant: "solid",
     colorScheme: "red"
   },
@@ -142,13 +96,11 @@ const data = [
     title: "Database for Prompt Collection",
     description:
       "This product collects prompts over time to improve the recommendations and provide greater efficiency for healthcare workers.",
-
     variant: "solid",
     colorScheme: "red"
   },
   {
     title: "User Privacy",
-
     description:
       "Cliniprompt provides secure authentication for all user accounts.",
     variant: "solid",

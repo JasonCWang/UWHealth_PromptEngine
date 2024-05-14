@@ -8,7 +8,7 @@ const NavbarInfo = () => {
   return (
     <Flex m={40} align={"center"} justify={"center"} direction={"column"}>
       <Text
-        fw={600}
+        fw={700}
         size="lg"
         mb={10}
       >

@@ -2,6 +2,7 @@ import { Button, Flex, SimpleGrid, Text } from "@mantine/core";
 import { usePromptInput } from "./PromptInput";
 import InfoPopover from "../InfoPopover";
 import { SiOpenai, SiMeta } from "react-icons/si";
+import { FaGoogle } from "react-icons/fa";
 
 const StepTwo = ({ LLMChoice, setLLMChoice }) => {
   const { currentStep, goToNextStep, goToPreviousStep } = usePromptInput();
@@ -38,7 +39,7 @@ const StepTwo = ({ LLMChoice, setLLMChoice }) => {
           color="gray"
           variant="gradient"
           opacity={0.9}
-          gradient={{ from: 'lime', to: 'green', deg: 90 }}
+          gradient={{ from: 'lime', to: 'green', deg: 270 }}
           onClick={() => onButtonPress('GPT-4')}
         >
           GPT-4
@@ -49,10 +50,21 @@ const StepTwo = ({ LLMChoice, setLLMChoice }) => {
           color="gray"
           variant="gradient"
           opacity={0.9}
-          gradient={{ from: 'indigo', to: 'cyan', deg: 147 }}
+          gradient={{ from: 'indigo', to: 'cyan', deg: 270 }}
           //onClick={() => onButtonPress('LLaMA')}
         >
-          LLaMA (Releasing soon!)
+          LLaMA (Soon!)
+        </Button>
+        <Button
+          style={{ width: 220, height: 45 }}
+          leftSection={<FaGoogle size={14} style={{ right: 10 }} />}
+          color="gray"
+          variant="gradient"
+          gradient={{ from: 'yellow', to: 'red', deg: 270 }}
+          opacity={0.9}
+          //onClick={() => onButtonPress('Google')}
+        >
+          Med-PaLM (Soon!)
         </Button>
       </SimpleGrid>
     </Flex>

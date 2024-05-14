@@ -1,7 +1,8 @@
-import { Flex, Text, Textarea, Select } from "@mantine/core";
+import { Flex, Text, Textarea, Select, Checkbox} from "@mantine/core";
 import InfoPopover from "../InfoPopover";
+import { useState } from 'react';
 
-const StepThree = ({ myPrompt, setMyPrompt, numExamples, setNumExamples }) => {
+const StepThree = ({ myPrompt, setMyPrompt, setIsICLearning, isICLearning, setIsCOT, isCOT}) => {
   return (
     <Flex direction={"column"} align={"center"}>
 
@@ -20,6 +21,35 @@ const StepThree = ({ myPrompt, setMyPrompt, numExamples, setNumExamples }) => {
         value={myPrompt}
         onChange={(event) => setMyPrompt(event.currentTarget.value)}
       />
+      <Flex mt={15} >
+        <Checkbox
+        checked={isICLearning}
+        color="blue.4"
+        iconColor="dark.8"
+        size="md"
+        label="Would your use-case benefit from examples?"
+        description="This options allows you to include examples in your prompt."
+        onChange={(event) => setIsICLearning(event.currentTarget.checked)}
+        />
+      </Flex>
+      <Flex mt={15} >
+        <Checkbox
+        checked={isCOT}
+        color="blue.4"
+        iconColor="dark.8"
+        size="md"
+        label="Does your use-case require multiple steps?"
+        description="This option prompts the LLMs to solve difficult questions using reasoning."
+        onChange={(event) => setIsCOT(event.currentTarget.checked)}
+        />
+      </Flex>
+    </Flex>
+
+  );
+};
+
+export default StepThree;
+/*
       <Flex align="center" mt={15} >
         <Text fw={500} align="center" style={{ width: '100%', marginBottom: 10, marginTop: '2vh' }}>How many examples would you like to include?</Text>
         <InfoPopover infoText="Examples help the LLM to know how to phrase certain responses. This is called in-context learning." />
@@ -30,9 +60,5 @@ const StepThree = ({ myPrompt, setMyPrompt, numExamples, setNumExamples }) => {
         value={numExamples}
         onChange={setNumExamples}
       />
-    </Flex>
 
-  );
-};
-
-export default StepThree;
+*/

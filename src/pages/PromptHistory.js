@@ -1,4 +1,4 @@
-import { Text, ScrollArea, Table, Image, Title} from '@mantine/core';
+import { Text, ScrollArea, Table, Image, Title, Divider} from '@mantine/core';
 import React, { useEffect, useState } from 'react';
 import { collection, query, where, orderBy, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
@@ -43,8 +43,13 @@ const PromptHistory = () => {
                     type="scroll"
                     scrollbarAlwaysVisible={true}
                 >
-                    <Title size={"lg"} align="center" style={{ margin: '3vh' }}> Prompt History </Title>
-                    <Table striped highlightOnHover>
+            <Title pl={5} align="center">
+            <Divider my="md" />
+              <Image src='clinipromptlogo.png' ml={-5} radius={10} height={75} fit={"contain"} />
+              <Text size="xl" fw={700} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+                Your Prompt History</Text>
+            </Title>
+            <Table striped highlightOnHover>
                         <Table.Thead>
                             <Table.Tr>
                                 <Table.Th ta={"center"}>Date</Table.Th>

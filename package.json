@@ -23,6 +23,7 @@
     "@tiptap/react": "^2.1.12",
     "@tiptap/starter-kit": "^2.1.12",
     "axios": "^1.6.2",
+    "cors": "^2.8.5",
     "dayjs": "^1.11.10",
     "embla-carousel-react": "^7.1.0",
     "firebase": "^10.5.0",
@@ -62,8 +63,11 @@
     ]
   },
   "options": {
-    "allowedHosts": ["localhost", ".localhost"],
-    "proxy": "http://localhost:5000"
+    "allowedHosts": [
+      "localhost",
+      ".localhost"
+    ],
+    "proxy": "http://cliniprompt.dom.wisc.edu:5000"
   },
   "devDependencies": {
     "postcss": "^8.4.31",

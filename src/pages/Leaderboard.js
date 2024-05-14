@@ -1,4 +1,4 @@
-import { Image, Title, Text, ScrollArea, Table } from '@mantine/core';
+import { Image, Title, Text, ScrollArea, Table, Divider} from '@mantine/core';
 import React, { useEffect, useState } from 'react';
 import { collection, query, orderBy, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
@@ -46,8 +46,13 @@ const Leaderboard = () => {
           type="scroll"
           scrollbarAlwaysVisible={true}
         >
-          <Title size={"lg"} align="center" style={{ margin: '3vh' }}> Top Prompts </Title>
-          <Table striped highlightOnHover>
+            <Title pl={5} align="center">
+            <Divider my="md" />
+              <Image src='clinipromptlogo.png' ml={-5} radius={10} height={75} fit={"contain"} />
+              <Text size="xl" fw={700} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+                Leaderboard</Text>
+            </Title>
+            <Table striped highlightOnHover>
             <Table.Thead>
               <Table.Tr>
                 <Table.Th ta={"center"}>Rank</Table.Th>

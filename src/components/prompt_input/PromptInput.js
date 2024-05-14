@@ -38,7 +38,7 @@ const PromptInputProvider = ({ children }) => {
   );
 };
 
-const PromptInputContent = ({ steps, handleSubmit }) => {
+const PromptInputContent = ({ steps, handleSubmit, loadingButton}) => {
   const { currentStep, goToNextStep, goToPreviousStep } = usePromptInput();
 
   return (
@@ -62,9 +62,12 @@ const PromptInputContent = ({ steps, handleSubmit }) => {
       <Flex mt={{ base: 20, sm: 20 }} align={"center"} justify={"center"} justifyContent="space-between">
         {currentStep === 2 && (
           <Button
-            style={{ width: 130 }}
+            loading={loadingButton}
+            loaderProps={{ type: 'dots' }}
+            style={{ width: '50%', maxWidth: '300px' }}
             onClick={() => handleSubmit()}
-            variant="filled"
+            variant="gradient"
+            gradient={{ from: 'yellow', to: 'orange', deg: 90 }}
           >
             Submit
           </Button>
@@ -103,16 +106,16 @@ const StepContainer = ({ steps }) => {
   );
 };
 
-const PromptInput = ({ purposeChoice, setPurposeChoice, LLMChoice, setLLMChoice, myPrompt, setMyPrompt, numExamples, setNumExamples, handleSubmit }) => {
+const PromptInput = ({ purposeChoice, setPurposeChoice, LLMChoice, setLLMChoice, myPrompt, setMyPrompt, loadingButton, handleSubmit, setIsICLearning, isICLearning, setIsCOT, isCOT}) => {
   const steps = [
     <InputStep1 purposeChoice={purposeChoice} setPurposeChoice={setPurposeChoice} />,
     <InputStep2 LLMChoice={LLMChoice} setLLMChoice={setLLMChoice} />,
-    <InputStep3 myPrompt={myPrompt} setMyPrompt={setMyPrompt} numExamples={numExamples} setNumExamples={setNumExamples} />,
+    <InputStep3 myPrompt={myPrompt} setMyPrompt={setMyPrompt} setIsICLearning={setIsICLearning} isICLearning={isICLearning} setIsCOT={setIsCOT} isCOT={isCOT}/>,
   ];
 
   return (
     <PromptInputProvider>
-      <PromptInputContent steps={steps} handleSubmit={handleSubmit} />
+      <PromptInputContent steps={steps} handleSubmit={handleSubmit} loadingButton={loadingButton}/>
     </PromptInputProvider>
   );
 };

@@ -6,6 +6,7 @@ import AboutPage from "./pages/About";
 import Leaderboard from "./pages/Leaderboard"
 import TopUsers from "./pages/TopUsers"
 import History from "./pages/PromptHistory"
+import Readme from "./pages/Readme"
 
 import { useDisclosure } from '@mantine/hooks';
 import { AppShell, Burger, Flex, Image } from '@mantine/core';
@@ -47,6 +48,7 @@ export default function App() {
               <Route path="/login" element={<Auth />} />
               <Route path="/" element={<Home />} />
               <Route path="/history" element={<History />} />
+              <Route path="/readme" element={<Readme />} />
             </Routes>
           </Flex>
         </AppShell.Main>

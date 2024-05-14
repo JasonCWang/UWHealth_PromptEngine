@@ -2,6 +2,7 @@ import { Button, Flex, SimpleGrid, Text, Title } from "@mantine/core";
 import { usePromptInput } from "./PromptInput";
 import InfoPopover from "../InfoPopover";
 import { FaNotesMedical, FaCommentMedical, FaHandHoldingMedical, FaBookMedical } from "react-icons/fa";
+import { RiMedicineBottleFill } from "react-icons/ri";
 
 const StepOne = ({ purposeChoice, setPurposeChoice }) => {
   const { currentStep, goToNextStep, goToPreviousStep } = usePromptInput();
@@ -24,26 +25,26 @@ const StepOne = ({ purposeChoice, setPurposeChoice }) => {
         verticalSpacing={{ base: 'sm', sm: 'md' }}
       >
         <Button
-          style={{ width: 200, height: 45, marginTop: '3vh' }}
-          leftSection={<FaNotesMedical size={14} style={{ right: 10 }} />}
+          style={{ width: 200, height: 45}}
+          leftSection={<FaCommentMedical size={14} style={{ right: 10 }} />}
           color="gray"
           variant="gradient"
           gradient={{ from: 'indigo', to: 'cyan', deg: 147 }}
           opacity={0.9}
-          onClick={() => onButtonPress('Q/A')}
+          onClick={() => onButtonPress('q/a')}
         >
-          Q/A (MyChart)
+          General Q/A
         </Button>
         <Button
-          style={{ width: 200, height: 45, marginTop: '3vh' }}
-          leftSection={<FaBookMedical size={14} style={{ right: 10 }} />}
+          style={{ width: 200, height: 45}}
+          leftSection={<RiMedicineBottleFill size={14} style={{ right: 10 }} />}
           color="gray"
           variant="gradient"
           opacity={0.9}
           gradient={{ from: 'lime', to: 'cyan', deg: 90 }}
-          onClick={() => onButtonPress('Summarization')}
+          onClick={() => onButtonPress('medication')}
         >
-          Summarization
+          Medication
         </Button>
         <Button
           style={{ width: 200, height: 45 }}
@@ -52,20 +53,20 @@ const StepOne = ({ purposeChoice, setPurposeChoice }) => {
           variant="gradient"
           opacity={0.9}
           gradient={{ from: 'grape', to: 'pink', deg: 276 }}
-          onClick={() => onButtonPress('Simplification')}
+          onClick={() => onButtonPress('paperwork')}
         >
-          Simplification
+          Paperwork
         </Button>
         <Button
           style={{ width: 200, height: 45 }}
-          leftSection={<FaCommentMedical size={14} style={{ right: 10 }} />}
+          leftSection={<FaNotesMedical size={14} style={{ right: 10 }} />}
           color="gray"
           variant="gradient"
           opacity={0.9}
           gradient={{ from: 'yellow', to: 'red', deg: 348 }}
-          onClick={() => onButtonPress('Conversation')}
+          onClick={() => onButtonPress('results')}
         >
-          Conversation
+          Result Inquiry
         </Button>
       </SimpleGrid>
     </Flex>

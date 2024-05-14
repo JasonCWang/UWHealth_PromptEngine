@@ -1,4 +1,4 @@
-import { ScrollArea, Table, Title } from '@mantine/core';
+import { ScrollArea, Table, Title, Image, Divider, Text} from '@mantine/core';
 import React, { useEffect, useState } from 'react';
 import { collection, query, orderBy, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
@@ -54,8 +54,13 @@ const TopUsers = () => {
         type="scroll"
         scrollbarAlwaysVisible={true}
       >
-        <Title size={"lg"} align="center" style={{ margin: '3vh' }}> Top Users </Title>
-        <Table striped highlightOnHover>
+          <Title pl={5} align="center">
+          <Divider my="md" />
+            <Image src='clinipromptlogo.png' ml={-5} radius={10} height={75} fit={"contain"} />
+            <Text size="xl" fw={700} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+              Top Users</Text>
+          </Title>
+          <Table striped highlightOnHover>
           <Table.Thead>
             <Table.Tr>
               <Table.Th ta={"center"}>Rank</Table.Th>
