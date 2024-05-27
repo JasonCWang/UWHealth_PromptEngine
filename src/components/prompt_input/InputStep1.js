@@ -1,11 +1,11 @@
 import { Button, Flex, SimpleGrid, Text, Title } from "@mantine/core";
 import { usePromptInput } from "./PromptInput";
 import InfoPopover from "../InfoPopover";
-import { FaNotesMedical, FaCommentMedical, FaHandHoldingMedical, FaBookMedical } from "react-icons/fa";
+import { FaNotesMedical, FaCommentMedical, FaHandHoldingMedical } from "react-icons/fa";
 import { RiMedicineBottleFill } from "react-icons/ri";
 
 const StepOne = ({ purposeChoice, setPurposeChoice }) => {
-  const { currentStep, goToNextStep, goToPreviousStep } = usePromptInput();
+  const { currentStep, goToNextStep, goToxStep } = usePromptInput();
 
   const onButtonPress = (option) => {
     setPurposeChoice(option);

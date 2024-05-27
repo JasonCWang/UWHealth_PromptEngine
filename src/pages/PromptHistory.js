@@ -1,9 +1,12 @@
 import { Text, ScrollArea, Table, Image, Title, Divider} from '@mantine/core';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo} from 'react';
 import { collection, query, where, orderBy, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import { useAuth } from '../components/AuthProvider';
-
+import {
+    MantineReactTable,
+    useMantineReactTable,
+  } from 'mantine-react-table';
 const PromptHistory = () => {
     const [prompts, setPrompts] = useState([]);
     const { user } = useAuth();
@@ -24,7 +27,25 @@ const PromptHistory = () => {
         };
         fetchPrompts();
     }, [user]);
-
+    /*
+    const columns = useMemo(
+        () => [
+          {
+            accessorKey: 'timestamp.seconds', //access nested data with dot notation
+            header: 'Date',
+          },
+          {
+            accessorKey: 'prompt',
+            header: 'Prompt',
+          },
+        ],
+        [],
+      );
+    const table = useMantineReactTable({
+        columns,
+        prompts, //must be memoized or stable (useState, useMemo, defined outside of this component, etc.)
+      });
+    */
     return (
         <div style={{
             display: 'flex',
@@ -54,6 +75,7 @@ const PromptHistory = () => {
                             <Table.Tr>
                                 <Table.Th ta={"center"}>Date</Table.Th>
                                 <Table.Th ta={"center"}>Prompt</Table.Th>
+                                <Table.Th ta={"center"}>Example</Table.Th>
                             </Table.Tr>
                         </Table.Thead>
                         <Table.Tbody>
@@ -61,6 +83,7 @@ const PromptHistory = () => {
                                 <Table.Tr key={index}>
                                     <Table.Td style={{ textAlign: 'center' }}>{new Date(item.timestamp.seconds * 1000).toLocaleDateString()}</Table.Td>
                                     <Table.Td style={{ textAlign: 'center' }}>{item.prompt}</Table.Td>
+                                    <Table.Td style={{ textAlign: 'center' }}>{item.examples[0]}</Table.Td>
                                 </Table.Tr>
                             ))}
                         </Table.Tbody>

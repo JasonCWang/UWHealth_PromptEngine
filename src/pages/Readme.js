@@ -39,9 +39,9 @@ export function Readme() {
             Introduction - What is CliniPrompt?
             </Text>
             <Text size="md" pl={5}>
-            CliniPrompt is a website and software hosted by the ICU Data Science Lab at UW-Madison. Its goal is to help clinicians leverage Large Language Models (LLMs) as effectively as possible through prompting. Specifically, the goal of Prompting is to determine the best way to phrase a certain question to an LLM to get the most accurate result. In this context, a prompt is simply any context or wording that can be provided to an LLM prior to asking a question. 
+            CliniPrompt is a website and software hosted by the ICU Data Science Lab at UW-Madison. Its goal is to help clinicians leverage Large Language Models (LLMs) as effectively as possible through prompting. Specifically, the goal of prompting is to determine the best way to phrase a certain question to an LLM to get the most accurate result. In this context, a prompt is simply any context or wording that can be provided to an LLM prior to asking a question. 
             <Space h="md" />
-            To this end, CliniPrompt takes in any prompt as input and optimizes it to fit your usecase. CliniPrompt is based on the latest and greatest prompting techniques. In each step of the pipeline, we optimize your input prompt more and more until we get an optimized prompt. If you would rather not create a prompt from scratch, please check out the leaderboard! Pick any optimized prompt that corresponds to your usecase and provide this as context before asking your next question to an LLM. If you would like to create your own prompt, the next sections details step-by-step how our pipeline works!
+            To this end, CliniPrompt takes in any prompt as input and optimizes it to fit your usecase. CliniPrompt is based on the latest and greatest prompting techniques. In each step of the pipeline, we optimize your input prompt more and more until we get an optimized prompt. If you would rather not create a prompt from scratch, please check out the leaderboard! Please pick any optimized prompt that corresponds to your usecase and provide this as context before asking your next question to an LLM. If you would like to create your own prompt, the next sections details step-by-step how to do so!
             </Text>
             <Text fw={700} size="md" td="underline" c="red" align="center" >As always, please use caution when using LLMs and and validate the responses in sensitive scenarios! </Text>
             <Divider my="md" />
@@ -49,9 +49,9 @@ export function Readme() {
             Overview - How does CliniPrompt work?
             </Text>
             <Text size="md" pl={5}>
-            This section walks you though the CliniPrompt pipeline and describes how to use this tool as optimally as possible!
+            This section walks you though the CliniPrompt pipeline and describes how to use this tool as optimally as possible! If you are ever confused, please use your mouse to hover over any info buttons along the way! These will provide a little more context to help you. 
             <Space h="md" />
-            <Text size="xl" fw={700} className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+            {/* <Text size="xl" fw={700} className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
             Step 1: Use-case Choice
             </Text>
             If you are ever confused, please use your mouse to hover over any info buttons along the way! These will provide a little more context to help you. To begin, please go to the tab called "Create Prompt" on your lefthand side. The first question you will be asked is which usecase you intend to use the LLM for. The UI will look something like Figure 1. CliniPrompt currently supports four uses cases: General Q/A, Medication Questions, Paperwork Requests, and Result Inquries. Below are some example questions associated with each use-case. Please take a look at the examples below and pick the use-case that most aligns with your intended purpose.
@@ -65,46 +65,52 @@ export function Readme() {
             <Text size="md" fw={700} pl={5}>Results</Text>
             I received my liver function test results on MyChart and noticed my AST level is near the upper level of the normal range. What should I do?
             <Image src='prompt_input1.png' radius="lg" h={200} fit={"contain"} />
-            <Text fw={700} size="md" c="black" align="center" >Figure 1: LLM Use-case Screen</Text>
+            <Text fw={700} size="md" c="black" align="center" >Figure 1: LLM Use-case Screen</Text> */}
 
             <Text size="xl" fw={700} className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
-            Step 2: LLM Choice
+            Step 1: LLM Choice
             </Text>
-            Next, you will be asked which LLM you intend on using. Since each LLM behaves so differently, each LLM is prompted differently as well. Models can vary in both syntax and wordings so please choose accordingly here! We will use this LLM to evaluate metrics to determine which prompt produces the most accurate result.
-
+            To begin, please go to the tab called "Create Prompt" on your lefthand side. The first question you will be asked is which LLM you intend on using. Since each LLM behaves so differently, each LLM is prompted differently as well. Models can vary in both syntax and wordings so please choose accordingly here! We will use this LLM to evaluate metrics to determine which prompt produces the most accurate result.
+            <Image src='llm_choice.png' radius="lg" h={300} fit={"contain"} />
+            <Text fw={700} size="md" c="black" align="center" >Figure 1: Potential LLM Choices</Text>
             <Text size="xl" fw={700} className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
-            Step 3: Prompt Paraphrasing
+            Step 2: Prompt Paraphrasing
             </Text>
             In this page, you will provide us with a naive prompt to your given usecase. The screen will look similar to Figure 2. Please phrase this prompt like you are asking the LLM to perform a specific task. For instance, you might tell the LLM they are a doctor or industry expert. Be sure to also emphasize any important aspects you want to include. An example is provided in Figure 3. 
             <Space h="md" />
-            Next, you will be provided some questions in the form of checkboxes. These are optional, but please read these questions accurately for your usecase. When you are ready, click the submit button! Afterwards, we will paraphrase your prompt 10 times and pick the 4 best optimized paraphrases.  
+            In the next textbox, you will be given the option to describe your usecase in a couple words. For example, your usecase could be to summarize patient visits or answer patient inquries. Although this step is optional, answering this question will allow us to obtain the best possible examples for your prompt.
+            <Space h="md" />
             <Text fw={700} size="md" td="underline" c="red">This step may take a couple tries, so please try multiple times!</Text>
-            <Image src='prompt_input.png' radius="lg" h={300} fit={"contain"} />
+            <Image src='prompt_input_v2.png' radius="lg" h={300} fit={"contain"} />
             <Text fw={700} size="md" c="black" align="center" >Figure 2: Prompt Input Screen</Text>
-            <Image src='prompt_input_filledin.png'radius="lg" h={300} fit={"contain"} />
+            <Image src='prompt_input_v2_filled.png'radius="lg" h={300} fit={"contain"} />
             <Text fw={700} size="md" c="black" align="center" marginBottom={30} >Figure 3: Filled in Prompt Input Screen </Text>
+            <Space h="md"/>
+            Finally, you will be provided some questions in the form of checkboxes. These are optional, but please read these questions fully before continuing. If you anticipate When you are ready, click the submit button! Afterwards, we will paraphrase your prompt 10 times and pick the 4 best optimized paraphrases.  
+            <Image src='checkboxes.png'radius="lg" h={150} fit={"contain"} />
+            <Text fw={700} size="md" c="black" align="center" marginBottom={30} >Figure 4: Potential Prompt Options </Text>
             <Text size="xl" fw={700} className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
             <Space h="lg" />
-            Step 4: Edit an Example (Optional)
+            Step 3: Edit an Example (Optional)
             </Text>
-            If you chose to include examples in your prompt, we will provide you with the most related examples to include in your prompt! In this page, you will be shown an example related to your use-case (See Figure 4). Here, please edit the example depending on how you feel the doctor should respond! Add any phrases or formalities you prefer or remove any comments you think are better left out. Afterwards, pick the number of examples you would like to include in your prompt and click the next button. At this point, we will calculate the most related examples and only show you examples that we believe are similar to your tone. This may take a few seconds. 
+            If you chose to include examples in your prompt, we will provide you with the most related examples to include in your prompt! In this page, you will be shown a text box with an empty question and answer. Here, please provide an example that is related to your usecase! An example is shown in Figure 5. Please add any phrases or formalities you prefer or remove any comments you think are better left out. Afterwards, pick the number of examples you would like to include in your prompt and click the next button. At this point, we will calculate the most related examples and only show you examples that we believe are similar to your tone. This may take a few seconds. 
             <Image src='in_context_example.png'radius="lg" h={300} fit={"contain"} />
-            <Text fw={700} size="md" c="black" align="center" >Figure 4: Editable Example</Text>
+            <Text fw={700} size="md" c="black" align="center" >Figure 5: Editable Example</Text>
             <Space h="lg" />
             <Text size="xl" fw={700} className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
-            Step 5: Choosing Examples (Optional)
+            Step 4: Choosing Examples (Optional)
             </Text>
             You're almost finished! In this step, simply choose some examples to include in your prompt! You can either approve, reset, or reject each example. Please feel free to edit these examples as much as you like as well!
             <Image src='in_context_example_2.png'radius="lg" h={300} fit={"contain"} />
-            <Text fw={700} size="md" c="black" align="center" >Figure 4: Example Swipe System</Text>
+            <Text fw={700} size="md" c="black" align="center" >Figure 6: Example Swipe System</Text>
 
             <Text size="xl" fw={700} className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
-            Step 6: Consistency
+            Step 5: Consistency
             </Text>
             <Space h="md"/>
             After you've chosen your examples, simply click the approve button to run our consistency algorithm. We will run a handful of versions of your prompt on a couple examples to see which one most consistenly picks the best response. 
             <Text size="xl" fw={700} className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
-            Step 7: Usage & Leaderboard
+            Step 6: Usage & Leaderboard
             </Text>
             Thats it! You will be shown your final optimized prompt as well as a final submit button. To see how your prompt ranks against other users, please feel free to checkout the leaderboard tab! Additionally, to reuse previous prompts that you created, please see the prompt history tab.
             <Text fw={700} size="xl" className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }} align="center" >Thanks so much for contributing to CliniPrompt! </Text>

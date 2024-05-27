@@ -35,7 +35,6 @@ const AboutPage = () => {
         <Text size="xl" fw={700} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
           About Us</Text>
       </Title>
-      <Divider my="md" />
       <Text ta={"center"} fw={500} mt={20}size='lg'> Hosted by UW-Madison Department of Medicine
       </Text>
       <Text ta={"center"} fw={500} size='md'> University of Wisconsin School of Medicine and Public Health, Madison, WI

@@ -9,7 +9,7 @@ import math
 from openai import OpenAI
 import numpy as np
 
-os.environ['OPENAI_API_KEY'] = ""
+os.environ['OPENAI_API_KEY'] = "sk-OlIExXYjR2hQZO92"
 client = OpenAI()
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased") 
 model = AutoModel.from_pretrained("bert-base-uncased", output_hidden_states=True) 
@@ -118,7 +118,7 @@ def measure_perplexity():
         # Chain of thought first, then paraphrase
         print("Entering COT Logic...")
         cot_request = "You are given a prompt to an LLM to answer patient questions in a hospital. Your goal is to make the prompt as chain-of-thought prompt. Lets think step by step. Do not remove any valuable information already present within the original prompt. Make sure it is targeted towards the LLM, NOT the user."
-        print("Chain-of-thought Request:", cot_request)
+        print("\nChain-of-thought Request:", cot_request)
         gpt_response = client.chat.completions.create(
         model='gpt-3.5-turbo-1106',
         messages=[
@@ -130,7 +130,7 @@ def measure_perplexity():
     # Get paraphrases from openai
     num_paraphrases = '10'
     paraphrase_request = "Please paraphrase the following prompt to ChatGPT " + num_paraphrases + " times and make a list. For each of the " + num_paraphrases + " paraphrases, make sure to keep the meaning the same. End each paraphrases with @@. Do not bullet or number each paraphrase in the list. This is so that I can split the sentences easier later."
-    print("Paraphrase Request:", paraphrase_request)
+    print("\nParaphrase Request:", paraphrase_request)
     gpt_response = client.chat.completions.create(
     model='gpt-3.5-turbo-1106',
     messages=[
@@ -138,7 +138,7 @@ def measure_perplexity():
         {'role': 'user', 'content': prompt }])
     
     paraphrases = gpt_response.choices[0].message.content
-    print('GPT Output:', paraphrases)
+    print('\nGPT Output:', paraphrases)
     #print('GPT OUTPUT', paraphrases)
     # VALIDATION CHECKS ON PARAPHRASE
 
@@ -177,9 +177,13 @@ def get_dynamic_fewshot():
         return {"get_dynamic_fewshot": "error"}
     basePrompt = data['string1']
     personalizedExample = data['string2']
+    usecase = data['string3']
     print("Base Prompt:", basePrompt)
     print("Personalized Example:", personalizedExample)
+    print("Usecase: ", usecase)
     #Get Target Embedding
+    basePrompt = usecase + '\n' + basePrompt
+    print("Base Prompt to be embedded:", basePrompt)
     prompt_embedding = client.embeddings.create(
         input=[basePrompt],
         model="text-embedding-3-small")

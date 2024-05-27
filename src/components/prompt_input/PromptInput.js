@@ -1,6 +1,6 @@
 import React, { useState, createContext, useContext } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Button, Flex } from "@mantine/core";
+import { Button, Flex, Divider} from "@mantine/core";
 import { FaArrowLeft } from "react-icons/fa";
 import InputStep1 from './InputStep1';
 import InputStep2 from './InputStep2';
@@ -44,8 +44,8 @@ const PromptInputContent = ({ steps, handleSubmit, loadingButton}) => {
   return (
     <div style={{ width: '100%', height: '100%' }}>
       <StepContainer steps={steps} />
-
-      <Flex mt={50} align={"center"} justify={"center"} justifyContent="space-between">
+      
+      <Flex mt={550} align={"center"} justify={"center"} justifyContent="space-between">
         {currentStep > 0 && (
           <Button
             style={{ width: 130 }}
@@ -60,7 +60,7 @@ const PromptInputContent = ({ steps, handleSubmit, loadingButton}) => {
 
       </Flex>
       <Flex mt={{ base: 20, sm: 20 }} align={"center"} justify={"center"} justifyContent="space-between">
-        {currentStep === 2 && (
+        {currentStep === 1 && (
           <Button
             loading={loadingButton}
             loaderProps={{ type: 'dots' }}
@@ -73,6 +73,7 @@ const PromptInputContent = ({ steps, handleSubmit, loadingButton}) => {
           </Button>
         )}
       </Flex>
+      <Divider my="md" />
     </div>
   );
 };
@@ -106,11 +107,11 @@ const StepContainer = ({ steps }) => {
   );
 };
 
-const PromptInput = ({ purposeChoice, setPurposeChoice, LLMChoice, setLLMChoice, myPrompt, setMyPrompt, loadingButton, handleSubmit, setIsICLearning, isICLearning, setIsCOT, isCOT}) => {
+const PromptInput = ({ usecase, setUseCase, LLMChoice, setLLMChoice, myPrompt, setMyPrompt, loadingButton, handleSubmit, setIsICLearning, isICLearning, setIsCOT, isCOT}) => {
   const steps = [
-    <InputStep1 purposeChoice={purposeChoice} setPurposeChoice={setPurposeChoice} />,
+    //<InputStep1 purposeChoice={purposeChoice} setPurposeChoice={setPurposeChoice} />,
     <InputStep2 LLMChoice={LLMChoice} setLLMChoice={setLLMChoice} />,
-    <InputStep3 myPrompt={myPrompt} setMyPrompt={setMyPrompt} setIsICLearning={setIsICLearning} isICLearning={isICLearning} setIsCOT={setIsCOT} isCOT={isCOT}/>,
+    <InputStep3 myPrompt={myPrompt} setMyPrompt={setMyPrompt} usecase={usecase} setUseCase={setUseCase} setIsICLearning={setIsICLearning} isICLearning={isICLearning} setIsCOT={setIsCOT} isCOT={isCOT}/>,
   ];
 
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, createContext, useContext} from 'react';
 import { FaArrowLeft } from "react-icons/fa";
 import { motion, AnimatePresence } from 'framer-motion';
-import { Popover, Button, Flex, LoadingOverlay, Text, Textarea, Select, Accordion} from "@mantine/core";
+import { Popover, Button, Flex, LoadingOverlay, Text, Textarea, Select, Accordion, Space} from "@mantine/core";
 import { notifications } from '@mantine/notifications';
 import { useDisclosure } from '@mantine/hooks';
 import InfoPopover from '../InfoPopover';
@@ -10,13 +10,13 @@ import { db } from "../../firebase";
 import axios from 'axios';
 import { FaPencilAlt} from "react-icons/fa";
 
-const PromptEvaluate = ({ username, llm, usecase, personalizedExample, setPersonalizedExample, potentialPrompts, perplexities, doneAndRestart, setIsICLearning, isICLearning, isCOT}) => {
+const PromptEvaluate = ({ username, llm, usecase, personalizedExample, setPersonalizedExample, potentialPrompts, perplexities, doneAndRestart, setIsICLearning, isICLearning}) => {
   const [numExamples, setNumExamples] = useState('0');
   const handleEditing = (value) => {
     setPersonalizedExample(value)
   }
   return (
-  <div style={{ height: "100%", width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <div style={{ height: "100%", width: '100%', justifyContent: 'center', alignItems: 'center'}}>
       {
         isICLearning == true?
           <DetermineNumberExamples potentialPrompts={potentialPrompts} personalizedExample={personalizedExample} handleEditing={handleEditing} numExamples={numExamples} setNumExamples={setNumExamples} setIsICLearning={setIsICLearning} />
@@ -54,7 +54,7 @@ const PromptEvaluateContent = ({ username, llm, usecase, potentialPrompts, numEx
   const [groundTruths, setGroundTruths] = useState([]);
   const [totalNumExamples, setTotalNumExamples] = useState('[Calculating...]');
   const [consistencyData, setConsistencyData] = useState([]);
-
+  
   // Variables for editable examples
   var [isEdited, setEdited] = useState(false);
   var currentExample = '\nExample:\n\nQuestion: ' + groundTruths[currentStep]?.question + '\n\nAnswer: ' + groundTruths[currentStep]?.answer;
@@ -79,9 +79,15 @@ const PromptEvaluateContent = ({ username, llm, usecase, potentialPrompts, numEx
       })
   };
 
-  const runDynamicFewShotScript = async (basePrompt, personalizedExample, groundTruths) => {
-    const endpoint = 'http://127.0.0.1:5000/get_dynamic_fewshot/'
-    const jsonData = { 'string1': basePrompt, 'string2': personalizedExample, 'dict': groundTruths }
+  const runDynamicFewShotScript = async (basePrompt, personalizedExample, groundTruths, usecase) => {
+    var endpoint;
+    if (window.location.hostname == 'localhost'){
+      endpoint = 'http://127.0.0.1:5000/get_dynamic_fewshot/'
+    }
+    else {
+      endpoint = '/api/get_dynamic_fewshot/'
+    }
+    const jsonData = { 'string1': basePrompt, 'string2': personalizedExample, 'string3': usecase, 'dict': groundTruths}
 
     try {
       const response = await axios.post(endpoint, jsonData);
@@ -104,11 +110,12 @@ const PromptEvaluateContent = ({ username, llm, usecase, potentialPrompts, numEx
       // DYNAMIC FEW-SHOT LOGIC
       // Append personalized example with least perplexity prompt
       // ## Could replace praphrase 0 with optimal perplexity prompt ##
+      console.log("Usecase", usecase)
       console.log("POTENTIAL PROMPTS", potentialPrompts)
       const basePrompt = potentialPrompts[0].message[0]+personalizedExample
       console.log("BASE PROMPT", basePrompt)
       console.log("All GT", groundTruths)
-      const chosenGroundTruths = await runDynamicFewShotScript(basePrompt, personalizedExample, groundTruths)
+      const chosenGroundTruths = await runDynamicFewShotScript(basePrompt, personalizedExample, groundTruths, usecase)
       console.log("Chosen GT", chosenGroundTruths)
       setGroundTruths(chosenGroundTruths);
       var currentExample = '\nExample:\n\nQuestion: ' + chosenGroundTruths[currentStep]?.question + '\n\nAnswer: ' + chosenGroundTruths[currentStep]?.answer;
@@ -220,7 +227,13 @@ const PromptEvaluateContent = ({ username, llm, usecase, potentialPrompts, numEx
   };
 
   const runSelfConsistencyScript = async (string1, string2, string3, llm) => {
-    const endpoint = 'http://127.0.0.1:5000/calculate-cosine-similarity/'
+    var endpoint;
+    if (window.location.hostname == 'localhost'){
+      endpoint = 'http://127.0.0.1:5000/calculate-cosine-similarity/'
+    }
+    else {
+      endpoint = '/api/calculate-cosine-similarity/'
+    }
     const jsonData = { 'string1': string1, 'string2': string2, 'string3': string3, 'llm': llm }
 
     try {
@@ -232,7 +245,13 @@ const PromptEvaluateContent = ({ username, llm, usecase, potentialPrompts, numEx
   };
 
   const runFormattingScript = async (prompt) => {
-    const endpoint = 'http://127.0.0.1:5000/format_prompt/'
+    var endpoint;
+    if (window.location.hostname == 'localhost'){
+      endpoint = 'http://127.0.0.1:5000/format_prompt/';
+    }
+    else {
+      endpoint = '/api/format_prompt/';
+    }
     const jsonData = { 'prompt': prompt }
 
     try {
@@ -306,7 +325,7 @@ const PromptEvaluateContent = ({ username, llm, usecase, potentialPrompts, numEx
             <>
               <Text mt={25} size={"md"} fw={500} ta={"center"} c={"gray.8"}>Example {currentStep} out of {totalNumExamples} Total Examples</Text>
               <Text mt={25} size={"md"} fw={500} ta={"center"} c={"gray.7"}>{chosenExamples} out of {numExamples} Examples Chosen</Text>
-              <Text mt={25} size={"md"} fw={500} ta={"center"} c={"gray.6"}>Generating for {llm} and {usecase} Use-Case</Text>
+              <Text mt={25} size={"md"} fw={500} ta={"center"} c={"gray.6"}>Generating for {llm} </Text>
               <StepContainer key={currentStep}>
                 <ApprovalUI
                   value = {value}
@@ -327,7 +346,9 @@ const PromptEvaluateContent = ({ username, llm, usecase, potentialPrompts, numEx
                   <Flex w={"100%"} align={"center"} direction={"column"} key={index}>
                     {index === 0 ?
                       <Flex w={"100%"} align={"center"} direction={"column"}>
-                        <Text mt={20} ta={"center"} fw={600} size='md' c={"gray.8"}>Potential Prompts</Text>
+                        <Text mt={20} ta={"center"} fw={600} size='md' c={"gray.8"}>Potential Prompts
+                        <InfoPopover infoText="Your prompt and examples will be run against our ground truth dataset for self-consistency!" /></Text>
+                        
                         <Accordion defaultValue="Prompt 1">
                         {items}
                         </Accordion>
@@ -361,7 +382,6 @@ const PromptEvaluateContent = ({ username, llm, usecase, potentialPrompts, numEx
                   variant="gradient"
                   gradient={{ from: 'yellow', to: 'orange', deg: 90 }}>Approve
                 </Button>
-                <InfoPopover infoText="Your prompt and examples will be run against our ground truth dataset for self-consistency!" />
               </Flex>
           }
         </>
@@ -562,25 +582,26 @@ const DetermineNumberExamples = ({potentialPrompts, personalizedExample, handleE
     </Accordion.Item>
   ));
   return (
-    <Flex direction={"column"} align={"center"}>
-      <Flex align="center">
-        <Text fw={500} align="center" style={{ width: '100%', marginBottom: 10 }}>Lets make an In-Context Example!</Text>
-        <InfoPopover infoText="Please edit this how you would respond to this question! We will use this to get the best examples for you." />
-      </Flex>
-      <Textarea
-        autosize
-        mr='30'
-        miw={{ base: 400, sm: 650 }}
-        minRows={20}
-        maxRows={14}
-        value={personalizedExample}
-        withAsterisk
-        onChange={(event) => handleEditing(event.currentTarget.value)}
-      />
+    <Flex direction={"column"} align={"center"}><Space h="md" />
+    <Text size="xl" fw={500} align="center" style={{ width: '100%', marginBottom: 20 }} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+    Create Prompt</Text>
+    <Text size="lg" fw={600} style={{ width: '100%', marginTop: 20}} align="center" >
+    Could you provide an input and output example in the text box?<InfoPopover infoText="This is where you can provide an example of what your usecase might look like!" />
+    </Text>
+    <Textarea
+      autosize
+      mr='30'
+      miw={{ base: 400, sm: 650 }}
+      minRows={20}
+      maxRows={14}
+      value={personalizedExample}
+      withAsterisk
+      onChange={(event) => handleEditing(event.currentTarget.value)}
+    />
 
-      <Flex align="center" mt={15} >
+      <Flex mt={15} >
         <Text fw={500} align="center" style={{ width: '100%', marginBottom: 10, marginTop: '2vh' }}>How many examples would you like to include?</Text>
-        <InfoPopover infoText="Examples help the LLM to know how to phrase certain responses. This is called in-context learning." />
+        <InfoPopover infoText="Here you can select the number of examples you would like to include. You can pick a range from 1 to 5." />
       </Flex>
       <Select
         placeholder="1 - 5"
@@ -621,57 +642,52 @@ const ExplanationPage = ({currentStep, goToNextStep, fetchChosenGT, groundTruths
     goToNextStep();
   }
   return (
-    <Flex direction="column" align="center" justify="center" style={{ height: '100%' }}>
-      <Flex align="center">
-      <Text fw={700} size="xl" style={{marginBottom: 10}}>In Context Learning</Text>
+    <Flex direction={"column"} align={"center"}>
+      <Text size="lg" fw={600} style={{ width: '100%', marginTop: 20}} align="center" >
+      Time to pick examples!
       <InfoPopover infoText="Examples help the LLM to know how to phrase certain responses. This is called in-context learning." />
-      </Flex>
+      </Text>
+      <Flex direction={"column"} align={"center"}>
       <Text style={{ width: '100%', marginBottom: 10 }}>In this section, you will pick examples to include in your prompt!</Text>
       <Text style={{ width: '100%', marginBottom: 10 }}>For each example, please select one of the following actions:</Text>
-      <Flex align="center">
       <Text 
       variant="gradient"
       fw={900}
-      gradient={{ from: 'green', to: 'lime', deg: 90 }} 
+      gradient={{ from: 'green.9', to: 'lime.9', deg: 90 }} 
       style={{ width: '50%', marginBottom: 10 }}
       >
-        Approve! 
-      </Text>
+        Approve: 
       <Text
       style={{ width: '100%', marginBottom: 10 }}
-      >Adds this example to your prompt</Text>
-      </Flex>
-
-      <Flex align="center">
+      >Adds this example to your prompt!</Text>
+      </Text>
+      
       <Text 
       variant="gradient"
       fw={900}
-      gradient={{ from: 'orange', to: 'yellow', deg: 90 }} 
+      gradient={{ from: 'orange.9', to: 'yellow.9', deg: 90 }} 
       style={{ width: '50%', marginBottom: 10 }}
-      >
-        Reset! 
-      </Text>
+      >Reset:
       <Text
       style={{ width: '100%', marginBottom: 10 }}
-      >Resets your changes to the prompt</Text>
-      </Flex>
+      >Resets your changes!</Text>
+      </Text>
 
-      <Flex align="center">
       <Text 
       variant="gradient"
       fw={900}
       gradient={{ from: 'pink', to: 'red', deg: 90 }} 
       style={{ width: '50%', marginBottom: 10 }}
-      >
-        Reject! 
-      </Text>
+      >Reject:
       <Text
       style={{ width: '100%', marginBottom: 10 }}
-      >Skips to our next custom example</Text>
-      </Flex>
+      >Skips to our next custom example!</Text>
+      </Text>
 
       <Text style={{ width: '100%', marginBottom: 10 }}>Lastly, for each example, you can edit them to make them personalized!</Text>
       <Text style={{ width: '100%', marginBottom: 10 }}>We'll keep going until you approve the right number of examples.</Text>
+      <Text style={{ width: '100%', marginBottom: 10 }}>If we cannot find any good examples in our database, well skip this part.</Text>
+      </Flex>
       <Button 
       loading={loading}
       loaderProps={{ type: 'dots' }}
