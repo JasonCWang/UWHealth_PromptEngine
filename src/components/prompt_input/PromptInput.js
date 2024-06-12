@@ -45,7 +45,7 @@ const PromptInputContent = ({ steps, handleSubmit, loadingButton}) => {
     <div style={{ width: '100%', height: '100%' }}>
       <StepContainer steps={steps} />
       
-      <Flex mt={550} align={"center"} justify={"center"} justifyContent="space-between">
+      <Flex mt={350} align={"center"} justify={"center"} justifyContent="space-between">
         {currentStep > 0 && (
           <Button
             style={{ width: 130 }}

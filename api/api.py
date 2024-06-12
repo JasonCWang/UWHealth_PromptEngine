@@ -9,7 +9,7 @@ import math
 from openai import OpenAI
 import numpy as np
 
-os.environ['OPENAI_API_KEY'] = "sk-OlIExXYjR2hQZO92"
+os.environ['OPENAI_API_KEY'] = ""
 client = OpenAI()
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased") 
 model = AutoModel.from_pretrained("bert-base-uncased", output_hidden_states=True) 
@@ -146,7 +146,9 @@ def measure_perplexity():
     paraphrase_list = paraphrases.split('@@')
     paraphrase_list = [x.replace('-', '').strip() for x in paraphrase_list if x != '' and x != '.']
     #print(paraphrase_list)
-    if len(paraphrase_list) != int(num_paraphrases):
+    print("Before parsing", len(paraphrase_list))
+    print("After parsing", int(num_paraphrases))
+    if len(paraphrase_list) not in [8,9,10]:
         return {"measure_perplexity": "error"}
     
     # Get perplexity of each paraphrase

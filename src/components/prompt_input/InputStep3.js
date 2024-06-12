@@ -22,11 +22,14 @@ const StepThree = ({ myPrompt, setMyPrompt, usecase, setUseCase, setIsICLearning
   ));
   return (
     <Flex direction={"column"} align={"center"}>
-      <Text size="xl" fw={500} align="center" style={{ width: '100%', marginBottom: 20 }} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+      <Text size="xl" fw={500} align="center" variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
       Create Prompt</Text>
       <Text size="lg" fw={600} style={{ width: '100%', marginTop: 20}} align="center" >
-        Please write your prompt below<InfoPopover infoText="This is where you can enter in the prompt that will be used to generate text, calculate perplexity, and attach examples." />
+        1. Write your prompt below:
+        <InfoPopover infoText="This is where you can enter in the prompt that will be used to generate text, calculate perplexity, and attach examples." />
       </Text>
+      <Text size="sm" c="grey" fw={400} style={{ width: '100%'}} align="center" >
+        Please make sure to include 1. Your role, 2. A description of the task, and 3. An instruction</Text>
         
       <Textarea
         autosize
@@ -37,10 +40,19 @@ const StepThree = ({ myPrompt, setMyPrompt, usecase, setUseCase, setIsICLearning
         value={myPrompt}
         onChange={(event) => setMyPrompt(event.currentTarget.value)}
       />
-      <Text size="lg" fw={600} style={{ width: '100%', marginTop: 20}} align="center" >
-        Describe your use-case in a couple words<InfoPopover infoText="This is where you can briefly describe your usecase. We will use this information to get the most relevant examples!" />
+      <Text size="sm" c="grey" fw={600} style={{ width: '100%'}} align="center" >
+        If you need some guidance, here are some examples: </Text>
+      <Text size="sm" c="grey" fw={400} style={{ width: '100%', marginBottom: 20}} align="center" >
+        Patient Question & Answer: <Text style={{ width: '75%'}} size="sm" fs="italic">You are a kind, courteous, and sincere primary care provider addressing inquiries from patients submitted electronically. Always aim to offer helpful advice while maintaining safety. Your responses should refrain from mentioning another physician and must avoid any harmful or inappropriate content. Make sure your answers are neutral, inclusive, and optimistic.</Text>
       </Text>
-        
+      <Text size="sm" c="grey" fw={400} style={{ width: '100%'}} align="center" >
+        Patient Visit Summarization: <Text style={{ width: '75%'}} size="sm" fs="italic">Act as a medical doctor, and list the top three direct and indirect diagnoses from the input note.</Text>
+      </Text>
+      <Text size="lg" fw={600} style={{ width: '100%', marginTop: 20}} align="center" >
+        2. Describe your use-case in a couple words:<InfoPopover infoText="This is where you can briefly describe your usecase. We will use this information to get the most relevant examples!" />
+      </Text>
+      <Text size="sm" c="grey" fw={400} style={{ width: '100%'}} align="center" >
+        This is optional, but will let us find the best examples for you!</Text>
       <Textarea
         autosize
         miw={{ base: 400, sm: 650 }}
@@ -50,22 +62,17 @@ const StepThree = ({ myPrompt, setMyPrompt, usecase, setUseCase, setIsICLearning
         value={usecase}
         onChange={(event) => setUseCase(event.currentTarget.value)}
       />
-      <Text size="lg" fw={600} style={{ width: '100%', marginTop: 20}} align="center" >
-        See examples below <InfoPopover infoText="Use these as reference when creating your own prompt! More examples for different usecases will come soon." />
-      
-      </Text>
-      <Accordion defaultValue="Patient Q/A">
-      {items}
-      </Accordion>
       <Divider my="md" />
-
+      <Text size="lg" fw={600} style={{ width: '100%'}} align="center" >
+        3. Some additional questions:<InfoPopover infoText="This is where you can briefly describe your usecase. We will use this information to get the most relevant examples!" />
+      </Text>
       <Flex mt={15} >
         <Checkbox
         checked={isICLearning}
         color="blue.4"
         iconColor="dark.8"
         size="md"
-        label="Would your use-case benefit from examples?"
+        label="Are there any examples that you can provide for this prompt?"
         description="This options allows you to include examples in your prompt."
         onChange={(event) => setIsICLearning(event.currentTarget.checked)}
         />
@@ -76,7 +83,7 @@ const StepThree = ({ myPrompt, setMyPrompt, usecase, setUseCase, setIsICLearning
         color="blue.4"
         iconColor="dark.8"
         size="md"
-        label="Does your use-case require multiple steps?"
+        label="Can your prompt be written in a step by step instruction?"
         description="This option prompts the LLMs to solve difficult questions using reasoning."
         onChange={(event) => setIsCOT(event.currentTarget.checked)}
         />

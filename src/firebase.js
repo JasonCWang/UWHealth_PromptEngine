@@ -8,12 +8,6 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyATXNnSYCQyjDEkLy",
-  authDomain: "cliniprompt.firebaseapp.com",
-  projectId: "cliniprompt",
-  storageBucket: "cliniprompt.appspot.com",
-  messagingSenderId: "452168269864",
-  appId: "1:452168269864:web:"
 };
 
 // Initialize Firebase

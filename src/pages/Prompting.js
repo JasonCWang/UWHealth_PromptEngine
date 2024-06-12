@@ -65,7 +65,7 @@ const Prompting = () => {
       setLLMChoice(LLMChoice);
     }
     // Set base example to be personalized
-    setPersonalizedExample("\nQuestion: \n\nAnswer: ");
+    setPersonalizedExample("\nInput: \n\nOutput: ");
     setLoadingButton(false);
 
   }
@@ -98,7 +98,6 @@ const Prompting = () => {
 
     try {
       const response = await axios.post(endpoint, jsonData);
-      console.log(response);
       return response.data;
     } catch (error) {
       console.error('Error making axios request:', error);

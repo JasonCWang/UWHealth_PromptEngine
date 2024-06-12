@@ -87,13 +87,11 @@ export function Readme() {
             <Text fw={700} size="md" c="black" align="center" marginBottom={30} >Figure 3: Filled in Prompt Input Screen </Text>
             <Space h="md"/>
             Finally, you will be provided some questions in the form of checkboxes. These are optional, but please read these questions fully before continuing. If you anticipate When you are ready, click the submit button! Afterwards, we will paraphrase your prompt 10 times and pick the 4 best optimized paraphrases.  
-            <Image src='checkboxes.png'radius="lg" h={150} fit={"contain"} />
-            <Text fw={700} size="md" c="black" align="center" marginBottom={30} >Figure 4: Potential Prompt Options </Text>
             <Text size="xl" fw={700} className={classes.title} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
             <Space h="lg" />
             Step 3: Edit an Example (Optional)
             </Text>
-            If you chose to include examples in your prompt, we will provide you with the most related examples to include in your prompt! In this page, you will be shown a text box with an empty question and answer. Here, please provide an example that is related to your usecase! An example is shown in Figure 5. Please add any phrases or formalities you prefer or remove any comments you think are better left out. Afterwards, pick the number of examples you would like to include in your prompt and click the next button. At this point, we will calculate the most related examples and only show you examples that we believe are similar to your tone. This may take a few seconds. 
+            If you chose to include examples in your prompt, we will provide you with the most related examples to include in your prompt! In this page, you will be shown a text box with an empty question and answer. Here, please provide an example that is related to your usecase! An example is shown in Figure 5. Please add any phrases or formalities you prefer or remove any comments you think are better left out. Afterwards, pick the number of examples you would like to include in your prompt and click the next button. At this point, we will calculate the most related examples and only show you examples that we believe are similar to your tone. This may take a few seconds. If we cannot find any good examples in our database, we will provide the option for you to provide your own examples. 
             <Image src='in_context_example.png'radius="lg" h={300} fit={"contain"} />
             <Text fw={700} size="md" c="black" align="center" >Figure 5: Editable Example</Text>
             <Space h="lg" />
