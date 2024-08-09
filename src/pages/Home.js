@@ -52,11 +52,7 @@ export function Homepage() {
             <Image src='clinipromptlogo.png' ml={-5} radius="sm" height={75} fit={"contain"} />
           </Title>
 
-          <Text
-            align="center"
-            weight={600}
-            mt="md"
-          >
+          <Text size="xl" fw={700} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 } } align="center">
             Bridging the gap between the healthcare industry and LLMs
           </Text>
 
@@ -70,7 +66,7 @@ export function Homepage() {
 
             <Text> </Text>
 
-            <Button type="submit" size="md" align='center' variant="solid" colorScheme='red'
+            <Button type="submit" size="lg" align='center' variant="solid" colorScheme='blue'
               onClick={() => goToPage('/login')} >
               Sign In
             </Button>
@@ -93,7 +89,7 @@ const data = [
     colorScheme: "red"
   },
   {
-    title: "Database for Prompt Collection",
+    title: "Database for Prompts",
     description:
       "This product collects prompts over time to improve the recommendations and provide greater efficiency for healthcare workers.",
     variant: "solid",

@@ -1,4 +1,4 @@
-import { Button, Flex, SimpleGrid, Text, Title } from "@mantine/core";
+import { Button, Flex, SimpleGrid, Text, Space, Image } from "@mantine/core";
 import { usePromptInput } from "./PromptInput";
 import InfoPopover from "../InfoPopover";
 import { FaNotesMedical, FaCommentMedical, FaHandHoldingMedical } from "react-icons/fa";
@@ -15,6 +15,8 @@ const StepOne = ({ purposeChoice, setPurposeChoice }) => {
   return (
     <Flex direction={"column"} align={"center"}>
       <Flex align="center">
+        <Space my="md" />
+        <Image src='clinipromptlogo.png' ml={-5} radius="sm" height={75} fit={"contain"} />
         <Text fw={500} style={{ width: '100%', marginBottom: 10 }}>What are you using this for?</Text>
         <InfoPopover infoText="This is where you select the use-case for which you are creating prompts for" />
       </Flex>

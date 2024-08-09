@@ -3,19 +3,14 @@
   "version": "0.1.0",
   "private": false,
   "dependencies": {
-    "@mantine/carousel": "^7.2.1",
-    "@mantine/code-highlight": "^7.2.1",
-    "@mantine/core": "^7.10.0",
-    "@mantine/dates": "^7.10.0",
-    "@mantine/form": "^7.2.1",
-    "@mantine/hooks": "^7.10.0",
-    "@mantine/modals": "^7.2.1",
-    "@mantine/notifications": "^7.2.1",
-    "@mantine/nprogress": "^7.2.1",
-    "@mantine/spotlight": "^7.2.1",
-    "@mantine/styles": "^6.0.21",
-    "@mantine/tiptap": "^7.2.1",
-    "@tabler/icons-react": "^2.47.0",
+    "@emotion/react": "^11.13.0",
+    "@mantine/core": "^7.11.2",
+    "@mantine/dates": "^7.11.2",
+    "@mantine/form": "^7.2.2",
+    "@mantine/hooks": "^7.11.2",
+    "@mantine/notifications": "^7.11.2",
+    "@mantine/styles": "^6.0.22",
+    "@tabler/icons-react": "^3.11.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -25,19 +20,22 @@
     "axios": "^1.6.2",
     "clsx": "^2.1.1",
     "cors": "^2.8.5",
-    "dayjs": "^1.11.11",
+    "dayjs": "^1.11.12",
     "embla-carousel-react": "^7.1.0",
     "firebase": "^10.5.0",
     "framer-motion": "^10.16.16",
-    "mantine-react-table": "^2.0.0-beta.3",
+    "mantine-react-table": "^2.0.0-beta.6",
+    "n": "^9.2.3",
+    "node": "^20.16.0",
     "openai": "^4.12.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.17.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "uuid": "^9.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,10 +45,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": [],
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -72,6 +70,12 @@
     "proxy": "http://cliniprompt.dom.wisc.edu:5000"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "@eslint/js": "^9.8.0",
+    "eslint": "9.x",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
     "postcss": "^8.4.31",
     "postcss-preset-mantine": "^1.9.1",
     "postcss-simple-vars": "^7.0.1"

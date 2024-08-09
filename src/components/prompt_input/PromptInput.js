@@ -1,6 +1,6 @@
 import React, { useState, createContext, useContext } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Button, Flex, Divider} from "@mantine/core";
+import { Button, Flex, Space} from "@mantine/core";
 import { FaArrowLeft } from "react-icons/fa";
 import InputStep1 from './InputStep1';
 import InputStep2 from './InputStep2';
@@ -39,13 +39,15 @@ const PromptInputProvider = ({ children }) => {
 };
 
 const PromptInputContent = ({ steps, handleSubmit, loadingButton}) => {
-  const { currentStep, goToNextStep, goToPreviousStep } = usePromptInput();
+  const { currentStep, goToPreviousStep } = usePromptInput();
+  const StepComponent = steps[currentStep];
 
   return (
-    <div style={{ width: '100%', height: '100%' }}>
-      <StepContainer steps={steps} />
-      
-      <Flex mt={350} align={"center"} justify={"center"} justifyContent="space-between">
+    <div style={{ width: '60%', height: '100%' }} align="center">
+        <div style={{ position: 'relative', width: '100%', height: '60%' }}>
+        {StepComponent}
+        <Space my="md" />
+        <Space my="md" />
         {currentStep > 0 && (
           <Button
             style={{ width: 130 }}
@@ -57,14 +59,12 @@ const PromptInputContent = ({ steps, handleSubmit, loadingButton}) => {
             Previous
           </Button>
         )}
-
-      </Flex>
-      <Flex mt={{ base: 20, sm: 20 }} align={"center"} justify={"center"} justifyContent="space-between">
+        <Space my="md" />
         {currentStep === 1 && (
           <Button
             loading={loadingButton}
             loaderProps={{ type: 'dots' }}
-            style={{ width: '50%', maxWidth: '300px' }}
+            style={{ width: '50%', maxWidth: '300px', marginBottom: 10 }}
             onClick={() => handleSubmit()}
             variant="gradient"
             gradient={{ from: 'yellow', to: 'orange', deg: 90 }}
@@ -72,21 +72,12 @@ const PromptInputContent = ({ steps, handleSubmit, loadingButton}) => {
             Submit
           </Button>
         )}
-      </Flex>
-      <Divider my="md" />
+      </div>
     </div>
   );
 };
 
 const StepContainer = ({ steps }) => {
-  const { currentStep, direction } = usePromptInput();
-  const StepComponent = steps[currentStep];
-
-  const variants = {
-    initial: direction > 0 ? { opacity: 0, x: 200 } : { opacity: 0, x: -200 },
-    animate: { opacity: 1, x: 0 },
-    exit: direction > 0 ? { opacity: 0, x: 200 } : { opacity: 0, x: -200 },
-  };
 
   return (
     <div style={{ position: 'relative', width: '100%', height: '60%' }}>

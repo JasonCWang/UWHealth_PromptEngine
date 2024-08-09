@@ -3,9 +3,11 @@ import ReactDOM from "react-dom";
 import React from "react";
 import { AuthProvider } from "./components/AuthProvider";
 
-import '@mantine/carousel/styles.css';
 import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
+import '@mantine/core/styles.css';
+import '@mantine/dates/styles.css';
+import 'mantine-react-table/styles.css';
 import { MantineProvider } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 

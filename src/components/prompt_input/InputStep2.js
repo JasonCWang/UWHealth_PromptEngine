@@ -16,7 +16,9 @@ const StepTwo = ({ LLMChoice, setLLMChoice }) => {
   return (
     <Flex direction={"column"} align={"center"}>
       <Title pl={5} align="center">
-        <Text size="xl" fw={700} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+        <Space my="md" />
+        <Image src='clinipromptlogo.png' ml={-5} radius="sm" height={75} fit={"contain"} />
+        <Text size="xl" fw={500} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
           Create Prompt</Text>
       </Title>
       <Space h="md" />

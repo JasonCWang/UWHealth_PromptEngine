@@ -11,8 +11,6 @@ import numpy as np
 
 os.environ['OPENAI_API_KEY'] = ""
 client = OpenAI()
-tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased") 
-model = AutoModel.from_pretrained("bert-base-uncased", output_hidden_states=True) 
 
 app = Flask(__name__)
 if __name__ == '__main__':
@@ -28,58 +26,80 @@ String1 = The prompt we are trying to evaluate
 String2 = Ground Truth question (Patient)
 String3 = Ground Truth response we are expecting (Doctor)
 '''
+self_consistency_questions={
+    "general_qa": {
+        0:
+        {
+        "question": "I am scheduled for a colonoscopy tomorrow. I was hoping to speak more to you about the procedure and the preparation. I am having a hard time finishing my bowel prep. Any suggestions?", 
+        "answer": "I can certainly understand how hard it can be to finish the prep. Try breaking up your prep drink over the course of an hour with four 8 oz glasses. Some things to try are chill the prep drink cold so it’s easier to drink and through a straw. Also, add some clear Gatorade or Sprite to help with the taste, too. Do your best to complete all the prep to make the colonoscopy a success.",
+        },
+        1:
+        {
+        "question": "I have some lower pain back that is going on 3 days now. I lifted a heavy tree limp and now have this pain and it is now radiating down my left leg.", 
+        "answer": "Hello, sorry to hear your back is hurting you. It is important to remain active and even try some low resistance exercises like stretching and brisk walking. Using a heating pad or heated wrap. Massage, acupuncture, and spinal manipulation are reasonable options depending upon your preference and their cost and accessibility. If you would like to try some pain meds then you can trail some Tylenol or Ibuprofen for few weeks and see if it helps. Follow the instructions on the pill bottle. If the pain with radiation down leg persists then give our office a call and schedule an appointment."
+        }},
+    "medication": {
+        0:
+        {
+        "question": "I've been taking the medication for my diabetes, but my blood sugar levels are still higher than the recommended range. Should I increase the dosage?", 
+        "answer": "Managing blood sugar levels is crucial for diabetes, so I understand your concern. Let's schedule a follow-up appointment to assess your blood sugar levels, review your medication, and discuss your treatment plan. We may consider adjusting the dose, but it's essential to do this under careful supervision to ensure it's both safe and effective. Continue monitoring your blood sugar levels and taking your medication as prescribed. In the meantime, don’t forget to keep trying lifestyle changes such as a balanced diet, regular exercise, and stress reduction can also help manage blood sugar levels.",
+        },
+        1:
+        {
+        "question": "I've been taking the albuterol inhaler for my wheezing and it’s helping some, but I'm still experiencing some wheezing and shortness of breath. Should I increase the dose?", 
+        "answer": "I'm sorry to hear that you're still experiencing some wheezing. I see from your medication list that I prescribed it up to every 6 hours as needed but go ahead and increase the frequency to every 4 hours and make sure you take a couple puffs before any big exertional activities. Don’t forget to do your best to avoid any triggers that may be worsening your wheezing. If you are persistently using your albuterol inhaler over next few weeks then let’s schedule an appointment to discuss further."
+        }}
+    }
+
 @app.route('/calculate-cosine-similarity/', methods = ['POST'])
 def measure_self_consistency_auto_bert():
     print("Entering self consistency endpoint...")
     if request.method == 'POST':
         data = json.loads(request.data)
     else:
-        return {"self_consistency": "error"}
+        return {"self_consistency": "ERROR: Difficulty importing data"}
     
-    string1 = data['string1']
-    string2 = data['string2']
-    string3 = data['string3']
-    print("Paraphrase being evaluated:", string1)
-    print("GT Patient Question:", string2)
-    print("GT Doctor Response:", string3)
+    prompt = data['prompt']
+
+    print("\nParaphrase being evaluated... ", prompt)
 
     model_type = data['llm']
     if model_type == 'GPT-4':
-        use_model = 'gpt-4-1106-preview'
+        use_model = 'gpt-4-turbo'
     elif model_type == 'GPT-3':
-        use_model = 'gpt-3.5-turbo-1106'
-    
+        use_model = 'gpt-3.5-turbo'
+    print('Using Model... ', use_model)
+
     num_instances = 3
-    list_instances = []
-    print('USING MODEL:', use_model)
+    gpt_responses = []
     for i in range(num_instances):
         gpt_output = client.chat.completions.create(
             model = use_model,
             messages=[
-                {'role': 'system', 'content': string1},
-                {'role': 'user', 'content': string2 }],
+                {'role': 'system', 'content': prompt},
+                {'role': 'user', 'content': self_consistency_questions['general_qa'][0]['question']}],
             temperature=0.5,
             max_tokens=160,
             top_p=0.95,
             frequency_penalty=0,
             presence_penalty=0)
-        list_instances.append(gpt_output.choices[0].message.content)
+        gpt_responses.append(gpt_output.choices[0].message.content)
 
     ground_truth_embedding = client.embeddings.create(
-        input=[string3],
+        input=[self_consistency_questions['general_qa'][0]['answer']],
         model="text-embedding-3-small")
+    
     self_consistencies = []
-    for doctor_response in list_instances:
+    for response in gpt_responses:
         response_embedding = client.embeddings.create(
-            input=[doctor_response],
+            input=[response],
             model="text-embedding-3-small")
         cosine_sim = cosine_similarity(np.array(response_embedding.data[0].embedding).reshape(1, -1), np.array(ground_truth_embedding.data[0].embedding).reshape(1, -1))
-        
         self_consistencies.append(cosine_sim[0][0])
-    #print('List of cosine similarities', self_consistencies)
-    output = sum(self_consistencies)/len(self_consistencies)
-    #print('Mean cosine similarity', output)
-    return {'self_consistency': str(output)}
+
+    mean_self_consistency = sum(self_consistencies)/len(self_consistencies)
+    print('Mean Self Consistency of Prompt... ', str(mean_self_consistency))
+    return {'self_consistency': str(mean_self_consistency)}
 
 '''
 This function calculates the best perplexities given a user-inputted prompt.
@@ -91,12 +111,12 @@ def measure_perplexity():
     if request.method == 'POST':
         data = json.loads(request.data)
     else:
-        return {"measure_perplexity": "error"}
+        return {"measure_perplexity": "ERROR: Difficulty importing data"}
     
     prompt = data["prompt"]
     isCOT = data["isCOT"]
     
-    # Code inspired by betterprompt
+    # Code from by betterprompt
     # https://github.com/stjordanis/betterprompt/blob/main/betterprompt/__init__.py
     def calculate_perplexity(prompt: str):
         response = client.chat.completions.create(
@@ -113,59 +133,61 @@ def measure_perplexity():
         return perplexity
     
     print("\nOriginal Prompt:", prompt)
-    # If Chain-of-thought requested, get COT prompt from openai
+
+    # If Chain-of-thought requested, get COT prompt using dspy caption.
     if isCOT:
-        # Chain of thought first, then paraphrase
         print("Entering COT Logic...")
-        cot_request = "You are given a prompt to an LLM to answer patient questions in a hospital. Your goal is to make the prompt as chain-of-thought prompt. Lets think step by step. Do not remove any valuable information already present within the original prompt. Make sure it is targeted towards the LLM, NOT the user."
+        cot_request = "You are given a prompt to an LLM to answer patient questions in a hospital. Your goal is to make the prompt as chain-of-thought prompt. Do not remove any valuable information already present within the original prompt. Make sure it is targeted towards the LLM, NOT the user."
         print("\nChain-of-thought Request:", cot_request)
         gpt_response = client.chat.completions.create(
         model='gpt-3.5-turbo-1106',
         messages=[
             {'role': 'user', 'content': cot_request},
             {'role': 'user', 'content': prompt }])
-        prompt = gpt_response.choices[0].message.content
+        prompt = "Lets think step by step. \n" + gpt_response.choices[0].message.content
         print("\nChain of Thought Prompt:", prompt)
 
-    # Get paraphrases from openai
-    num_paraphrases = '10'
-    paraphrase_request = "Please paraphrase the following prompt to ChatGPT " + num_paraphrases + " times and make a list. For each of the " + num_paraphrases + " paraphrases, make sure to keep the meaning the same. End each paraphrases with @@. Do not bullet or number each paraphrase in the list. This is so that I can split the sentences easier later."
-    print("\nParaphrase Request:", paraphrase_request)
-    gpt_response = client.chat.completions.create(
-    model='gpt-3.5-turbo-1106',
-    messages=[
-        {'role': 'user', 'content': paraphrase_request},
-        {'role': 'user', 'content': prompt }])
-    
-    paraphrases = gpt_response.choices[0].message.content
-    print('\nGPT Output:', paraphrases)
-    #print('GPT OUTPUT', paraphrases)
-    # VALIDATION CHECKS ON PARAPHRASE
+    # Creating paraphrases
+    num_paraphrases = 10
+    paraphrases = []
+    paraphrase_request = "Please paraphrase the following prompt to ChatGPT. Make sure to keep the same meaning, but change up wording that could potentially impact LLM performance."
 
-    # MAKE SURE THERES 5 PARAPHRASES
-    paraphrase_list = paraphrases.split('@@')
-    paraphrase_list = [x.replace('-', '').strip() for x in paraphrase_list if x != '' and x != '.']
-    #print(paraphrase_list)
-    print("Before parsing", len(paraphrase_list))
-    print("After parsing", int(num_paraphrases))
-    if len(paraphrase_list) not in [8,9,10]:
+    print("\nParaphrase Request:", paraphrase_request)
+    for i in range(1, num_paraphrases+1):
+        gpt_response = client.chat.completions.create(
+        model='gpt-3.5-turbo-1106',
+        messages=[
+            {'role': 'user', 'content': paraphrase_request},
+            {'role': 'user', 'content': prompt }])
+        if gpt_response is not None:
+            print("Paraphrase " + str(i) + " created successfully...\n")
+            print("Paraphrase " + str(i) + ": " + gpt_response.choices[0].message.content + "\n")
+            paraphrases.append(gpt_response.choices[0].message.content)
+        else:
+            return {"measure_perplexity": "ERROR: Difficulty making paraphrases"}
+
+    # Validation Checks
+    if len(paraphrases) not in [8,9,10]:
         return {"measure_perplexity": "error"}
     
+    print("Getting Perplexities...\n")
     # Get perplexity of each paraphrase
     prompt_score = {}
-    for index, paraphrase in enumerate(paraphrase_list):
+    for index, paraphrase in enumerate(paraphrases):
         perplexity = calculate_perplexity(paraphrase.strip())
         prompt_score[index] = perplexity
     sorted_dict = sorted(prompt_score.items(), key=lambda x: x[1])
+    print("Perplexities calculated...\n")
 
     num_paraphrases = 4
-    # Get the two paraphrases with the least perplexity
+    # Get the paraphrases with the least perplexity
     smallest_keys = [key for key, value in sorted_dict[:num_paraphrases]]
     output_prompts = []
     for prompt_index in smallest_keys:
-        output_prompts.append(paraphrase_list[prompt_index])
+        output_prompts.append(paraphrases[prompt_index])
     if len(output_prompts) < 4:
         return {"measure_perplexity": "error"}
+    
     return {'best_paraphrases': output_prompts, 'least_perplexities': sorted_dict[:num_paraphrases]}
 
 
@@ -177,39 +199,45 @@ def get_dynamic_fewshot():
         data = json.loads(request.data)
     else:
         return {"get_dynamic_fewshot": "error"}
+    
+    # Check Inputs
     basePrompt = data['string1']
     personalizedExample = data['string2']
     usecase = data['string3']
-    print("Base Prompt:", basePrompt)
-    print("Personalized Example:", personalizedExample)
-    print("Usecase: ", usecase)
-    #Get Target Embedding
+    print("\nBase Prompt:", basePrompt)
+    print("\nPersonalized Example:", personalizedExample)
+    print("\nUsecase: ", usecase)
+
+    # Get Target Embedding
     basePrompt = usecase + '\n' + basePrompt
-    print("Base Prompt to be embedded:", basePrompt)
+    print("\nBase Prompt to be embedded:", basePrompt)
     prompt_embedding = client.embeddings.create(
         input=[basePrompt],
         model="text-embedding-3-small")
-    #Get Groundtruth Embedding List
+    
+    # Check all ground truths for a match
     allGroundTruths = data['dict']
-    embedding_dict = {}
+    matches = []
     for gt in allGroundTruths:
         example = gt['question'] + '\n\n' + gt['answer']
         example_embedding = client.embeddings.create(
             input=[example],
             model="text-embedding-3-small")
         cosine_sim = cosine_similarity(np.array(prompt_embedding.data[0].embedding).reshape(1, -1), np.array(example_embedding.data[0].embedding).reshape(1, -1))
-        embedding_dict[cosine_sim[0][0]] = gt
-    sorted_dict = dict(sorted(embedding_dict.items(), reverse=True))
-    # Get the two paraphrases with the least perplexity
-    print("Sorted Examples: ", sorted_dict)
-    output_prompts = []
-    for cosine_sim, example in sorted_dict.items():
-        if cosine_sim > 0.4:
-            output_prompts.append(example)
-            print(example, cosine_sim, '\n')
-    print("Selected Examples", output_prompts)
-    return output_prompts
+        if cosine_sim[0][0] > 0.4:
+            print("\nMatch found!")
+            print("\nGroundtruth Example: ", gt)
+            print("\nSimilarity Score: ", cosine_sim[0][0])
+            matches.append(gt)
+    
+    return matches
 
+
+'''
+
+Deprecated Functions Below:
+
+'''
 
 # EUCLIDEAN DISTANCE
 @app.route('/get_dynamic_fewshot_2/', methods = ['GET', 'POST'])
@@ -246,7 +274,6 @@ def get_dynamic_fewshot_2():
     knn = KNeighborsClassifier(n_neighbors=5)
     np_array = np.array(embeddings)
     knn.fit(np_array, np.arange(np_array.shape[0]))
-    # Get the two paraphrases with the least perplexity
     print(knn)
     distances, indices = knn.kneighbors(base_embedding)
     print("Distances: ", distances)

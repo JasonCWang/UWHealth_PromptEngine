@@ -21,10 +21,10 @@ const StepThree = ({ myPrompt, setMyPrompt, usecase, setUseCase, setIsICLearning
     </Accordion.Item>
   ));
   return (
-    <Flex direction={"column"} align={"center"}>
-      <Text size="xl" fw={500} align="center" variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+    <Flex direction={"column"} align="center">
+      <Text size="xl" fw={500} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
       Create Prompt</Text>
-      <Text size="lg" fw={600} style={{ width: '100%', marginTop: 20}} align="center" >
+      <Text size="lg" fw={600} style={{ width: '100%', marginTop: 20}} >
         1. Write your prompt below:
         <InfoPopover infoText="This is where you can enter in the prompt that will be used to generate text, calculate perplexity, and attach examples." />
       </Text>
@@ -42,12 +42,13 @@ const StepThree = ({ myPrompt, setMyPrompt, usecase, setUseCase, setIsICLearning
       />
       <Text size="sm" c="grey" fw={600} style={{ width: '100%'}} align="center" >
         If you need some guidance, here are some examples: </Text>
-      <Text size="sm" c="grey" fw={400} style={{ width: '100%', marginBottom: 20}} align="center" >
-        Patient Question & Answer: <Text style={{ width: '75%'}} size="sm" fs="italic">You are a kind, courteous, and sincere primary care provider addressing inquiries from patients submitted electronically. Always aim to offer helpful advice while maintaining safety. Your responses should refrain from mentioning another physician and must avoid any harmful or inappropriate content. Make sure your answers are neutral, inclusive, and optimistic.</Text>
+      <Text size="sm" c="grey" fw={400} style={{ width: '100%', marginBottom: 5}} align="center" >
+        Patient Question & Answer: <Text style={{ width: '75%'}} size="sm" fs="italic">You are a kind, courteous, and sincere primary care provider addressing inquiries from patients submitted electronically. Your responses should refrain from mentioning another physician and must avoid any harmful or inappropriate content.</Text>
       </Text>
       <Text size="sm" c="grey" fw={400} style={{ width: '100%'}} align="center" >
         Patient Visit Summarization: <Text style={{ width: '75%'}} size="sm" fs="italic">Act as a medical doctor, and list the top three direct and indirect diagnoses from the input note.</Text>
       </Text>
+      <Space my="xl" />
       <Text size="lg" fw={600} style={{ width: '100%', marginTop: 20}} align="center" >
         2. Describe your use-case in a couple words:<InfoPopover infoText="This is where you can briefly describe your usecase. We will use this information to get the most relevant examples!" />
       </Text>
@@ -62,32 +63,40 @@ const StepThree = ({ myPrompt, setMyPrompt, usecase, setUseCase, setIsICLearning
         value={usecase}
         onChange={(event) => setUseCase(event.currentTarget.value)}
       />
-      <Divider my="md" />
+      <Text size="sm" c="grey" fw={600} style={{ width: '100%'}} align="center" >
+        If you need some guidance, here are some examples: </Text>
+      <Text size="sm" c="grey" fw={400} style={{ width: '100%', marginBottom: 5}} align="center" >
+        Patient Question & Answer: <Text style={{ width: '75%'}} size="sm" fs="italic">Trying to typical medical inquiries that patients may have.</Text>
+      </Text>
+      <Text size="sm" c="grey" fw={400} style={{ width: '100%'}} align="center" >
+        Patient Visit Summarization: <Text style={{ width: '75%'}} size="sm" fs="italic">Trying to summarize a patient's hospital visit.</Text>
+      </Text>
+      <Space my="xl" />
       <Text size="lg" fw={600} style={{ width: '100%'}} align="center" >
         3. Some additional questions:<InfoPopover infoText="This is where you can briefly describe your usecase. We will use this information to get the most relevant examples!" />
       </Text>
-      <Flex mt={15} >
-        <Checkbox
+        <Checkbox        
         checked={isICLearning}
         color="blue.4"
         iconColor="dark.8"
         size="md"
+        align="center"
         label="Are there any examples that you can provide for this prompt?"
         description="This options allows you to include examples in your prompt."
         onChange={(event) => setIsICLearning(event.currentTarget.checked)}
         />
-      </Flex>
-      <Flex mt={15} >
+        <Space my="xs" />
         <Checkbox
         checked={isCOT}
         color="blue.4"
         iconColor="dark.8"
         size="md"
+        align="center"
         label="Can your prompt be written in a step by step instruction?"
         description="This option prompts the LLMs to solve difficult questions using reasoning."
         onChange={(event) => setIsCOT(event.currentTarget.checked)}
         />
-      </Flex>
+      <Space my="xl" />
     </Flex>
 
   );

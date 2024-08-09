@@ -1,25 +1,25 @@
 import { useNavigate } from "react-router-dom";
-import { Button, Flex, Text } from "@mantine/core";
+import { Button, Flex, Text, Title, Space, Image, Container} from "@mantine/core";
 import { FaAward, FaCrown, FaNotesMedical } from "react-icons/fa";
 
 const NavbarInfo = () => {
   const navigate = useNavigate();
 
   return (
-    <Flex m={40} align={"center"} justify={"center"} direction={"column"}>
-      <Text
-        fw={700}
-        size="lg"
-        mb={10}
-      >
-        What can I do on CliniPrompt?
-      </Text>
-
+      <Container size="xl" align={"center"}>
+      <Title pl={5} align="center">
+        <Space my="md" />
+        <Image src='clinipromptlogo.png' ml={-5} radius="sm" height={75} fit={"contain"} />
+        <Text size="xl" fw={700} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+        What can I do on CliniPrompt?</Text>
+      </Title>
+      <Space my="md" />
+      <Space my="md" />
       <Button
         style={{ width: 220 }}
         leftSection={<FaNotesMedical size={14} style={{ right: 10 }} />}
         color="blue"
-        size="md"
+        size="lg"
         variant="subtle"
         opacity={0.9}
         onClick={() => navigate('/prompting')}
@@ -29,7 +29,7 @@ const NavbarInfo = () => {
 
       <Text
         fw={500}
-        size="md"
+        size="xl"
         mb={10}
       >
         Contribute to medical research by creating and evaluating prompts!
@@ -39,17 +39,17 @@ const NavbarInfo = () => {
         style={{ width: 220 }}
         leftSection={<FaAward size={14} style={{ right: 10 }} />}
         color="pink"
-        size="md"
+        size="lg"
         variant="subtle"
         opacity={0.9}
         onClick={() => navigate('/history')}
       >
-        Track Your History
+        Track History
       </Button>
 
       <Text
         fw={500}
-        size="md"
+        size="xl"
       >
         Easily keep track of the prompts that you create!
       </Text>
@@ -58,17 +58,17 @@ const NavbarInfo = () => {
         style={{ width: 220 }}
         leftSection={<FaCrown size={14} style={{ right: 10 }} />}
         color="green"
-        size="md"
+        size="lg"
         variant="subtle"
         opacity={0.9}
         onClick={() => navigate('/topusers')}
       >
-        See Top Users
+        Top Users
       </Button>
 
       <Text
         fw={500}
-        size="md"
+        size="xl"
         mb={10}
       >
         Compete against other users to see who can create the most prompts!
@@ -78,7 +78,7 @@ const NavbarInfo = () => {
         style={{ width: 220 }}
         leftSection={<FaAward size={14} style={{ right: 10 }} />}
         color="yellow"
-        size="md"
+        size="lg"
         variant="subtle"
         opacity={0.9}
         onClick={() => navigate('/leaderboard')}
@@ -88,12 +88,11 @@ const NavbarInfo = () => {
 
       <Text
         fw={500}
-        size="md"
+        size="xl"
       >
         See your prompts and how they compare to other users' prompts!
       </Text>
-
-    </Flex >
+      </Container>
   );
 };
 

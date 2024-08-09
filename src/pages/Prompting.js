@@ -93,6 +93,7 @@ const Prompting = () => {
       endpoint = `/api/calculate-best-perplexity/`;
     }
     console.log("Perplexity Endpoint: " + endpoint);
+    console.log("Using Examples: " + isICLearning);
     console.log("Using Chain of Thought: " + isCOT);
     const jsonData = {'prompt' : prompt, 'isCOT': isCOT}
 

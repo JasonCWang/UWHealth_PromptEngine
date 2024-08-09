@@ -49,7 +49,7 @@ const Navbar = () => {
         <>
           <NavLink
             onClick={() => goToPage('/prompting')}
-            label="Create Prompts!"
+            label="Create Prompt"
             leftSection={<FaNotesMedical size={14} />}
             rightSection={<AiOutlineRight size="0.8rem" stroke={1.5} className="mantine-rotate-rtl" />}
             color="indigo"
@@ -93,7 +93,7 @@ const Navbar = () => {
         <>
         <NavLink
           onClick={() => goToPage('/prompting')}
-          label="Create Prompts!"
+          label="Create Prompt"
           leftSection={<FaNotesMedical size={14} />}
           disabled
         />

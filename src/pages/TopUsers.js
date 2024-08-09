@@ -1,8 +1,10 @@
-import { ScrollArea, Table, Title, Image, Divider, Text} from '@mantine/core';
-import React, { useEffect, useState } from 'react';
+import React, { useMemo, useEffect, useState } from 'react';
+import { Text, ScrollArea, Image, Title, Divider} from '@mantine/core';
 import { collection, query, orderBy, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import { useAuth } from '../components/AuthProvider';
+import { MantineReactTable, useMantineReactTable } from 'mantine-react-table';
+import { MantineProvider } from "@mantine/core";
 
 const TopUsers = () => {
   const [data, setData] = useState([]);
@@ -23,12 +25,11 @@ const TopUsers = () => {
           promptCounts[username] = 1;
         }
       });
-
       // Convert the counts object into an array and sort it
       const sortedUsers = Object.entries(promptCounts)
         .map(([username, count]) => ({ username, count }))
         .sort((a, b) => b.count - a.count);
-
+      console.log(sortedUsers)
       // Get the top 200 users
       const topUsers = sortedUsers.slice(0, 200);
 
@@ -36,6 +37,32 @@ const TopUsers = () => {
     };
     fetchData();
   }, []);
+
+  const columns = useMemo(
+    () => [
+      {
+        accessorKey: "username",
+        header: "Username",
+        muiTableHeadCellProps: { sx: { color: "green" } }, 
+        Cell: ({ renderedCellValue }) => <strong>{renderedCellValue}</strong>,
+        size: 500
+      },
+      {
+        accessorKey: "count",
+        header: "Count",
+        Header: <i style={{ color: "Black" }}>Number of Prompts Submitted</i>,
+        size: 800
+      }
+    ],
+    []
+  );
+
+  const table = useMantineReactTable({
+    columns,
+    data,
+    isFullScreen: false,
+    enableRowNumbers: true
+  });
 
   return (
     <div style={{
@@ -54,33 +81,22 @@ const TopUsers = () => {
         type="scroll"
         scrollbarAlwaysVisible={true}
       >
-          <Title pl={5} align="center">
-          <Divider my="md" />
-            <Image src='clinipromptlogo.png' ml={-5} radius={10} height={75} fit={"contain"} />
-            <Text size="xl" fw={700} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
-              Top Users</Text>
-          </Title>
-          <Table striped highlightOnHover>
-          <Table.Thead>
-            <Table.Tr>
-              <Table.Th ta={"center"}>Rank</Table.Th>
-              <Table.Th ta={"center"}>Username</Table.Th>
-              <Table.Th ta={"center"}>Prompts Created</Table.Th>
-            </Table.Tr>
-          </Table.Thead>
-          <Table.Tbody>
-            {data.map((item, index) => (
-              <Table.Tr key={item.username}>
-                <Table.Td style={{ textAlign: 'center' }}>{index + 1}</Table.Td>
-                <Table.Td style={{ textAlign: 'center' }}>{(item.username === user.uid) ? "Me" : item.username}</Table.Td>
-                <Table.Td style={{ textAlign: 'center' }}>{item.count}</Table.Td>
-              </Table.Tr>
-            ))}
-          </Table.Tbody>
-        </Table>
-      </ScrollArea>
+    <Title pl={5} align="center">
+    <Divider my="md" />
+      <Image src='clinipromptlogo.png' ml={-5} radius={10} height={75} fit={"contain"} />
+      <Text size="xl" fw={700} variant="gradient" gradient={{ from: 'blue.9', to: 'red.9', deg: 90 }}>
+        Top Users</Text>
+    </Title>
+    <MantineProvider
+      theme={{
+        colorScheme: "light",
+        primaryColor: "blue"
+      }}
+    >
+      <MantineReactTable table={table} />
+    </MantineProvider>
+    </ScrollArea>
     </div>
   );
 }
-
 export default TopUsers;
